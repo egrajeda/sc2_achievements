@@ -1,5 +1,5 @@
-Starcraft II Achievements parser
-================================
+Starcraft II Achievements
+=========================
 
 Download all the achievements of a SC2 player as JSON.
 
@@ -15,13 +15,13 @@ built-in some sort of cache.
 Everything is nicely packed as a gem, so all you have to do is:
 
 ```
-$ gem install sc2_achievements_parser
+$ gem install sc2_achievements
 ```
 
 ## USAGE
 
 ```
->> SC2AchievementsParser.get('/2693272/1/NakedSnake')
+>> SC2Achievements.for('/2693272/1/NakedSnake')
 => 
 ```
 
