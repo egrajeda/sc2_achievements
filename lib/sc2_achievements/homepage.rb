@@ -14,15 +14,16 @@ module SC2Achievements
 
   private
     def self.title_of(achievement)
-      achievement.xpath('text()').text.strip
+      text_of(achievement)
     end
 
     def self.description_of(achievement)
-      achievement.parent.css(achievement.attr('data-tooltip')).xpath('text()').text.strip
+      text_of(achievement.parent, achievement.attr('data-tooltip'))
     end
 
     def self.date_of(achievement)
-      Date.strptime(achievement.css('span').text.strip, '%m/%d/%Y').strftime('%Y-%m-%d')
+      date = text_of(achievement, 'span')
+      Date.strptime(date, '%m/%d/%Y').strftime('%Y-%m-%d')
     end
   end
 end

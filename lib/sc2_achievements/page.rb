@@ -7,7 +7,14 @@ module SC2Achievements
     def self.fetch_homepage_of(user_path)
       path = "http://battle.net/sc2/en/profile#{user_path}/achievements/"
       html = open(path).read
-      @current_page = Nokogiri::HTML(html)
+      Nokogiri::HTML(html)
+    end
+
+    def self.text_of(current_node, css_selector=nil)
+      if css_selector
+        current_node = current_node.css(css_selector)
+      end
+      current_node.xpath('text()').text.strip
     end
   end
 end
