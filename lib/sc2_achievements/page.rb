@@ -4,8 +4,12 @@ require 'open-uri'
 module SC2Achievements
   class Page
   protected
-    def self.fetch_homepage_of(user_path)
-      path = "http://battle.net/sc2/en/profile#{user_path}/achievements/"
+    def self.fetch_page_of(user_path, options = {})
+      if options.has_key? :category
+        path = "http://battle.net/sc2/en/profile#{user_path}/achievements/category/#{options[:category]}"
+      else
+        path = "http://battle.net/sc2/en/profile#{user_path}/achievements/"
+      end
       html = open(path).read
       Nokogiri::HTML(html)
     end

@@ -4,7 +4,7 @@ require 'sc2_achievements/page'
 module SC2Achievements
   class Homepage < Page
     def self.get_achievements_for(user_path)
-      page = fetch_homepage_of(user_path)
+      page = fetch_page_of user_path
       page.css('#recent-achievements a').collect do |achievement|
         { :title       => title_of(achievement),
           :description => description_of(achievement),
