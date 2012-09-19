@@ -20,5 +20,10 @@ module SC2Achievements
       end
       current_node.xpath('text()').text.strip
     end
+
+    def self.date_from(current_node, css_selector=nil)
+      date = text_of(current_node, css_selector)
+      Date.strptime(date, '%m/%d/%Y').strftime('%Y-%m-%d')
+    end
   end
 end

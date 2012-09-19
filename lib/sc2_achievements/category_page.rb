@@ -21,8 +21,7 @@ module SC2Achievements
     end
 
     def self.date_of(achievement)
-      date = text_of(achievement, '.meta')
-      Date.strptime(date, '%m/%d/%Y').strftime('%Y-%m-%d')
+      date_from(achievement, '.meta')
     end
   end
 end
