@@ -4,14 +4,21 @@ module SC2Achievements
   class CategoryPage < Page
     def self.get_achievements_for(user_path, category)
       page = fetch_page_of user_path, :category => category
-      page.css('.achievement.earned').collect do |achievement|
-        { :title       => title_of(achievement),
+      page.css('.achievement.earned').inject({}) do |achievements, achievement|
+        achievements[key_for(achievement)] = {
+          :title       => title_of(achievement),
           :description => description_of(achievement),
           :date        => date_of(achievement) }
+        achievements
       end
     end
 
   private
+    # See Homepage.key_for
+    def self.key_for(achievement)
+      title_of(achievement)
+    end
+
     def self.title_of(achievement)
       text_of(achievement, '.desc span')
     end
