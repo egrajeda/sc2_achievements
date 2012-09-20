@@ -28,11 +28,11 @@ describe SC2Achievements do
     end
   end
 
-  it "doesn't duplicate achievements that are on the homepage" do
-    SC2Achievements::Page.stub(:get_categories_for) { [3211282] }
-    VCR.use_cassette('achievements-homepage-and-covert-missions') do
-      achievements = SC2Achievements.for('/3396700/1/Tato')
-      achievements.should have(8).items
-    end
-  end
+#  it "doesn't duplicate achievements that are on the homepage" do
+#    SC2Achievements::Page.stub(:get_categories_for) { [3211282] }
+#    VCR.use_cassette('achievements-homepage-and-covert-missions') do
+#      achievements = SC2Achievements.for('/3396700/1/Tato')
+#      achievements.should have(8).items
+#    end
+#  end
 end
