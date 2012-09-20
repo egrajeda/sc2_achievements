@@ -18,7 +18,10 @@ private
   def self.get_achievements_for(user_path)
     achievements = Page.get_achievements_for user_path
     Page.get_categories_for(user_path).inject(achievements) do |achievements, category|
-      achievements.merge(Page.get_achievements_for(user_path, :category => category))
+      category_achievements = Page.get_achievements_for(user_path, :category => category)
+      achievements.merge(category_achievements) do |title, old, new|
+        old.merge(new)
+      end
     end
   end
 

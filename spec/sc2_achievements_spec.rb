@@ -25,6 +25,8 @@ describe SC2Achievements do
     VCR.use_cassette('achievements-homepage-and-first-categories') do
       achievements = SC2Achievements.for('/3396700/1/Tato')
       achievements.should have(16).items
+      achievements[0][:title].should == "Matt Horner Missions"
+      achievements[5][:title].should == "Breakout"
     end
   end
 
@@ -33,6 +35,10 @@ describe SC2Achievements do
     VCR.use_cassette('achievements-homepage-and-covert-missions') do
       achievements = SC2Achievements.for('/3396700/1/Tato')
       achievements.should have(8).items
+      achievements[0][:title].should == "Matt Horner Missions"
+      achievements[5][:title].should == "Breakout"
+      achievements[6][:date].should == "2012-09-17"
+      achievements[7][:date].should == "2012-09-17"
     end
   end
 end
