@@ -3,6 +3,7 @@ require 'sc2_achievements'
 
 describe SC2Achievements do
   it 'add the recently earned achievements to the top' do
+    SC2Achievements::Page.stub(:get_categories_for) { [] }
     VCR.use_cassette('achievements-homepage') do
       achievements = SC2Achievements.for('/3396700/1/Tato')
       achievements.should have_at_least(6).items
@@ -16,6 +17,14 @@ describe SC2Achievements do
         :description => "Complete all mission objectives in \"The Devil\342\200\231s Playground\342\200\235 mission.",
         :date        => "2012-09-17"
       }
+    end
+  end
+
+  it 'gets the achievements from the first group of categories' do
+    SC2Achievements::Page.stub(:get_categories_for) { [3211280, 3211281, 3211282] }
+    VCR.use_cassette('achievements-homepage-and-first-categories') do
+      achievements = SC2Achievements.for('/3396700/1/Tato')
+      achievements.should have_at_least(19).items
     end
   end
 end
