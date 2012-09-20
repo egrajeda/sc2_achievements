@@ -21,10 +21,10 @@ describe SC2Achievements do
   end
 
   it 'gets the achievements from the first group of categories' do
-    SC2Achievements::Page.stub(:get_categories_for) { [3211280, 3211281, 3211282] }
+    SC2Achievements::Page.stub(:get_categories_for) { [3211280, 3211281] }
     VCR.use_cassette('achievements-homepage-and-first-categories') do
       achievements = SC2Achievements.for('/3396700/1/Tato')
-      achievements.should have_at_least(19).items
+      achievements.should have_at_least(16).items
     end
   end
 end
