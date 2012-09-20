@@ -21,6 +21,20 @@ module SC2Achievements
   protected
     def self.fetch_page_of(user_path, options = {})
       path = path_for user_path, options
+      if cache_exists? path
+        page = @@cache[path]
+      else
+        page = fetch_page path
+      end
+      @@cache[path] = page
+    end
+
+    def self.cache_exists?(path)
+      @@cache ||= {}
+      @@cache.has_key? path
+    end
+
+    def self.fetch_page(path)
       html = open(path).read
       Nokogiri::HTML(html)
     end
