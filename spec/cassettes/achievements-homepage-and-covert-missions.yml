@@ -14,18 +14,18 @@ http_interactions:
       code: 302
       message: Found
     headers: 
-      Vary: 
-      - Accept-Encoding
-      Location: 
-      - http://us.battle.net/sc2/en/profile/3396700/1/Tato/achievements/category/3211282
-      X-Frame-Options: 
-      - SAMEORIGIN
-      Server: 
-      - Apache
       Content-Type: 
       - text/html; charset=iso-8859-1
+      Vary: 
+      - Accept-Encoding
+      X-Frame-Options: 
+      - SAMEORIGIN
+      Location: 
+      - http://us.battle.net/sc2/en/profile/3396700/1/Tato/achievements/category/3211282
+      Server: 
+      - Apache
       Date: 
-      - Thu, 20 Sep 2012 01:55:40 GMT
+      - Thu, 20 Sep 2012 02:42:26 GMT
       Content-Length: 
       - "264"
     body: 
@@ -39,7 +39,7 @@ http_interactions:
         </body></html>
 
     http_version: 
-  recorded_at: Thu, 20 Sep 2012 01:55:41 GMT
+  recorded_at: Thu, 20 Sep 2012 02:42:27 GMT
 - request: 
     method: get
     uri: http://us.battle.net/sc2/en/profile/3396700/1/Tato/achievements/category/3211282
@@ -53,22 +53,22 @@ http_interactions:
       code: 200
       message: OK
     headers: 
-      Set-Cookie: 
-      - login.cookies=1; Domain=battle.net; Path=/
+      Content-Type: 
+      - application/xhtml+xml;charset=UTF-8
+      Content-Language: 
+      - en-US
       Vary: 
       - Accept-Encoding
       X-Frame-Options: 
       - SAMEORIGIN
-      Content-Language: 
-      - en-US
-      Server: 
-      - Apache
-      Content-Type: 
-      - application/xhtml+xml;charset=UTF-8
-      Date: 
-      - Thu, 20 Sep 2012 01:55:41 GMT
       Transfer-Encoding: 
       - chunked
+      Server: 
+      - Apache
+      Date: 
+      - Thu, 20 Sep 2012 02:42:27 GMT
+      Set-Cookie: 
+      - login.cookies=1; Domain=battle.net; Path=/
     body: 
       string: "\r\n\
         \r\n\
@@ -1338,4 +1338,4 @@ http_interactions:
         </body>\r\n\
         </html>\r\n"
     http_version: 
-  recorded_at: Thu, 20 Sep 2012 01:55:42 GMT
+  recorded_at: Thu, 20 Sep 2012 02:42:28 GMT

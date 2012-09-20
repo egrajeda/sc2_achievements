@@ -14,20 +14,20 @@ http_interactions:
       code: 302
       message: Found
     headers: 
-      Location: 
-      - http://us.battle.net/sc2/en/profile/3396700/1/Tato/achievements/
-      Date: 
-      - Tue, 18 Sep 2012 01:23:27 GMT
-      Content-Length: 
-      - "248"
-      Server: 
-      - Apache
       Content-Type: 
       - text/html; charset=iso-8859-1
-      X-Frame-Options: 
-      - SAMEORIGIN
       Vary: 
       - Accept-Encoding
+      X-Frame-Options: 
+      - SAMEORIGIN
+      Location: 
+      - http://us.battle.net/sc2/en/profile/3396700/1/Tato/achievements/
+      Server: 
+      - Apache
+      Date: 
+      - Thu, 20 Sep 2012 02:42:22 GMT
+      Content-Length: 
+      - "248"
     body: 
       string: |
         <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
@@ -39,7 +39,7 @@ http_interactions:
         </body></html>
 
     http_version: 
-  recorded_at: Tue, 18 Sep 2012 01:23:27 GMT
+  recorded_at: Thu, 20 Sep 2012 02:42:22 GMT
 - request: 
     method: get
     uri: http://us.battle.net/sc2/en/profile/3396700/1/Tato/achievements/
@@ -53,22 +53,22 @@ http_interactions:
       code: 200
       message: OK
     headers: 
-      Transfer-Encoding: 
-      - chunked
-      Content-Language: 
-      - en-US
-      Date: 
-      - Tue, 18 Sep 2012 01:23:27 GMT
-      Server: 
-      - Apache
       Content-Type: 
       - application/xhtml+xml;charset=UTF-8
-      X-Frame-Options: 
-      - SAMEORIGIN
-      Set-Cookie: 
-      - login.cookies=1; Domain=battle.net; Path=/
+      Content-Language: 
+      - en-US
       Vary: 
       - Accept-Encoding
+      X-Frame-Options: 
+      - SAMEORIGIN
+      Transfer-Encoding: 
+      - chunked
+      Server: 
+      - Apache
+      Date: 
+      - Thu, 20 Sep 2012 02:42:22 GMT
+      Set-Cookie: 
+      - login.cookies=1; Domain=battle.net; Path=/
     body: 
       string: "\r\n\
         \r\n\
@@ -218,9 +218,8 @@ http_interactions:
         <div id=\"content-bot\">    <div id=\"profile-wrapper\">\r\n        <div id=\"profile-header\">\r\n            <div id=\"portrait\" onclick=\"Core.goTo('/sc2/en/profile/3396700/1/Tato/');\"> \r\n\
         \r\n\
         \r\n\
-        \r\n\
         \t<span class=\"icon-frame \"\r\n\
-        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/portraits/0-90.jpg?v42') -270px 0px no-repeat; width: 90px; height: 90px;\">\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/portraits/0-90.jpg?v42') -360px -90px no-repeat; width: 90px; height: 90px;\">\r\n\
         \r\n\
         \t</span>\r\n\
         \r\n\
@@ -256,7 +255,7 @@ http_interactions:
         \t\t\t<a href=\"/sc2/en/profile/3396700/1/Tato/rewards/terran-decals#reward-18730036\" style=\"height: 45px\"> </a>\r\n\
         \t</span>\r\n\
         \t\t\t\t\t</div>\r\n\
-        \t\t\t</div>\r\n            \r\n            <h2><a href=\"/sc2/en/profile/3396700/1/Tato/\">Tato</a></h2>\r\n            <h3>335</h3>\r\n        </div>\r\n\
+        \t\t\t</div>\r\n            \r\n            <h2><a href=\"/sc2/en/profile/3396700/1/Tato/\">Tato</a></h2>\r\n            <h3>445</h3>\r\n        </div>\r\n\
         \r\n        <div id=\"profile-left\">\r\n            <ul id=\"profile-menu\">\r\n\
         \t\t\t\t\t\t<li>\r\n\
         \t\t\t\t\t\t\t<a href=\"/sc2/en/profile/3396700/1/Tato/\">\r\n\
@@ -362,9 +361,8 @@ http_interactions:
         \r\n\
         \r\n\
         \r\n\
-        \r\n\
         \t<span class=\"icon-frame \"\r\n\
-        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/2-75.jpg?v42') -600px -375px no-repeat; width: 75px; height: 75px;\">\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/2-75.jpg?v42') -0px -450px no-repeat; width: 75px; height: 75px;\">\r\n\
         \r\n\
         \t</span>\r\n\
         \r\n\
@@ -378,10 +376,10 @@ http_interactions:
         \r\n\
         \t<div class=\"achievements-progress\">\r\n\
         \t\t<div class=\"progress-wrapper\">\r\n\
-        \t\t\t<div class=\"progress-bar\" style=\"width: 12.893081761%\"></div>\r\n\
+        \t\t\t<div class=\"progress-bar\" style=\"width: 19.8113207547%\"></div>\r\n\
         \t\t</div>\r\n\
         \r\n\
-        \t\t<span>205</span>\r\n\
+        \t\t<span>315</span>\r\n\
         \t</div>\r\n\
         \t\t\t\t\t\t\t\t\t</div>\r\n\
         \r\n\
@@ -526,98 +524,98 @@ http_interactions:
         \t\t\t\t\t\t<div class=\"module-body\" id=\"recent-achievements\">\r\n\
         \r\n\
         \r\n\
-        \t\t\t\t\t\t\t\t\t\t\t<a class=\"recent-tile\" href=\"category/3211283\" data-tooltip=\"#achv-recent-0\">\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t<a class=\"recent-tile\" href=\"category/3211287\" data-tooltip=\"#achv-recent-0\">\r\n\
         \r\n\
         \r\n\
         \t<span class=\"icon-frame \"\r\n\
-        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/1-45.jpg?v42') -45px -270px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/6-45.jpg?v42') -0px -180px no-repeat; width: 45px; height: 45px;\">\r\n\
         \r\n\
         \t</span>\r\n\
         \r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\tThe Great Train Robbery\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\t<span>9/17/2012</span>\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t\tMatt Horner Missions\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t\t<span>9/19/2012</span>\r\n\
         \t<span class=\"clear\"><!-- --></span>\r\n\
         \t\t\t\t\t\t\t\t\t\t\t</a>\r\n\
         \r\n\
         \t\t\t\t\t\t\t\t\t\t\t<div id=\"achv-recent-0\" style=\"display: none\">\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\t<div class=\"tooltip-title\">The Great Train Robbery</div>\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\tComplete all mission objectives in\xC2\xA0\xE2\x80\x9CThe Great Train Robbery\xE2\x80\x9D mission.\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t\t<div class=\"tooltip-title\">Matt Horner Missions</div>\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t\tComplete the Horner storyline in the Wings of Liberty campaign.\r\n\
         \t\t\t\t\t\t\t\t\t\t\t</div>\r\n\
         \r\n\
         \r\n\
-        \t\t\t\t\t\t\t\t\t\t\t<a class=\"recent-tile\" href=\"category/3211287\" data-tooltip=\"#achv-recent-1\">\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t<a class=\"recent-tile\" href=\"category/3211283\" data-tooltip=\"#achv-recent-1\">\r\n\
         \r\n\
         \r\n\
         \t<span class=\"icon-frame \"\r\n\
-        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/6-45.jpg?v42') -90px -180px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/1-45.jpg?v42') -45px -315px no-repeat; width: 45px; height: 45px;\">\r\n\
         \r\n\
         \t</span>\r\n\
         \r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\tDr. Ariel Hanson Missions\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\t<span>9/17/2012</span>\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t\tMedia Blitz\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t\t<span>9/19/2012</span>\r\n\
         \t<span class=\"clear\"><!-- --></span>\r\n\
         \t\t\t\t\t\t\t\t\t\t\t</a>\r\n\
         \r\n\
         \t\t\t\t\t\t\t\t\t\t\t<div id=\"achv-recent-1\" style=\"display: none\">\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\t<div class=\"tooltip-title\">Dr. Ariel Hanson Missions</div>\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\tComplete the Dr. Hanson storyline in the Wings of Liberty campaign.\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t\t<div class=\"tooltip-title\">Media Blitz</div>\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t\tComplete all mission objectives in the\xC2\xA0\xE2\x80\x9CMedia Blitz\xE2\x80\x9D mission.\r\n\
         \t\t\t\t\t\t\t\t\t\t\t</div>\r\n\
         \r\n\
         \r\n\
-        \t\t\t\t\t\t\t\t\t\t\t<a class=\"recent-tile\" href=\"category/3211281\" data-tooltip=\"#achv-recent-2\">\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t<a class=\"recent-tile\" href=\"category/3211283\" data-tooltip=\"#achv-recent-2\">\r\n\
         \r\n\
         \r\n\
         \t<span class=\"icon-frame \"\r\n\
-        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/1-45.jpg?v42') -45px -180px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/1-45.jpg?v42') -315px -270px no-repeat; width: 45px; height: 45px;\">\r\n\
         \r\n\
         \t</span>\r\n\
         \r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\tSafe Haven\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\t<span>9/17/2012</span>\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t\tEngine of Destruction\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t\t<span>9/19/2012</span>\r\n\
         \t<span class=\"clear\"><!-- --></span>\r\n\
         \t\t\t\t\t\t\t\t\t\t\t</a>\r\n\
         \r\n\
         \t\t\t\t\t\t\t\t\t\t\t<div id=\"achv-recent-2\" style=\"display: none\">\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\t<div class=\"tooltip-title\">Safe Haven</div>\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\tComplete all mission objectives in the\xC2\xA0\xE2\x80\x9CSafe Haven\xE2\x80\x9D mission.\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t\t<div class=\"tooltip-title\">Engine of Destruction</div>\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t\tComplete all mission objectives in the\xC2\xA0\xE2\x80\x9CEngine of Destruction\xE2\x80\x9D mission.\r\n\
         \t\t\t\t\t\t\t\t\t\t\t</div>\r\n\
         \r\n\
         \r\n\
-        \t\t\t\t\t\t\t\t\t\t\t<a class=\"recent-tile\" href=\"category/3211281\" data-tooltip=\"#achv-recent-3\">\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t<a class=\"recent-tile\" href=\"category/3211283\" data-tooltip=\"#achv-recent-3\">\r\n\
         \r\n\
         \r\n\
         \t<span class=\"icon-frame \"\r\n\
-        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/1-45.jpg?v42') -90px -180px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/1-45.jpg?v42') -360px -270px no-repeat; width: 45px; height: 45px;\">\r\n\
         \r\n\
         \t</span>\r\n\
         \r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\tYou Shall Not Pass\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\t<span>9/17/2012</span>\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t\tKicking Asgard\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t\t<span>9/19/2012</span>\r\n\
         \t<span class=\"clear\"><!-- --></span>\r\n\
         \t\t\t\t\t\t\t\t\t\t\t</a>\r\n\
         \r\n\
         \t\t\t\t\t\t\t\t\t\t\t<div id=\"achv-recent-3\" style=\"display: none\">\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\t<div class=\"tooltip-title\">You Shall Not Pass</div>\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\tSave 3 Colonist Outposts in the\xC2\xA0\xE2\x80\x9CSafe Haven\xE2\x80\x9D mission on Normal difficulty.\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t\t<div class=\"tooltip-title\">Kicking Asgard</div>\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t\tDestroy the Loki in the\xC2\xA0\xE2\x80\x9CEngine of Destruction\xE2\x80\x9D mission on Normal difficulty.\r\n\
         \t\t\t\t\t\t\t\t\t\t\t</div>\r\n\
         \r\n\
         \r\n\
-        \t\t\t\t\t\t\t\t\t\t\t<a class=\"recent-tile\" href=\"category/3211282\" data-tooltip=\"#achv-recent-4\">\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t<a class=\"recent-tile\" href=\"category/3211287\" data-tooltip=\"#achv-recent-4\">\r\n\
         \r\n\
         \r\n\
         \t<span class=\"icon-frame \"\r\n\
-        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/1-45.jpg?v42') -45px -225px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/1-45.jpg?v42') -135px -45px no-repeat; width: 45px; height: 45px;\">\r\n\
         \r\n\
         \t</span>\r\n\
         \r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\tWelcome to the Jungle\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\t<span>9/17/2012</span>\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t\tCouch Surfer\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t\t<span>9/19/2012</span>\r\n\
         \t<span class=\"clear\"><!-- --></span>\r\n\
         \t\t\t\t\t\t\t\t\t\t\t</a>\r\n\
         \r\n\
         \t\t\t\t\t\t\t\t\t\t\t<div id=\"achv-recent-4\" style=\"display: none\">\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\t<div class=\"tooltip-title\">Welcome to the Jungle</div>\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\tComplete all mission objectives in the\xC2\xA0\xE2\x80\x9CWelcome to the Jungle\xE2\x80\x9D mission.\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t\t<div class=\"tooltip-title\">Couch Surfer</div>\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t\tView 10 television news broadcasts.\r\n\
         \t\t\t\t\t\t\t\t\t\t\t</div>\r\n\
         \r\n\
         \r\n\
@@ -625,18 +623,18 @@ http_interactions:
         \r\n\
         \r\n\
         \t<span class=\"icon-frame \"\r\n\
-        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/1-45.jpg?v42') -0px -225px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/1-45.jpg?v42') -180px -225px no-repeat; width: 45px; height: 45px;\">\r\n\
         \r\n\
         \t</span>\r\n\
         \r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\tThe Devil\xE2\x80\x99s Playground\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\t<span>9/17/2012</span>\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t\tBreakout\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t\t<span>9/19/2012</span>\r\n\
         \t<span class=\"clear\"><!-- --></span>\r\n\
         \t\t\t\t\t\t\t\t\t\t\t</a>\r\n\
         \r\n\
         \t\t\t\t\t\t\t\t\t\t\t<div id=\"achv-recent-5\" style=\"display: none\">\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\t<div class=\"tooltip-title\">The Devil\xE2\x80\x99s Playground</div>\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\tComplete all mission objectives in &quot;The Devil\xE2\x80\x99s Playground\xE2\x80\x9D mission.\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t\t<div class=\"tooltip-title\">Breakout</div>\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t\tComplete all mission objectives in the\xC2\xA0\xE2\x80\x9CBreakout\xE2\x80\x9D mission.\r\n\
         \t\t\t\t\t\t\t\t\t\t\t</div>\r\n\
         \r\n\
         \t\t\t\t\t\t</div>\r\n\
@@ -1088,4 +1086,4 @@ http_interactions:
         </body>\r\n\
         </html>"
     http_version: 
-  recorded_at: Tue, 18 Sep 2012 01:23:28 GMT
+  recorded_at: Thu, 20 Sep 2012 02:42:23 GMT

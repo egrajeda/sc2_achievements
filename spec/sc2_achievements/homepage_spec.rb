@@ -7,16 +7,16 @@ module SC2Achievements
       VCR.use_cassette('achievements-homepage') do
         achievements = Page.get_achievements_for '/3396700/1/Tato'
         achievements.should have(6).items
-        achievements["The Great Train Robbery"].should == {
-          :title       => "The Great Train Robbery",
-          :description => "Complete all mission objectives in\302\240\342\200\234The Great Train Robbery\342\200\235 mission.",
-          :date        => "2012-09-17",
+        achievements["Matt Horner Missions"].should == {
+          :title       => "Matt Horner Missions",
+          :description => "Complete the Horner storyline in the Wings of Liberty campaign.",
+          :date        => "2012-09-19",
           :recentness  => 1
         }
-        achievements["The Devil\342\200\231s Playground"].should == {
-          :title       => "The Devil\342\200\231s Playground",
-          :description => "Complete all mission objectives in \"The Devil\342\200\231s Playground\342\200\235 mission.",
-          :date        => "2012-09-17",
+        achievements["Breakout"].should == {
+          :title       => "Breakout",
+          :description => "Complete all mission objectives in the\302\240\342\200\234Breakout\342\200\235 mission.",
+          :date        => "2012-09-19",
           :recentness  => 6
         }
       end

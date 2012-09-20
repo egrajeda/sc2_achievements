@@ -14,20 +14,20 @@ http_interactions:
       code: 302
       message: Found
     headers: 
-      Date: 
-      - Thu, 20 Sep 2012 01:54:02 GMT
-      Content-Length: 
-      - "264"
-      Location: 
-      - http://us.battle.net/sc2/en/profile/3396700/1/Tato/achievements/category/3211280
       Content-Type: 
       - text/html; charset=iso-8859-1
-      X-Frame-Options: 
-      - SAMEORIGIN
-      Server: 
-      - Apache
       Vary: 
       - Accept-Encoding
+      X-Frame-Options: 
+      - SAMEORIGIN
+      Location: 
+      - http://us.battle.net/sc2/en/profile/3396700/1/Tato/achievements/category/3211280
+      Server: 
+      - Apache
+      Date: 
+      - Thu, 20 Sep 2012 02:42:23 GMT
+      Content-Length: 
+      - "264"
     body: 
       string: |
         <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
@@ -39,7 +39,7 @@ http_interactions:
         </body></html>
 
     http_version: 
-  recorded_at: Thu, 20 Sep 2012 01:54:02 GMT
+  recorded_at: Thu, 20 Sep 2012 02:42:23 GMT
 - request: 
     method: get
     uri: http://us.battle.net/sc2/en/profile/3396700/1/Tato/achievements/category/3211280
@@ -53,22 +53,22 @@ http_interactions:
       code: 200
       message: OK
     headers: 
-      Date: 
-      - Thu, 20 Sep 2012 01:54:03 GMT
-      Set-Cookie: 
-      - login.cookies=1; Domain=battle.net; Path=/
       Content-Type: 
       - application/xhtml+xml;charset=UTF-8
       Content-Language: 
       - en-US
-      Transfer-Encoding: 
-      - chunked
-      X-Frame-Options: 
-      - SAMEORIGIN
-      Server: 
-      - Apache
       Vary: 
       - Accept-Encoding
+      X-Frame-Options: 
+      - SAMEORIGIN
+      Transfer-Encoding: 
+      - chunked
+      Server: 
+      - Apache
+      Date: 
+      - Thu, 20 Sep 2012 02:42:24 GMT
+      Set-Cookie: 
+      - login.cookies=1; Domain=battle.net; Path=/
     body: 
       string: "\r\n\
         \r\n\
@@ -1235,7 +1235,7 @@ http_interactions:
         </body>\r\n\
         </html>\r\n"
     http_version: 
-  recorded_at: Thu, 20 Sep 2012 01:54:04 GMT
+  recorded_at: Thu, 20 Sep 2012 02:42:25 GMT
 - request: 
     method: get
     uri: http://battle.net/sc2/en/profile/3396700/1/Tato/achievements/category/3211281
@@ -1249,20 +1249,20 @@ http_interactions:
       code: 302
       message: Found
     headers: 
-      Date: 
-      - Thu, 20 Sep 2012 01:54:04 GMT
-      Content-Length: 
-      - "264"
-      Location: 
-      - http://us.battle.net/sc2/en/profile/3396700/1/Tato/achievements/category/3211281
       Content-Type: 
       - text/html; charset=iso-8859-1
-      X-Frame-Options: 
-      - SAMEORIGIN
-      Server: 
-      - Apache
       Vary: 
       - Accept-Encoding
+      X-Frame-Options: 
+      - SAMEORIGIN
+      Location: 
+      - http://us.battle.net/sc2/en/profile/3396700/1/Tato/achievements/category/3211281
+      Server: 
+      - Apache
+      Date: 
+      - Thu, 20 Sep 2012 02:42:25 GMT
+      Content-Length: 
+      - "264"
     body: 
       string: |
         <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
@@ -1274,7 +1274,7 @@ http_interactions:
         </body></html>
 
     http_version: 
-  recorded_at: Thu, 20 Sep 2012 01:54:04 GMT
+  recorded_at: Thu, 20 Sep 2012 02:42:25 GMT
 - request: 
     method: get
     uri: http://us.battle.net/sc2/en/profile/3396700/1/Tato/achievements/category/3211281
@@ -1288,22 +1288,22 @@ http_interactions:
       code: 200
       message: OK
     headers: 
-      Date: 
-      - Thu, 20 Sep 2012 01:54:04 GMT
-      Set-Cookie: 
-      - login.cookies=1; Domain=battle.net; Path=/
       Content-Type: 
       - application/xhtml+xml;charset=UTF-8
       Content-Language: 
       - en-US
-      Transfer-Encoding: 
-      - chunked
-      X-Frame-Options: 
-      - SAMEORIGIN
-      Server: 
-      - Apache
       Vary: 
       - Accept-Encoding
+      X-Frame-Options: 
+      - SAMEORIGIN
+      Transfer-Encoding: 
+      - chunked
+      Server: 
+      - Apache
+      Date: 
+      - Thu, 20 Sep 2012 02:42:25 GMT
+      Set-Cookie: 
+      - login.cookies=1; Domain=battle.net; Path=/
     body: 
       string: "\r\n\
         \r\n\
@@ -2575,4 +2575,4 @@ http_interactions:
         </body>\r\n\
         </html>\r\n"
     http_version: 
-  recorded_at: Thu, 20 Sep 2012 01:54:07 GMT
+  recorded_at: Thu, 20 Sep 2012 02:42:26 GMT

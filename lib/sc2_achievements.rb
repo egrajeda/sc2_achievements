@@ -5,10 +5,21 @@ require 'sc2_achievements/category_page'
 
 module SC2Achievements
   def self.for(user_path)
-    achievements = Page.get_achievements_for user_path
-    Page.get_categories_for(user_path).each do |category|
-      achievements += Page.get_achievements_for user_path, :category => category
+    achievements = get_achievements_for user_path
+    achievements.sort_by do |title, achievement|
+      [achievement[:recentness] || 7, achievement[:date]]
+    end.collect do |achievement|
+      achievement[1].delete :recentness
+      achievement[1]
     end
-    achievements
   end
+
+private
+  def self.get_achievements_for(user_path)
+    achievements = Page.get_achievements_for user_path
+    Page.get_categories_for(user_path).inject(achievements) do |achievements, category|
+      achievements.merge(Page.get_achievements_for(user_path, :category => category))
+    end
+  end
+
 end

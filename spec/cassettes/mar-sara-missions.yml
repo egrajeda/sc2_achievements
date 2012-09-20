@@ -15,18 +15,18 @@ http_interactions:
     headers: 
       Vary: 
       - Accept-Encoding
-      X-Frame-Options: 
-      - SAMEORIGIN
-      Location: 
-      - http://us.battle.net/sc2/en/profile/3396700/1/Tato/achievements/category/3211280
-      Date: 
-      - Wed, 19 Sep 2012 23:39:47 GMT
-      Content-Type: 
-      - text/html; charset=iso-8859-1
       Server: 
       - Apache
+      Location: 
+      - http://us.battle.net/sc2/en/profile/3396700/1/Tato/achievements/category/3211280
       Content-Length: 
       - "264"
+      Content-Type: 
+      - text/html; charset=iso-8859-1
+      X-Frame-Options: 
+      - SAMEORIGIN
+      Date: 
+      - Thu, 20 Sep 2012 02:46:19 GMT
     body: 
       string: |
         <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
@@ -38,7 +38,7 @@ http_interactions:
         </body></html>
 
     http_version: 
-  recorded_at: Wed, 19 Sep 2012 23:39:47 GMT
+  recorded_at: Thu, 20 Sep 2012 02:46:19 GMT
 - request: 
     method: get
     uri: http://us.battle.net/sc2/en/profile/3396700/1/Tato/achievements/category/3211280
@@ -54,20 +54,20 @@ http_interactions:
     headers: 
       Vary: 
       - Accept-Encoding
-      X-Frame-Options: 
-      - SAMEORIGIN
-      Transfer-Encoding: 
-      - chunked
-      Date: 
-      - Wed, 19 Sep 2012 23:39:47 GMT
-      Content-Language: 
-      - en-US
-      Set-Cookie: 
-      - login.cookies=1; Domain=battle.net; Path=/
-      Content-Type: 
-      - application/xhtml+xml;charset=UTF-8
       Server: 
       - Apache
+      Content-Language: 
+      - en-US
+      Transfer-Encoding: 
+      - chunked
+      Content-Type: 
+      - application/xhtml+xml;charset=UTF-8
+      X-Frame-Options: 
+      - SAMEORIGIN
+      Date: 
+      - Thu, 20 Sep 2012 02:46:19 GMT
+      Set-Cookie: 
+      - login.cookies=1; Domain=battle.net; Path=/
     body: 
       string: "\r\n\
         \r\n\
@@ -1234,5 +1234,5 @@ http_interactions:
         </body>\r\n\
         </html>\r\n"
     http_version: 
-  recorded_at: Wed, 19 Sep 2012 23:39:48 GMT
+  recorded_at: Thu, 20 Sep 2012 02:46:20 GMT
 recorded_with: VCR 2.2.5
