@@ -20,13 +20,17 @@ module SC2Achievements
 
   protected
     def self.fetch_page_of(user_path, options = {})
-      if options.has_key? :category
-        path = "http://battle.net/sc2/en/profile#{user_path}/achievements/category/#{options[:category]}"
-      else
-        path = "http://battle.net/sc2/en/profile#{user_path}/achievements/"
-      end
+      path = path_for user_path, options
       html = open(path).read
       Nokogiri::HTML(html)
+    end
+
+    def self.path_for(user_path, options = {})
+      if options.has_key? :category
+        "http://battle.net/sc2/en/profile#{user_path}/achievements/category/#{options[:category]}"
+      else
+        "http://battle.net/sc2/en/profile#{user_path}/achievements/"
+      end
     end
 
     def self.text_of(current_node, css_selector=nil)
