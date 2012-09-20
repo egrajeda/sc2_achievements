@@ -3,6 +3,14 @@ require 'open-uri'
 
 module SC2Achievements
   class Page
+    def self.get_achievements_for(user_path, options = {})
+      if options.has_key? :category
+        CategoryPage.get_achievements_for user_path, options[:category]
+      else
+        Homepage.get_achievements_for user_path
+      end
+    end
+
     def self.get_categories_for(user_path, options = {})
       page = fetch_page_of user_path, options
       page.css('#profile-menu a[href*=category]').collect do |achievement|

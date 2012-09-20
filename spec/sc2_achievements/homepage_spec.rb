@@ -5,7 +5,7 @@ module SC2Achievements
   describe Homepage do
     it 'returns an array with all the achievements in the homepage' do
       VCR.use_cassette('achievements-homepage') do
-        achievements = Homepage.get_achievements_for('/3396700/1/Tato')
+        achievements = Page.get_achievements_for '/3396700/1/Tato'
         achievements.should have_at_least(6).items
         achievements[0].should == {
           :title       => "The Great Train Robbery",

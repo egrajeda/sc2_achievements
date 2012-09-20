@@ -5,7 +5,7 @@ module SC2Achievements
   describe CategoryPage do
     it 'returns an array with all the achievements earned in that page' do
       VCR.use_cassette('mar-sara-missions') do
-        achievements = CategoryPage.get_achievements_for('/3396700/1/Tato', 3211280)
+        achievements = Page.get_achievements_for '/3396700/1/Tato', :category => 3211280
         achievements.should have_at_least(5).items
         achievements[0].should == {
           :title       => "Liberation Day",
