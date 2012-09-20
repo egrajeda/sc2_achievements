@@ -19,14 +19,5 @@ module SC2Achievements
         }
       end
     end
-
-    it 'returns an array with the categories that can be accessed from this page' do
-      VCR.use_cassette('mar-sara-missions') do
-        categories = CategoryPage.get_categories_for('/3396700/1/Tato', 3211280)
-        categories.should have(8).items
-        categories[0].should == "3211280"
-        categories[7].should == "3211287"
-      end
-    end
   end
 end

@@ -19,14 +19,5 @@ module SC2Achievements
         }
       end
     end
-
-    it 'returns an array with the categories that can be accessed from this page' do
-      VCR.use_cassette('achievements-homepage') do
-        categories = Homepage.get_categories_for('/3396700/1/Tato')
-        categories.should have(7).items
-        categories[0].should == "3211280"
-        categories[6].should == "4325394"
-      end
-    end
   end
 end

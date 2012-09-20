@@ -11,13 +11,6 @@ module SC2Achievements
       end
     end
 
-    def self.get_categories_for(user_path, category)
-      page = fetch_page_of user_path, :category => category
-      page.css('#profile-menu a[href*=category]').collect do |achievement|
-        achievement.attr('href')[/category\/(.*)/, 1]
-      end
-    end
-
   private
     def self.title_of(achievement)
       text_of(achievement, '.desc span')
