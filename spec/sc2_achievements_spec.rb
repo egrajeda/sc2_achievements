@@ -6,7 +6,7 @@ describe SC2Achievements do
     SC2Achievements::Page.stub(:get_categories_for) { [] }
     VCR.use_cassette('achievements-homepage') do
       achievements = SC2Achievements.for('/3396700/1/Tato')
-      achievements.should have_at_least(6).items
+      achievements.should have(6).items
       achievements[0].should == {
         :title       => "The Great Train Robbery",
         :description => "Complete all mission objectives in\302\240\342\200\234The Great Train Robbery\342\200\235 mission.",
@@ -24,7 +24,15 @@ describe SC2Achievements do
     SC2Achievements::Page.stub(:get_categories_for) { [3211280, 3211281] }
     VCR.use_cassette('achievements-homepage-and-first-categories') do
       achievements = SC2Achievements.for('/3396700/1/Tato')
-      achievements.should have_at_least(16).items
+      achievements.should have(16).items
+    end
+  end
+
+  it "doesn't duplicate achievements that are on the homepage" do
+    SC2Achievements::Page.stub(:get_categories_for) { [3211282] }
+    VCR.use_cassette('achievements-homepage-and-covert-missions') do
+      achievements = SC2Achievements.for('/3396700/1/Tato')
+      achievements.should have(8).items
     end
   end
 end
