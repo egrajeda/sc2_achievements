@@ -20,7 +20,7 @@ Jeweler::Tasks.new do |gem|
   gem.summary = %Q{Download all the achievements of a SC2 player.}
   gem.description = %Q{This library downloads all the achievements from a Starcraft II player's public profile and package them as an array.}
   gem.email = "tatofoo@gmail.com"
-  gem.authors = ["Eduardo Grajeda Blandón"]
+  gem.authors = ["Eduardo Grajeda Blandon"]
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
