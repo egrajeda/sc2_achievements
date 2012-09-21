@@ -71,10 +71,18 @@ describe SC2Achievements do
     end
   end
 
-  xit "returns an empty array if there is no achievements" do
+  it "gets the remaining data for each recent achievement from its category page" do
+    SC2Achievements::Page.stub(:get_categories_for) { [4325400, 3211284] }
+    VCR.use_cassette('homepage-and-recent-achievements-category-pages') do
+      achievements = SC2Achievements.for('/3396700/1/Tato')
+      achievements[0][:category].should == "Guide Three"
+      achievements[1][:category].should == "Artifact Missions"
+      achievements[0][:points].should == 10
+      achievements[1][:points].should == 15
+    end
   end
 
-  xit "it specifies the points earned" do
+  xit "returns an empty array if there is no achievements" do
   end
 
   xit "optimizes the number of HTTP requests it makes" do
