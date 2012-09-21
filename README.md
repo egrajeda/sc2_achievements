@@ -42,4 +42,4 @@ anyone wanna help out.
 
 ## COPYRIGHT
 
-Copyright (c) 2012 Eduardo Grajeda Blandón.
+Copyright (c) 2012 Eduardo Grajeda Blandón. See LICENSE.txt for further details.
