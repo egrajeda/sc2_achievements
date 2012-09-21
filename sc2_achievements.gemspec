@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Eduardo Grajeda Bland\303\263n"]
+  s.authors = ["Eduardo Grajeda Blandon"]
   s.date = "2012-09-21"
   s.description = "This library downloads all the achievements from a Starcraft II player's public profile and package them as an array."
   s.email = "tatofoo@gmail.com"
@@ -27,6 +27,7 @@ Gem::Specification.new do |s|
     "lib/sc2_achievements/category_page.rb",
     "lib/sc2_achievements/homepage.rb",
     "lib/sc2_achievements/page.rb",
+    "sc2_achievements.gemspec",
     "spec/cassettes/achievements-homepage-and-first-categories.yml",
     "spec/cassettes/achievements-homepage-and-guide-three.yml",
     "spec/cassettes/achievements-homepage.yml",
