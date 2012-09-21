@@ -7,16 +7,16 @@ module SC2Achievements
       VCR.use_cassette('achievements-homepage') do
         achievements = Page.get_achievements_for '/3396700/1/Tato'
         achievements.should have(6).items
-        achievements["Matt Horner Missions"].should == {
-          :title       => "Matt Horner Missions",
-          :description => "Complete the Horner storyline in the Wings of Liberty campaign.",
-          :date        => "2012-09-19",
+        achievements["That\342\200\231s Teamwork"].should == {
+          :title       => "That\342\200\231s Teamwork",
+          :description => "Win 5 Team league Quick Match games.",
+          :date        => "2012-09-20",
           :recentness  => 1
         }
-        achievements["Breakout"].should == {
-          :title       => "Breakout",
-          :description => "Complete all mission objectives in the\302\240\342\200\234Breakout\342\200\235 mission.",
-          :date        => "2012-09-19",
+        achievements["Semi-Glorious"].should == {
+          :title       => "Semi-Glorious",
+          :description => "Kill 250 additional Zerg units in the\302\240\342\200\234In Utter Darkness\342\200\235 mission on Normal difficulty.",
+          :date        => "2012-09-20",
           :recentness  => 6
         }
       end

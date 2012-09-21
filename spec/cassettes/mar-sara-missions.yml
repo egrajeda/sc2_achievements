@@ -1,9 +1,8 @@
 --- 
-recorded_with: VCR 2.2.5
 http_interactions: 
 - request: 
     method: get
-    uri: http://battle.net/sc2/en/profile/3396700/1/Tato/achievements/
+    uri: http://battle.net/sc2/en/profile/3396700/1/Tato/achievements/category/3211280
     body: 
       string: ""
     headers: 
@@ -14,20 +13,20 @@ http_interactions:
       code: 302
       message: Found
     headers: 
-      Date: 
-      - Fri, 21 Sep 2012 02:32:28 GMT
-      Server: 
-      - Apache
-      Vary: 
-      - Accept-Encoding
+      Content-Type: 
+      - text/html; charset=iso-8859-1
       X-Frame-Options: 
       - SAMEORIGIN
       Content-Length: 
-      - "248"
+      - "264"
+      Vary: 
+      - Accept-Encoding
+      Server: 
+      - Apache
+      Date: 
+      - Fri, 21 Sep 2012 02:35:33 GMT
       Location: 
-      - http://us.battle.net/sc2/en/profile/3396700/1/Tato/achievements/
-      Content-Type: 
-      - text/html; charset=iso-8859-1
+      - http://us.battle.net/sc2/en/profile/3396700/1/Tato/achievements/category/3211280
     body: 
       string: |
         <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
@@ -35,14 +34,14 @@ http_interactions:
         <title>302 Found</title>
         </head><body>
         <h1>Found</h1>
-        <p>The document has moved <a href="http://us.battle.net/sc2/en/profile/3396700/1/Tato/achievements/">here</a>.</p>
+        <p>The document has moved <a href="http://us.battle.net/sc2/en/profile/3396700/1/Tato/achievements/category/3211280">here</a>.</p>
         </body></html>
 
     http_version: 
-  recorded_at: Fri, 21 Sep 2012 02:32:28 GMT
+  recorded_at: Fri, 21 Sep 2012 02:35:33 GMT
 - request: 
     method: get
-    uri: http://us.battle.net/sc2/en/profile/3396700/1/Tato/achievements/
+    uri: http://us.battle.net/sc2/en/profile/3396700/1/Tato/achievements/category/3211280
     body: 
       string: ""
     headers: 
@@ -53,28 +52,29 @@ http_interactions:
       code: 200
       message: OK
     headers: 
-      Date: 
-      - Fri, 21 Sep 2012 02:32:28 GMT
-      Server: 
-      - Apache
-      Transfer-Encoding: 
-      - chunked
-      Set-Cookie: 
-      - login.cookies=1; Domain=battle.net; Path=/
-      Vary: 
-      - Accept-Encoding
-      X-Frame-Options: 
-      - SAMEORIGIN
-      Content-Language: 
-      - en-US
       Content-Type: 
       - application/xhtml+xml;charset=UTF-8
+      X-Frame-Options: 
+      - SAMEORIGIN
+      Vary: 
+      - Accept-Encoding
+      Server: 
+      - Apache
+      Content-Language: 
+      - en-US
+      Transfer-Encoding: 
+      - chunked
+      Date: 
+      - Fri, 21 Sep 2012 02:35:33 GMT
+      Set-Cookie: 
+      - login.cookies=1; Domain=battle.net; Path=/
     body: 
       string: "\r\n\
         \r\n\
+        \r\n\
         <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-us\" class=\"en-us\">\r\n\
         <head xmlns:og=\"http://ogp.me/ns#\" xmlns:fb=\"http://ogp.me/ns/fb#\">\r\n\
-        <title>Achievements - Tato - StarCraft II</title>\r\n\
+        <title>Mar Sara Missions - Tato - StarCraft II</title>\r\n\
         <meta content=\"false\" http-equiv=\"imagetoolbar\" />\r\n\
         <meta content=\"IE=edge,chrome=1\" http-equiv=\"X-UA-Compatible\" />\r\n\
         <link rel=\"shortcut icon\" href=\"/sc2/static/local-common/images/favicons/sc2.ico\" type=\"image/x-icon\"/>\r\n\
@@ -136,9 +136,9 @@ http_interactions:
         //]]>\r\n\
         </script>\r\n\
         <meta property=\"og:site_name\" content=\"StarCraft\xC2\xA0II\xE2\x84\xA2\" />\r\n\
-        <meta property=\"og:title\" content=\"Achievements - Tato - StarCraft II\" />\r\n\
+        <meta property=\"og:title\" content=\"Mar Sara Missions - Tato - StarCraft II\" />\r\n\
         <meta property=\"og:image\" content=\"http://us.media.blizzard.com/battle.net/logos/og-sc2.png\" />\r\n\
-        <meta property=\"og:url\" content=\"http://us.battle.net/sc2/en/profile/3396700/1/Tato/achievements/\" />\r\n\
+        <meta property=\"og:url\" content=\"http://us.battle.net/sc2/en/profile/3396700/1/Tato/achievements/category/3211280\" />\r\n\
         <meta property=\"og:type\" content=\"website\" />\r\n\
         <meta property=\"og:locale\" content=\"en_US\" />\r\n\
         <meta property=\"fb:admins\" content=\"470332842321,433163104416\"/>\r\n\
@@ -205,9 +205,21 @@ http_interactions:
         </a>\r\n\
         <span class=\"breadcrumb-arrow\"></span>\r\n\
         </li>\r\n\
-        <li class=\"last\">\r\n\
+        <li>\r\n\
         <a href=\"/sc2/en/profile/3396700/1/Tato/achievements/\" rel=\"np\">\r\n\
         Achievements\r\n\
+        </a>\r\n\
+        <span class=\"breadcrumb-arrow\"></span>\r\n\
+        </li>\r\n\
+        <li>\r\n\
+        <a href=\"/sc2/en/profile/3396700/1/Tato/achievements/category/3211280\" rel=\"np\">\r\n\
+        Liberty Campaign\r\n\
+        </a>\r\n\
+        <span class=\"breadcrumb-arrow\"></span>\r\n\
+        </li>\r\n\
+        <li class=\"last\">\r\n\
+        <a href=\"/sc2/en/profile/3396700/1/Tato/achievements/category/3211280\" rel=\"np\">\r\n\
+        Mar Sara Missions\r\n\
         </a>\r\n\
         </li>\r\n\
         </ol>\r\n\
@@ -215,7 +227,7 @@ http_interactions:
         </div>\r\n\
         <div id=\"content\">\r\n\
         <div id=\"content-top\">\r\n\
-        <div id=\"content-bot\">    <div id=\"profile-wrapper\">\r\n        <div id=\"profile-header\">\r\n            <div id=\"portrait\" onclick=\"Core.goTo('/sc2/en/profile/3396700/1/Tato/');\"> \r\n\
+        <div id=\"content-bot\">\r\n    <div id=\"profile-wrapper\">\r\n        <div id=\"profile-header\">\r\n            <div id=\"portrait\" onclick=\"Core.goTo('/sc2/en/profile/3396700/1/Tato/');\"> \r\n\
         \r\n\
         \r\n\
         \t<span class=\"icon-frame \"\r\n\
@@ -265,386 +277,520 @@ http_interactions:
         \t\t\t\t\t\t\t\t\tBack <span>Profile</span>\r\n\
         \t\t\t\t\t\t\t</a>\r\n\
         \t\t\t\t\t\t</li>\r\n\
-        \t\t\t\t\t\t<li class=\"active\">\r\n\
+        \t\t\t\t\t\t<li>\r\n\
         \t\t\t\t\t\t\t<a href=\"/sc2/en/profile/3396700/1/Tato/achievements/\">\r\n\
         \t\t\t\t\t\t\t\t\r\n\
         \r\n\
-        \t\t\t\t\t\t\t\t\tAchievements\r\n\
+        \t\t\t\t\t\t\t\t\t<span class=\"back\"></span>\r\n\
+        \t\t\t\t\t\t\t\t\tBack <span>Achievements</span>\r\n\
         \t\t\t\t\t\t\t</a>\r\n\
         \t\t\t\t\t\t</li>\r\n\
-        \t\t\t\t\t\t<li>\r\n\
+        \t\t\t\t\t\t<li class=\"active\">\r\n\
         \t\t\t\t\t\t\t<a href=\"/sc2/en/profile/3396700/1/Tato/achievements/category/3211280\">\r\n\
-        \t\t\t\t\t\t\t\t<span class=\"forward\"></span>\r\n\
+        \t\t\t\t\t\t\t\t\r\n\
         \r\n\
-        \t\t\t\t\t\t\t\t\tLiberty Campaign\r\n\
+        \t\t\t\t\t\t\t\t\tMar Sara Missions\r\n\
         \t\t\t\t\t\t\t</a>\r\n\
         \t\t\t\t\t\t</li>\r\n\
         \t\t\t\t\t\t<li>\r\n\
-        \t\t\t\t\t\t\t<a href=\"/sc2/en/profile/3396700/1/Tato/achievements/category/4325398\">\r\n\
-        \t\t\t\t\t\t\t\t<span class=\"forward\"></span>\r\n\
+        \t\t\t\t\t\t\t<a href=\"/sc2/en/profile/3396700/1/Tato/achievements/category/3211281\">\r\n\
+        \t\t\t\t\t\t\t\t\r\n\
         \r\n\
-        \t\t\t\t\t\t\t\t\tExploration\r\n\
+        \t\t\t\t\t\t\t\t\tColonist Missions\r\n\
         \t\t\t\t\t\t\t</a>\r\n\
         \t\t\t\t\t\t</li>\r\n\
         \t\t\t\t\t\t<li>\r\n\
-        \t\t\t\t\t\t\t<a href=\"/sc2/en/profile/3396700/1/Tato/achievements/category/4325392\">\r\n\
-        \t\t\t\t\t\t\t\t<span class=\"forward\"></span>\r\n\
+        \t\t\t\t\t\t\t<a href=\"/sc2/en/profile/3396700/1/Tato/achievements/category/3211282\">\r\n\
+        \t\t\t\t\t\t\t\t\r\n\
         \r\n\
-        \t\t\t\t\t\t\t\t\tCustom Game\r\n\
+        \t\t\t\t\t\t\t\t\tCovert Missions\r\n\
         \t\t\t\t\t\t\t</a>\r\n\
         \t\t\t\t\t\t</li>\r\n\
         \t\t\t\t\t\t<li>\r\n\
-        \t\t\t\t\t\t\t<a href=\"/sc2/en/profile/3396700/1/Tato/achievements/category/4325386\">\r\n\
-        \t\t\t\t\t\t\t\t<span class=\"forward\"></span>\r\n\
+        \t\t\t\t\t\t\t<a href=\"/sc2/en/profile/3396700/1/Tato/achievements/category/3211283\">\r\n\
+        \t\t\t\t\t\t\t\t\r\n\
         \r\n\
-        \t\t\t\t\t\t\t\t\tCooperative\r\n\
+        \t\t\t\t\t\t\t\t\tRebellion Missions\r\n\
         \t\t\t\t\t\t\t</a>\r\n\
         \t\t\t\t\t\t</li>\r\n\
         \t\t\t\t\t\t<li>\r\n\
-        \t\t\t\t\t\t\t<a href=\"/sc2/en/profile/3396700/1/Tato/achievements/category/4325378\">\r\n\
-        \t\t\t\t\t\t\t\t<span class=\"forward\"></span>\r\n\
+        \t\t\t\t\t\t\t<a href=\"/sc2/en/profile/3396700/1/Tato/achievements/category/3211284\">\r\n\
+        \t\t\t\t\t\t\t\t\r\n\
         \r\n\
-        \t\t\t\t\t\t\t\t\tQuick Match\r\n\
+        \t\t\t\t\t\t\t\t\tArtifact Missions\r\n\
         \t\t\t\t\t\t\t</a>\r\n\
         \t\t\t\t\t\t</li>\r\n\
         \t\t\t\t\t\t<li>\r\n\
-        \t\t\t\t\t\t\t<a href=\"/sc2/en/profile/3396700/1/Tato/achievements/category/3211270\">\r\n\
-        \t\t\t\t\t\t\t\t<span class=\"forward\"></span>\r\n\
+        \t\t\t\t\t\t\t<a href=\"/sc2/en/profile/3396700/1/Tato/achievements/category/3211285\">\r\n\
+        \t\t\t\t\t\t\t\t\r\n\
         \r\n\
-        \t\t\t\t\t\t\t\t\tCombat\r\n\
+        \t\t\t\t\t\t\t\t\tProphecy Missions\r\n\
         \t\t\t\t\t\t\t</a>\r\n\
         \t\t\t\t\t\t</li>\r\n\
         \t\t\t\t\t\t<li>\r\n\
-        \t\t\t\t\t\t\t<a href=\"/sc2/en/profile/3396700/1/Tato/achievements/category/4325394\">\r\n\
-        \t\t\t\t\t\t\t\t<span class=\"forward\"></span>\r\n\
+        \t\t\t\t\t\t\t<a href=\"/sc2/en/profile/3396700/1/Tato/achievements/category/3211286\">\r\n\
+        \t\t\t\t\t\t\t\t\r\n\
         \r\n\
-        \t\t\t\t\t\t\t\t\tFeats of Strength\r\n\
+        \t\t\t\t\t\t\t\t\tFinal Missions\r\n\
+        \t\t\t\t\t\t\t</a>\r\n\
+        \t\t\t\t\t\t</li>\r\n\
+        \t\t\t\t\t\t<li>\r\n\
+        \t\t\t\t\t\t\t<a href=\"/sc2/en/profile/3396700/1/Tato/achievements/category/3211287\">\r\n\
+        \t\t\t\t\t\t\t\t\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t\t\tStory Mode\r\n\
         \t\t\t\t\t\t\t</a>\r\n\
         \t\t\t\t\t\t</li>\r\n            </ul>\r\n\
         \r\n\
         \t\t\t\r\n        </div>\r\n\
         \r\n        <div id=\"profile-right\">\r\n\
-        \t\t\r\n\
-        \t\t<div class=\"profile-module\">\r\n\
-        \t\t\t<div class=\"module-top\">\r\n\
-        \t\t\t\t<div class=\"module-bot\">\r\n\
-        \t\t\t\t\t<div class=\"module-left\">\r\n\
-        \t\t\t\t\t\t<div id=\"showcase-module\">\r\n\
-        \t\t\t\t\t\t\t<div class=\"module-title\">\r\n\
-        \t\t\t\t\t\t\t\t<h3 class=\"title-trophy\">Showcase</h3>\r\n\
-        \t\t\t\t\t\t\t</div>\r\n\
-        \t\t\t\t\t\t\t\r\n\
-        \t\t\t\t\t\t\t<div class=\"module-body\" style=\"padding-right: 0\">\r\n\
         \r\n\
-        \t\t\t\t\t\t\t\t\t<div class=\"data-empty\">\r\n\
-        \t\t\t\t\t\t\t\t\t\tShowcased achievements can be enabled through the Battle.net client.\r\n\
-        \t\t\t\t\t\t\t\t\t</div>\r\n\
-        \r\n\
-        \t<span class=\"clear\"><!-- --></span>\r\n\
-        \t\t\t\t\t\t\t</div>\r\n\
-        \t\t\t\t\t\t</div>\r\n\
-        \r\n\
-        \t\t\t\t\t\t<div id=\"progress-module\">\r\n\
-        \t\t\t\t\t\t\t<div class=\"module-title\">\r\n\
-        \t\t\t\t\t\t\t\t<h3 class=\"title-shield\">Current Progress</h3>\r\n\
-        \t\t\t\t\t\t\t</div>\r\n\
-        \t\t\t\t\t\t\t\r\n\
-        \t\t\t\t\t\t\t<div class=\"module-body\" style=\"padding-right: 0\">\r\n\
-        \r\n\
-        \r\n\
-        \t\t\t\t\t\t\t\t\t\r\n\
-        \t\t\t\t\t\t\t\t\t<div class=\"progress-tile\">\r\n\
-        \t\t\t\t\t\t\t\t\t\t<a href=\"category/3211280\" class=\"progress-link\">\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t<span class=\"portrait-a\">\r\n\
-        \r\n\
-        \r\n\
-        \r\n\
-        \r\n\
-        \r\n\
-        \t<span class=\"icon-frame \"\r\n\
-        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/2-75.jpg?v42') -0px -450px no-repeat; width: 75px; height: 75px;\">\r\n\
-        \r\n\
-        \t</span>\r\n\
-        \r\n\
-        \t<span class=\"clear\"><!-- --></span>\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t</span>\r\n\
-        \r\n\
-        \t\t\t\t\t\t\t\t\t\t\tLiberty Campaign\r\n\
-        \t\t\t\t\t\t\t\t\t\t</a>\r\n\
-        \r\n\
+        \t\t<div id=\"achievement-filters\" class=\"data-filters\">\r\n\
         \r\n\
         \r\n\
         \t<div class=\"achievements-progress\">\r\n\
         \t\t<div class=\"progress-wrapper\">\r\n\
-        \t\t\t<div class=\"progress-bar\" style=\"width: 30.8176100629%\"></div>\r\n\
+        \t\t\t<div class=\"progress-bar\" style=\"width: 52%\"></div>\r\n\
         \t\t</div>\r\n\
         \r\n\
-        \t\t<span>490</span>\r\n\
+        \t\t<span>65 / 125</span>\r\n\
         \t</div>\r\n\
-        \t\t\t\t\t\t\t\t\t</div>\r\n\
         \r\n\
-        \t\t\t\t\t\t\t\t\t\r\n\
-        \t\t\t\t\t\t\t\t\t<div class=\"progress-tile\">\r\n\
-        \t\t\t\t\t\t\t\t\t\t<a href=\"category/4325398\" class=\"progress-link\">\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t<span class=\"portrait-a\">\r\n\
-        \r\n\
-        \r\n\
-        \r\n\
-        \r\n\
-        \r\n\
-        \r\n\
-        \t<span class=\"icon-frame \"\r\n\
-        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/2-75.jpg?v42') -300px -375px no-repeat; width: 75px; height: 75px;\">\r\n\
-        \r\n\
-        \t</span>\r\n\
+        \t\t\t<div class=\"ui-dropdown\" id=\"type-filter\">\r\n\
+        \t\t\t\t<select>\r\n\
+        \t\t\t\t\t<option value=\"all\">All</option>\r\n\
+        \t\t\t\t\t<option value=\"earned\">Earned</option>\r\n\
+        \t\t\t\t\t<option value=\"unearned\">Unearned</option>\r\n\
+        \t\t\t\t</select>\r\n\
+        \t\t\t</div>\r\n\
         \r\n\
         \t<span class=\"clear\"><!-- --></span>\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t</span>\r\n\
         \r\n\
-        \t\t\t\t\t\t\t\t\t\t\tExploration\r\n\
-        \t\t\t\t\t\t\t\t\t\t</a>\r\n\
+        \t\t\t<script type=\"text/javascript\">\r\n\
+        \t\t\t\t$(function() {\r\n\
+        \t\t\t\t\tFilter.initialize(function(params) {\r\n\
+        \t\t\t\t\t\tif (params.filter) {\r\n\
+        \t\t\t\t\t\t\tSc2.filterContent('#achievements-wrapper', 'achievement', params.filter);\r\n\
+        \t\t\t\t\t\t\t$(\"#type-filter select\").val(params.filter);\r\n\
+        \t\t\t\t\t\t}\r\n\
+        \t\t\t\t\t});\r\n\
         \r\n\
+        \t\t\t\t\t$('.ui-dropdown').dropdown({\r\n\
+        \t\t\t\t\t\tcallback: function(dropdown, value) {\r\n\
+        \t\t\t\t\t\t\tFilter.addParam('filter', value);\r\n\
+        \t\t\t\t\t\t\tFilter.applyQuery();\r\n\
         \r\n\
-        \r\n\
-        \t<div class=\"achievements-progress\">\r\n\
-        \t\t<div class=\"progress-wrapper\">\r\n\
-        \t\t\t<div class=\"progress-bar\" style=\"width: 6.25%\"></div>\r\n\
+        \t\t\t\t\t\t\tSc2.filterContent('#achievements-wrapper', 'achievement', value);\r\n\
+        \t\t\t\t\t\t}\r\n\
+        \t\t\t\t\t});\r\n\
+        \t\t\t\t});\r\n\
+        \t\t\t</script>\r\n\
         \t\t</div>\r\n\
         \r\n\
-        \t\t<span>30</span>\r\n\
-        \t</div>\r\n\
-        \t\t\t\t\t\t\t\t\t</div>\r\n\
-        \r\n\
-        \t\t\t\t\t\t\t\t\t\r\n\
-        \t\t\t\t\t\t\t\t\t<div class=\"progress-tile\">\r\n\
-        \t\t\t\t\t\t\t\t\t\t<a href=\"category/4325392\" class=\"progress-link\">\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t<span class=\"portrait-a\">\r\n\
+        \t\t<div id=\"achievements-wrapper\">\r\n\
         \r\n\
         \r\n\
         \r\n\
         \r\n\
+        \t\t<div id=\"achievement-91475035553879\"\r\n\
+        \t\t\tclass=\"achievement achievement-large earned\">\r\n\
         \r\n\
+        \t\t\t<div class=\"inner\">\r\n\
+        \t\t\t\t<div class=\"meta png-fix\">\r\n\
+        \t\t\t\t\t\t\t<span>15</span>\r\n\
         \r\n\
-        \t<span class=\"icon-frame \"\r\n\
-        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/2-75.jpg?v42') -150px -525px no-repeat; width: 75px; height: 75px;\">\r\n\
+        \t\t\t\t\t\t9/17/2012\r\n\
+        \t\t\t\t</div>\r\n\
         \r\n\
-        \t</span>\r\n\
-        \r\n\
-        \t<span class=\"clear\"><!-- --></span>\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t</span>\r\n\
-        \r\n\
-        \t\t\t\t\t\t\t\t\t\t\tCustom Game\r\n\
-        \t\t\t\t\t\t\t\t\t\t</a>\r\n\
-        \r\n\
-        \r\n\
-        \r\n\
-        \t<div class=\"achievements-progress\">\r\n\
-        \t\t<div class=\"progress-wrapper\">\r\n\
-        \t\t\t<div class=\"progress-bar\" style=\"width: 0%\"></div>\r\n\
-        \t\t</div>\r\n\
-        \r\n\
-        \t\t<span>0</span>\r\n\
-        \t</div>\r\n\
-        \t\t\t\t\t\t\t\t\t</div>\r\n\
-        \r\n\
-        \t\t\t\t\t\t\t\t\t\r\n\
-        \t\t\t\t\t\t\t\t\t<div class=\"progress-tile\">\r\n\
-        \t\t\t\t\t\t\t\t\t\t<a href=\"category/4325386\" class=\"progress-link\">\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t<span class=\"portrait-a\">\r\n\
-        \r\n\
-        \r\n\
-        \r\n\
-        \r\n\
+        \t\t\t\t<div class=\"icon portrait-c \">\r\n\
         \r\n\
         \r\n\
         \t<span class=\"icon-frame \"\r\n\
-        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/2-75.jpg?v42') -525px -450px no-repeat; width: 75px; height: 75px;\">\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/1-45.jpg?v42') -180px -90px no-repeat; width: 45px; height: 45px;\">\r\n\
         \r\n\
         \t</span>\r\n\
-        \r\n\
-        \t<span class=\"clear\"><!-- --></span>\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t</span>\r\n\
-        \r\n\
-        \t\t\t\t\t\t\t\t\t\t\tCooperative\r\n\
-        \t\t\t\t\t\t\t\t\t\t</a>\r\n\
-        \r\n\
-        \r\n\
-        \r\n\
-        \t<div class=\"achievements-progress\">\r\n\
-        \t\t<div class=\"progress-wrapper\">\r\n\
-        \t\t\t<div class=\"progress-bar\" style=\"width: 0%\"></div>\r\n\
-        \t\t</div>\r\n\
-        \r\n\
-        \t\t<span>0</span>\r\n\
-        \t</div>\r\n\
-        \t\t\t\t\t\t\t\t\t</div>\r\n\
-        \r\n\
-        \t\t\t\t\t\t\t\t\t\r\n\
-        \t\t\t\t\t\t\t\t\t<div class=\"progress-tile\">\r\n\
-        \t\t\t\t\t\t\t\t\t\t<a href=\"category/4325378\" class=\"progress-link\">\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t<span class=\"portrait-a\">\r\n\
-        \r\n\
-        \r\n\
-        \r\n\
-        \r\n\
-        \r\n\
-        \r\n\
-        \t<span class=\"icon-frame \"\r\n\
-        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/2-75.jpg?v42') -225px -450px no-repeat; width: 75px; height: 75px;\">\r\n\
-        \r\n\
-        \t</span>\r\n\
-        \r\n\
-        \t<span class=\"clear\"><!-- --></span>\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t</span>\r\n\
-        \r\n\
-        \t\t\t\t\t\t\t\t\t\t\tQuick Match\r\n\
-        \t\t\t\t\t\t\t\t\t\t</a>\r\n\
-        \r\n\
-        \r\n\
-        \r\n\
-        \t<div class=\"achievements-progress\">\r\n\
-        \t\t<div class=\"progress-wrapper\">\r\n\
-        \t\t\t<div class=\"progress-bar\" style=\"width: 2.2988505747%\"></div>\r\n\
-        \t\t</div>\r\n\
-        \r\n\
-        \t\t<span>20</span>\r\n\
-        \t</div>\r\n\
-        \t\t\t\t\t\t\t\t\t</div>\r\n\
-        \r\n\
-        \t<span class=\"clear\"><!-- --></span>\r\n\
-        \t\t\t\t\t\t\t</div>\r\n\
-        \t\t\t\t\t\t</div>\r\n\
-        \t\t\t\t\t</div>\r\n\
-        \r\n\
-        \t\t\t\t\t<div class=\"module-right\">\r\n\
-        \t\t\t\t\t\t<div class=\"module-title\">\r\n\
-        \t\t\t\t\t\t\t<h3 class=\"title-globe\">Recently Earned</h3>\r\n\
-        \t\t\t\t\t\t</div>\r\n\
-        \t\t\t\t\t\t\r\n\
-        \t\t\t\t\t\t<div class=\"module-body\" id=\"recent-achievements\">\r\n\
-        \r\n\
-        \r\n\
-        \t\t\t\t\t\t\t\t\t\t\t<a class=\"recent-tile\" href=\"category/4325400\" data-tooltip=\"#achv-recent-0\">\r\n\
-        \r\n\
-        \r\n\
-        \t<span class=\"icon-frame \"\r\n\
-        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/2-45.jpg?v42') -90px -225px no-repeat; width: 45px; height: 45px;\">\r\n\
-        \r\n\
-        \t</span>\r\n\
-        \r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\tThat\xE2\x80\x99s Teamwork\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\t<span>9/20/2012</span>\r\n\
-        \t<span class=\"clear\"><!-- --></span>\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t</a>\r\n\
-        \r\n\
-        \t\t\t\t\t\t\t\t\t\t\t<div id=\"achv-recent-0\" style=\"display: none\">\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\t<div class=\"tooltip-title\">That\xE2\x80\x99s Teamwork</div>\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\tWin 5 Team league Quick Match games.\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t</div>\r\n\
-        \r\n\
-        \r\n\
-        \t\t\t\t\t\t\t\t\t\t\t<a class=\"recent-tile\" href=\"category/3211284\" data-tooltip=\"#achv-recent-1\">\r\n\
-        \r\n\
-        \r\n\
-        \t<span class=\"icon-frame \"\r\n\
-        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/1-45.jpg?v42') -225px -360px no-repeat; width: 45px; height: 45px;\">\r\n\
-        \r\n\
-        \t</span>\r\n\
-        \r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\tThe Moebius Factor\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\t<span>9/20/2012</span>\r\n\
-        \t<span class=\"clear\"><!-- --></span>\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t</a>\r\n\
-        \r\n\
-        \t\t\t\t\t\t\t\t\t\t\t<div id=\"achv-recent-1\" style=\"display: none\">\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\t<div class=\"tooltip-title\">The Moebius Factor</div>\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\tComplete all mission objectives in\xC2\xA0\xE2\x80\x9CThe Moebius Factor\xE2\x80\x9D mission.\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t</div>\r\n\
-        \r\n\
-        \r\n\
-        \t\t\t\t\t\t\t\t\t\t\t<a class=\"recent-tile\" href=\"category/3211284\" data-tooltip=\"#achv-recent-2\">\r\n\
-        \r\n\
-        \r\n\
-        \t<span class=\"icon-frame \"\r\n\
-        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/1-45.jpg?v42') -270px -360px no-repeat; width: 45px; height: 45px;\">\r\n\
-        \r\n\
-        \t</span>\r\n\
-        \r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\tAlive Inside!\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\t<span>9/20/2012</span>\r\n\
-        \t<span class=\"clear\"><!-- --></span>\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t</a>\r\n\
-        \r\n\
-        \t\t\t\t\t\t\t\t\t\t\t<div id=\"achv-recent-2\" style=\"display: none\">\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\t<div class=\"tooltip-title\">Alive Inside!</div>\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\tLocate all the Moebius survivors in\xC2\xA0\xE2\x80\x9CThe Moebius Factor\xE2\x80\x9D mission on Normal difficulty.\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t</div>\r\n\
-        \r\n\
-        \r\n\
-        \t\t\t\t\t\t\t\t\t\t\t<a class=\"recent-tile\" href=\"category/3211285\" data-tooltip=\"#achv-recent-3\">\r\n\
-        \r\n\
-        \r\n\
-        \t<span class=\"icon-frame \"\r\n\
-        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/6-45.jpg?v42') -225px -45px no-repeat; width: 45px; height: 45px;\">\r\n\
-        \r\n\
-        \t</span>\r\n\
-        \r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\tIn Utter Darkness\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\t<span>9/20/2012</span>\r\n\
-        \t<span class=\"clear\"><!-- --></span>\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t</a>\r\n\
-        \r\n\
-        \t\t\t\t\t\t\t\t\t\t\t<div id=\"achv-recent-3\" style=\"display: none\">\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\t<div class=\"tooltip-title\">In Utter Darkness</div>\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\tComplete all mission objectives in the\xC2\xA0\xE2\x80\x9CIn Utter Darkness\xE2\x80\x9D mission.\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t</div>\r\n\
-        \r\n\
-        \r\n\
-        \t\t\t\t\t\t\t\t\t\t\t<a class=\"recent-tile\" href=\"category/3211287\" data-tooltip=\"#achv-recent-4\">\r\n\
-        \r\n\
-        \r\n\
-        \t<span class=\"icon-frame \"\r\n\
-        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/6-45.jpg?v42') -360px -135px no-repeat; width: 45px; height: 45px;\">\r\n\
-        \r\n\
-        \t</span>\r\n\
-        \r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\tZeratul Missions\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\t<span>9/20/2012</span>\r\n\
-        \t<span class=\"clear\"><!-- --></span>\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t</a>\r\n\
-        \r\n\
-        \t\t\t\t\t\t\t\t\t\t\t<div id=\"achv-recent-4\" style=\"display: none\">\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\t<div class=\"tooltip-title\">Zeratul Missions</div>\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\tComplete the Zeratul storyline in the Wings of Liberty campaign.\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t</div>\r\n\
-        \r\n\
-        \r\n\
-        \t\t\t\t\t\t\t\t\t\t\t<a class=\"recent-tile\" href=\"category/3211285\" data-tooltip=\"#achv-recent-5\">\r\n\
-        \r\n\
-        \r\n\
-        \t<span class=\"icon-frame \"\r\n\
-        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/6-45.jpg?v42') -270px -45px no-repeat; width: 45px; height: 45px;\">\r\n\
-        \r\n\
-        \t</span>\r\n\
-        \r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\tSemi-Glorious\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\t<span>9/20/2012</span>\r\n\
-        \t<span class=\"clear\"><!-- --></span>\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t</a>\r\n\
-        \r\n\
-        \t\t\t\t\t\t\t\t\t\t\t<div id=\"achv-recent-5\" style=\"display: none\">\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\t<div class=\"tooltip-title\">Semi-Glorious</div>\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\tKill 250 additional Zerg units in the\xC2\xA0\xE2\x80\x9CIn Utter Darkness\xE2\x80\x9D mission on Normal difficulty.\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t</div>\r\n\
-        \r\n\
-        \t\t\t\t\t\t</div>\r\n\
-        \t\t\t\t\t</div>\r\n\
-        \r\n\
         \t<span class=\"clear\"><!-- --></span>\r\n\
         \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"desc\">\r\n\
+        \t\t\t\t\t<span>Liberation Day</span><br />\r\n\
+        \t\t\t\t\tComplete all mission objectives in the\xC2\xA0\xE2\x80\x9CLiberation Day\xE2\x80\x9D mission.\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \r\n\
         \t\t\t</div>\r\n\
         \t\t</div>\r\n\
-        \r\n        </div>\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t<div id=\"achievement-91475035553880\"\r\n\
+        \t\t\tclass=\"achievement achievement-large earned\">\r\n\
+        \r\n\
+        \t\t\t<div class=\"inner\">\r\n\
+        \t\t\t\t<div class=\"meta png-fix\">\r\n\
+        \t\t\t\t\t\t\t<span>10</span>\r\n\
+        \r\n\
+        \t\t\t\t\t\t9/17/2012\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"icon portrait-c \">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/1-45.jpg?v42') -225px -90px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"desc\">\r\n\
+        \t\t\t\t\t<span>Raynor\xE2\x80\x99s Back</span><br />\r\n\
+        \t\t\t\t\tKill 5 enemy units in the\xC2\xA0\xE2\x80\x9CLiberation Day\xE2\x80\x9D mission with Raynor on Normal difficulty.\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \r\n\
+        \t\t\t</div>\r\n\
+        \t\t</div>\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t<div id=\"achievement-91475035553882\"\r\n\
+        \t\t\tclass=\"achievement achievement-large earned\">\r\n\
+        \r\n\
+        \t\t\t<div class=\"inner\">\r\n\
+        \t\t\t\t<div class=\"meta png-fix\">\r\n\
+        \t\t\t\t\t\t\t<span>15</span>\r\n\
+        \r\n\
+        \t\t\t\t\t\t9/17/2012\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"icon portrait-c \">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/1-45.jpg?v42') -315px -90px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"desc\">\r\n\
+        \t\t\t\t\t<span>The Outlaws</span><br />\r\n\
+        \t\t\t\t\tComplete all mission objectives in\xC2\xA0\xE2\x80\x9CThe Outlaws\xE2\x80\x9D mission.\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \r\n\
+        \t\t\t</div>\r\n\
+        \t\t</div>\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t<div id=\"achievement-91475035553885\"\r\n\
+        \t\t\tclass=\"achievement achievement-large earned\">\r\n\
+        \r\n\
+        \t\t\t<div class=\"inner\">\r\n\
+        \t\t\t\t<div class=\"meta png-fix\">\r\n\
+        \t\t\t\t\t\t\t<span>15</span>\r\n\
+        \r\n\
+        \t\t\t\t\t\t9/17/2012\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"icon portrait-c \">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/1-45.jpg?v42') -45px -135px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"desc\">\r\n\
+        \t\t\t\t\t<span>Zero Hour</span><br />\r\n\
+        \t\t\t\t\tComplete all mission objectives in the\xC2\xA0\xE2\x80\x9CZero Hour\xE2\x80\x9D mission.\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \r\n\
+        \t\t\t</div>\r\n\
+        \t\t</div>\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t<div id=\"achievement-91475035553886\"\r\n\
+        \t\t\tclass=\"achievement achievement-large earned\">\r\n\
+        \r\n\
+        \t\t\t<div class=\"inner\">\r\n\
+        \t\t\t\t<div class=\"meta png-fix\">\r\n\
+        \t\t\t\t\t\t\t<span>10</span>\r\n\
+        \r\n\
+        \t\t\t\t\t\t9/17/2012\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"icon portrait-c \">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/1-45.jpg?v42') -90px -135px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"desc\">\r\n\
+        \t\t\t\t\t<span>Hold the Line</span><br />\r\n\
+        \t\t\t\t\tComplete the\xC2\xA0\xE2\x80\x9CZero Hour\xE2\x80\x9D mission on Normal difficulty without losing or salvaging a structure.\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \r\n\
+        \t\t\t</div>\r\n\
+        \t\t</div>\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t<div id=\"achievement-91475035553888\" onclick=\"Sc2.openAchievement('series-91475035553888', this);\"\r\n\
+        \t\t\tclass=\"achievement achievement-large locked-large unearned expandable\">\r\n\
+        \r\n\
+        \t\t\t<div class=\"inner\">\r\n\
+        \t\t\t\t<div class=\"meta png-fix\">\r\n\
+        \t\t\t\t\t\t\t<span>20</span>\r\n\
+        \r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"icon portrait-c \">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/6-45.jpg?v42') -90px -225px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"desc\">\r\n\
+        \t\t\t\t\t<span>Mar Sara Mastery</span><br />\r\n\
+        \t\t\t\t\tComplete all the Mar Sara mission achievements.\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \r\n\
+        \t\t\t\t\t<div class=\"series\">\r\n\
+        \t\t\t\t\t\t<div class=\"series-content\" id=\"series-91475035553888\" style=\"display: none;\">\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t\t<div class=\"series-criteria\">\r\n\
+        \t\t\t\t\t\t\t\t\t<ul>\r\n\
+        \r\n\
+        \r\n\
+        \t<li class=\"list-badge earned\">Liberation Day</li>\r\n\
+        \r\n\
+        \r\n\
+        \t<li class=\"list-badge earned\">Raynor\xE2\x80\x99s Back</li>\r\n\
+        \r\n\
+        \r\n\
+        \t<li class=\"list-badge\">Down with Mengsk</li>\r\n\
+        \r\n\
+        \r\n\
+        \t<li class=\"list-badge earned\">The Outlaws</li>\r\n\
+        \r\n\
+        \r\n\
+        \t<li class=\"list-badge\">Cash Reward</li>\r\n\
+        \r\n\
+        \r\n\
+        \t<li class=\"list-badge\">Be Quick or Be Dead</li>\r\n\
+        \r\n\
+        \r\n\
+        \t<li class=\"list-badge earned\">Zero Hour</li>\r\n\
+        \r\n\
+        \r\n\
+        \t<li class=\"list-badge earned\">Hold the Line</li>\r\n\
+        \r\n\
+        \r\n\
+        \t<li class=\"list-badge\">The Best Defense\xE2\x80\xA6</li>\r\n\
+        \t\t\t\t\t\t\t\t\t</ul>\r\n\
+        \t\t\t\t\t\t\t\t</div>\r\n\
+        \r\n\
+        \r\n\
+        \t\t\t\t\t\t\t\t<div class=\"series-rewards\">\r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\t<div id=\"reward-414497095\"\r\n\
+        \t\t\t\tclass=\"series-tile tile-locked\"\r\n\
+        \t\t\t\tdata-tooltip=\"Portrait: Adjutant\">\r\n\
+        \r\n\
+        \t\t\t\t<a href=\"/sc2/en/profile/3396700/1/Tato/rewards/#reward-414497095\">\r\n\
+        \t\t\t\t\t<span class=\"portrait-c\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/portraits/0-45.jpg?v42') -90px -90px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t\t\t</span>\r\n\
+        \t\t\t\t</a>\r\n\
+        \r\n\
+        \t\t\t\t<span class=\"reward-star\">&#160;</span>\r\n\
+        \t\t\t</div>\r\n\
+        \t\t\t\t\t\t\t\t</div>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t\t\t<div class=\"series-bar\">\r\n\
+        \t\t\t\t\t\t\t\t<div class=\"series-unlocked\">1</div>\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"series-expander plus\">&#160;</div>\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t\t\t\t</div>\r\n\
+        \t\t\t\t\t</div>\r\n\
+        \t\t\t</div>\r\n\
+        \t\t</div>\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t<div id=\"achievement-91475035553881\"\r\n\
+        \t\t\tclass=\"achievement achievement-large locked-large unearned\">\r\n\
+        \r\n\
+        \t\t\t<div class=\"inner\">\r\n\
+        \t\t\t\t<div class=\"meta png-fix\">\r\n\
+        \t\t\t\t\t\t\t<span>10</span>\r\n\
+        \r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"icon portrait-c tile-locked\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/1-45.jpg?v42') -270px -90px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"desc\">\r\n\
+        \t\t\t\t\t<span>Down with Mengsk</span><br />\r\n\
+        \t\t\t\t\tKill every enemy unit in the\xC2\xA0\xE2\x80\x9CLiberation Day\xE2\x80\x9D mission on Hard difficulty.\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \r\n\
+        \t\t\t</div>\r\n\
+        \t\t</div>\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t<div id=\"achievement-91475035553883\"\r\n\
+        \t\t\tclass=\"achievement achievement-large locked-large unearned\">\r\n\
+        \r\n\
+        \t\t\t<div class=\"inner\">\r\n\
+        \t\t\t\t<div class=\"meta png-fix\">\r\n\
+        \t\t\t\t\t\t\t<span>10</span>\r\n\
+        \r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"icon portrait-c tile-locked\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/1-45.jpg?v42') -0px -135px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"desc\">\r\n\
+        \t\t\t\t\t<span>Cash Reward</span><br />\r\n\
+        \t\t\t\t\tCollect all Mineral and Gas Pallet pickups in\xC2\xA0\xE2\x80\x9CThe Outlaws\xE2\x80\x9D mission on Normal difficulty.\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \r\n\
+        \t\t\t</div>\r\n\
+        \t\t</div>\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t<div id=\"achievement-91475035553884\"\r\n\
+        \t\t\tclass=\"achievement achievement-large locked-large unearned\">\r\n\
+        \r\n\
+        \t\t\t<div class=\"inner\">\r\n\
+        \t\t\t\t<div class=\"meta png-fix\">\r\n\
+        \t\t\t\t\t\t\t<span>10</span>\r\n\
+        \r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"icon portrait-c tile-locked\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/1-45.jpg?v42') -360px -90px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"desc\">\r\n\
+        \t\t\t\t\t<span>Be Quick or Be Dead</span><br />\r\n\
+        \t\t\t\t\tComplete\xC2\xA0\xE2\x80\x9CThe Outlaws\xE2\x80\x9D mission on Hard difficulty in less than 10 minutes.\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \r\n\
+        \t\t\t</div>\r\n\
+        \t\t</div>\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t<div id=\"achievement-91475035553887\"\r\n\
+        \t\t\tclass=\"achievement achievement-large locked-large unearned\">\r\n\
+        \r\n\
+        \t\t\t<div class=\"inner\">\r\n\
+        \t\t\t\t<div class=\"meta png-fix\">\r\n\
+        \t\t\t\t\t\t\t<span>10</span>\r\n\
+        \r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"icon portrait-c tile-locked\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/1-45.jpg?v42') -135px -135px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"desc\">\r\n\
+        \t\t\t\t\t<span>The Best Defense\xE2\x80\xA6</span><br />\r\n\
+        \t\t\t\t\tDestroy 4 Zerg Hatcheries in the\xC2\xA0\xE2\x80\x9CZero Hour\xE2\x80\x9D mission on Hard difficulty.\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \r\n\
+        \t\t\t</div>\r\n\
+        \t\t</div>\r\n\
+        \r\n\
+        \t\t</div>\r\n\
+        \t\t\r\n        </div>\r\n\
         \r\n\
         \t<span class=\"clear\"><!-- --></span>\r\n    </div>\r\n\
         </div>\r\n\
@@ -1060,6 +1206,8 @@ http_interactions:
         });\r\n\
         //]]>\r\n\
         </script>\r\n\
+        <script type=\"text/javascript\" src=\"/sc2/static/local-common/js/dropdown.js?v42\"></script>\r\n\
+        <script type=\"text/javascript\" src=\"/sc2/static/local-common/js/filter.js?v42\"></script>\r\n\
         <!--[if lt IE 8]> <script type=\"text/javascript\" src=\"/sc2/static/local-common/js/third-party/jquery.pngFix.pack.js?v42\"></script>\r\n\
         <script type=\"text/javascript\">\r\n\
         //<![CDATA[\r\n\
@@ -1084,6 +1232,7 @@ http_interactions:
         //]]>\r\n\
         </script>\r\n\
         </body>\r\n\
-        </html>"
+        </html>\r\n"
     http_version: 
-  recorded_at: Fri, 21 Sep 2012 02:32:29 GMT
+  recorded_at: Fri, 21 Sep 2012 02:35:35 GMT
+recorded_with: VCR 2.2.5

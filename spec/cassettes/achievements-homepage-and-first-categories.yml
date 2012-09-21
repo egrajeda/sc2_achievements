@@ -1,5 +1,4 @@
 --- 
-recorded_with: VCR 2.2.5
 http_interactions: 
 - request: 
     method: get
@@ -14,20 +13,20 @@ http_interactions:
       code: 302
       message: Found
     headers: 
-      Server: 
-      - Apache
+      Date: 
+      - Fri, 21 Sep 2012 02:32:42 GMT
       Content-Length: 
       - "248"
-      Vary: 
-      - Accept-Encoding
-      Content-Type: 
-      - text/html; charset=iso-8859-1
+      Server: 
+      - Apache
       X-Frame-Options: 
       - SAMEORIGIN
-      Date: 
-      - Thu, 20 Sep 2012 03:17:51 GMT
       Location: 
       - http://us.battle.net/sc2/en/profile/3396700/1/Tato/achievements/
+      Content-Type: 
+      - text/html; charset=iso-8859-1
+      Vary: 
+      - Accept-Encoding
     body: 
       string: |
         <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
@@ -39,7 +38,7 @@ http_interactions:
         </body></html>
 
     http_version: 
-  recorded_at: Thu, 20 Sep 2012 03:17:51 GMT
+  recorded_at: Fri, 21 Sep 2012 02:32:42 GMT
 - request: 
     method: get
     uri: http://us.battle.net/sc2/en/profile/3396700/1/Tato/achievements/
@@ -53,22 +52,22 @@ http_interactions:
       code: 200
       message: OK
     headers: 
-      Transfer-Encoding: 
-      - chunked
+      Date: 
+      - Fri, 21 Sep 2012 02:32:42 GMT
       Server: 
       - Apache
-      Content-Language: 
-      - en-US
-      Vary: 
-      - Accept-Encoding
-      Set-Cookie: 
-      - login.cookies=1; Domain=battle.net; Path=/
-      Content-Type: 
-      - application/xhtml+xml;charset=UTF-8
+      Transfer-Encoding: 
+      - chunked
       X-Frame-Options: 
       - SAMEORIGIN
-      Date: 
-      - Thu, 20 Sep 2012 03:17:51 GMT
+      Set-Cookie: 
+      - login.cookies=1; Domain=battle.net; Path=/
+      Content-Language: 
+      - en-US
+      Content-Type: 
+      - application/xhtml+xml;charset=UTF-8
+      Vary: 
+      - Accept-Encoding
     body: 
       string: "\r\n\
         \r\n\
@@ -255,7 +254,7 @@ http_interactions:
         \t\t\t<a href=\"/sc2/en/profile/3396700/1/Tato/rewards/terran-decals#reward-18730036\" style=\"height: 45px\"> </a>\r\n\
         \t</span>\r\n\
         \t\t\t\t\t</div>\r\n\
-        \t\t\t</div>\r\n            \r\n            <h2><a href=\"/sc2/en/profile/3396700/1/Tato/\">Tato</a></h2>\r\n            <h3>445</h3>\r\n        </div>\r\n\
+        \t\t\t</div>\r\n            \r\n            <h2><a href=\"/sc2/en/profile/3396700/1/Tato/\">Tato</a></h2>\r\n            <h3>630</h3>\r\n        </div>\r\n\
         \r\n        <div id=\"profile-left\">\r\n            <ul id=\"profile-menu\">\r\n\
         \t\t\t\t\t\t<li>\r\n\
         \t\t\t\t\t\t\t<a href=\"/sc2/en/profile/3396700/1/Tato/\">\r\n\
@@ -376,10 +375,10 @@ http_interactions:
         \r\n\
         \t<div class=\"achievements-progress\">\r\n\
         \t\t<div class=\"progress-wrapper\">\r\n\
-        \t\t\t<div class=\"progress-bar\" style=\"width: 19.8113207547%\"></div>\r\n\
+        \t\t\t<div class=\"progress-bar\" style=\"width: 30.8176100629%\"></div>\r\n\
         \t\t</div>\r\n\
         \r\n\
-        \t\t<span>315</span>\r\n\
+        \t\t<span>490</span>\r\n\
         \t</div>\r\n\
         \t\t\t\t\t\t\t\t\t</div>\r\n\
         \r\n\
@@ -408,10 +407,10 @@ http_interactions:
         \r\n\
         \t<div class=\"achievements-progress\">\r\n\
         \t\t<div class=\"progress-wrapper\">\r\n\
-        \t\t\t<div class=\"progress-bar\" style=\"width: 4.1666666667%\"></div>\r\n\
+        \t\t\t<div class=\"progress-bar\" style=\"width: 6.25%\"></div>\r\n\
         \t\t</div>\r\n\
         \r\n\
-        \t\t<span>20</span>\r\n\
+        \t\t<span>30</span>\r\n\
         \t</div>\r\n\
         \t\t\t\t\t\t\t\t\t</div>\r\n\
         \r\n\
@@ -524,79 +523,79 @@ http_interactions:
         \t\t\t\t\t\t<div class=\"module-body\" id=\"recent-achievements\">\r\n\
         \r\n\
         \r\n\
-        \t\t\t\t\t\t\t\t\t\t\t<a class=\"recent-tile\" href=\"category/3211287\" data-tooltip=\"#achv-recent-0\">\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t<a class=\"recent-tile\" href=\"category/4325400\" data-tooltip=\"#achv-recent-0\">\r\n\
         \r\n\
         \r\n\
         \t<span class=\"icon-frame \"\r\n\
-        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/6-45.jpg?v42') -0px -180px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/2-45.jpg?v42') -90px -225px no-repeat; width: 45px; height: 45px;\">\r\n\
         \r\n\
         \t</span>\r\n\
         \r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\tMatt Horner Missions\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\t<span>9/19/2012</span>\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t\tThat\xE2\x80\x99s Teamwork\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t\t<span>9/20/2012</span>\r\n\
         \t<span class=\"clear\"><!-- --></span>\r\n\
         \t\t\t\t\t\t\t\t\t\t\t</a>\r\n\
         \r\n\
         \t\t\t\t\t\t\t\t\t\t\t<div id=\"achv-recent-0\" style=\"display: none\">\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\t<div class=\"tooltip-title\">Matt Horner Missions</div>\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\tComplete the Horner storyline in the Wings of Liberty campaign.\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t\t<div class=\"tooltip-title\">That\xE2\x80\x99s Teamwork</div>\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t\tWin 5 Team league Quick Match games.\r\n\
         \t\t\t\t\t\t\t\t\t\t\t</div>\r\n\
         \r\n\
         \r\n\
-        \t\t\t\t\t\t\t\t\t\t\t<a class=\"recent-tile\" href=\"category/3211283\" data-tooltip=\"#achv-recent-1\">\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t<a class=\"recent-tile\" href=\"category/3211284\" data-tooltip=\"#achv-recent-1\">\r\n\
         \r\n\
         \r\n\
         \t<span class=\"icon-frame \"\r\n\
-        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/1-45.jpg?v42') -45px -315px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/1-45.jpg?v42') -225px -360px no-repeat; width: 45px; height: 45px;\">\r\n\
         \r\n\
         \t</span>\r\n\
         \r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\tMedia Blitz\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\t<span>9/19/2012</span>\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t\tThe Moebius Factor\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t\t<span>9/20/2012</span>\r\n\
         \t<span class=\"clear\"><!-- --></span>\r\n\
         \t\t\t\t\t\t\t\t\t\t\t</a>\r\n\
         \r\n\
         \t\t\t\t\t\t\t\t\t\t\t<div id=\"achv-recent-1\" style=\"display: none\">\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\t<div class=\"tooltip-title\">Media Blitz</div>\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\tComplete all mission objectives in the\xC2\xA0\xE2\x80\x9CMedia Blitz\xE2\x80\x9D mission.\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t\t<div class=\"tooltip-title\">The Moebius Factor</div>\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t\tComplete all mission objectives in\xC2\xA0\xE2\x80\x9CThe Moebius Factor\xE2\x80\x9D mission.\r\n\
         \t\t\t\t\t\t\t\t\t\t\t</div>\r\n\
         \r\n\
         \r\n\
-        \t\t\t\t\t\t\t\t\t\t\t<a class=\"recent-tile\" href=\"category/3211283\" data-tooltip=\"#achv-recent-2\">\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t<a class=\"recent-tile\" href=\"category/3211284\" data-tooltip=\"#achv-recent-2\">\r\n\
         \r\n\
         \r\n\
         \t<span class=\"icon-frame \"\r\n\
-        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/1-45.jpg?v42') -315px -270px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/1-45.jpg?v42') -270px -360px no-repeat; width: 45px; height: 45px;\">\r\n\
         \r\n\
         \t</span>\r\n\
         \r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\tEngine of Destruction\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\t<span>9/19/2012</span>\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t\tAlive Inside!\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t\t<span>9/20/2012</span>\r\n\
         \t<span class=\"clear\"><!-- --></span>\r\n\
         \t\t\t\t\t\t\t\t\t\t\t</a>\r\n\
         \r\n\
         \t\t\t\t\t\t\t\t\t\t\t<div id=\"achv-recent-2\" style=\"display: none\">\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\t<div class=\"tooltip-title\">Engine of Destruction</div>\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\tComplete all mission objectives in the\xC2\xA0\xE2\x80\x9CEngine of Destruction\xE2\x80\x9D mission.\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t\t<div class=\"tooltip-title\">Alive Inside!</div>\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t\tLocate all the Moebius survivors in\xC2\xA0\xE2\x80\x9CThe Moebius Factor\xE2\x80\x9D mission on Normal difficulty.\r\n\
         \t\t\t\t\t\t\t\t\t\t\t</div>\r\n\
         \r\n\
         \r\n\
-        \t\t\t\t\t\t\t\t\t\t\t<a class=\"recent-tile\" href=\"category/3211283\" data-tooltip=\"#achv-recent-3\">\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t<a class=\"recent-tile\" href=\"category/3211285\" data-tooltip=\"#achv-recent-3\">\r\n\
         \r\n\
         \r\n\
         \t<span class=\"icon-frame \"\r\n\
-        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/1-45.jpg?v42') -360px -270px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/6-45.jpg?v42') -225px -45px no-repeat; width: 45px; height: 45px;\">\r\n\
         \r\n\
         \t</span>\r\n\
         \r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\tKicking Asgard\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\t<span>9/19/2012</span>\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t\tIn Utter Darkness\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t\t<span>9/20/2012</span>\r\n\
         \t<span class=\"clear\"><!-- --></span>\r\n\
         \t\t\t\t\t\t\t\t\t\t\t</a>\r\n\
         \r\n\
         \t\t\t\t\t\t\t\t\t\t\t<div id=\"achv-recent-3\" style=\"display: none\">\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\t<div class=\"tooltip-title\">Kicking Asgard</div>\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\tDestroy the Loki in the\xC2\xA0\xE2\x80\x9CEngine of Destruction\xE2\x80\x9D mission on Normal difficulty.\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t\t<div class=\"tooltip-title\">In Utter Darkness</div>\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t\tComplete all mission objectives in the\xC2\xA0\xE2\x80\x9CIn Utter Darkness\xE2\x80\x9D mission.\r\n\
         \t\t\t\t\t\t\t\t\t\t\t</div>\r\n\
         \r\n\
         \r\n\
@@ -604,37 +603,37 @@ http_interactions:
         \r\n\
         \r\n\
         \t<span class=\"icon-frame \"\r\n\
-        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/1-45.jpg?v42') -135px -45px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/6-45.jpg?v42') -360px -135px no-repeat; width: 45px; height: 45px;\">\r\n\
         \r\n\
         \t</span>\r\n\
         \r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\tCouch Surfer\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\t<span>9/19/2012</span>\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t\tZeratul Missions\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t\t<span>9/20/2012</span>\r\n\
         \t<span class=\"clear\"><!-- --></span>\r\n\
         \t\t\t\t\t\t\t\t\t\t\t</a>\r\n\
         \r\n\
         \t\t\t\t\t\t\t\t\t\t\t<div id=\"achv-recent-4\" style=\"display: none\">\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\t<div class=\"tooltip-title\">Couch Surfer</div>\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\tView 10 television news broadcasts.\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t\t<div class=\"tooltip-title\">Zeratul Missions</div>\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t\tComplete the Zeratul storyline in the Wings of Liberty campaign.\r\n\
         \t\t\t\t\t\t\t\t\t\t\t</div>\r\n\
         \r\n\
         \r\n\
-        \t\t\t\t\t\t\t\t\t\t\t<a class=\"recent-tile\" href=\"category/3211282\" data-tooltip=\"#achv-recent-5\">\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t<a class=\"recent-tile\" href=\"category/3211285\" data-tooltip=\"#achv-recent-5\">\r\n\
         \r\n\
         \r\n\
         \t<span class=\"icon-frame \"\r\n\
-        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/1-45.jpg?v42') -180px -225px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/6-45.jpg?v42') -270px -45px no-repeat; width: 45px; height: 45px;\">\r\n\
         \r\n\
         \t</span>\r\n\
         \r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\tBreakout\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\t<span>9/19/2012</span>\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t\tSemi-Glorious\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t\t<span>9/20/2012</span>\r\n\
         \t<span class=\"clear\"><!-- --></span>\r\n\
         \t\t\t\t\t\t\t\t\t\t\t</a>\r\n\
         \r\n\
         \t\t\t\t\t\t\t\t\t\t\t<div id=\"achv-recent-5\" style=\"display: none\">\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\t<div class=\"tooltip-title\">Breakout</div>\r\n\
-        \t\t\t\t\t\t\t\t\t\t\t\tComplete all mission objectives in the\xC2\xA0\xE2\x80\x9CBreakout\xE2\x80\x9D mission.\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t\t<div class=\"tooltip-title\">Semi-Glorious</div>\r\n\
+        \t\t\t\t\t\t\t\t\t\t\t\tKill 250 additional Zerg units in the\xC2\xA0\xE2\x80\x9CIn Utter Darkness\xE2\x80\x9D mission on Normal difficulty.\r\n\
         \t\t\t\t\t\t\t\t\t\t\t</div>\r\n\
         \r\n\
         \t\t\t\t\t\t</div>\r\n\
@@ -1086,7 +1085,7 @@ http_interactions:
         </body>\r\n\
         </html>"
     http_version: 
-  recorded_at: Thu, 20 Sep 2012 03:17:52 GMT
+  recorded_at: Fri, 21 Sep 2012 02:32:43 GMT
 - request: 
     method: get
     uri: http://battle.net/sc2/en/profile/3396700/1/Tato/achievements/category/3211280
@@ -1100,20 +1099,20 @@ http_interactions:
       code: 302
       message: Found
     headers: 
-      Server: 
-      - Apache
+      Date: 
+      - Fri, 21 Sep 2012 02:32:44 GMT
       Content-Length: 
       - "264"
-      Vary: 
-      - Accept-Encoding
-      Content-Type: 
-      - text/html; charset=iso-8859-1
+      Server: 
+      - Apache
       X-Frame-Options: 
       - SAMEORIGIN
-      Date: 
-      - Thu, 20 Sep 2012 03:17:52 GMT
       Location: 
       - http://us.battle.net/sc2/en/profile/3396700/1/Tato/achievements/category/3211280
+      Content-Type: 
+      - text/html; charset=iso-8859-1
+      Vary: 
+      - Accept-Encoding
     body: 
       string: |
         <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
@@ -1125,7 +1124,7 @@ http_interactions:
         </body></html>
 
     http_version: 
-  recorded_at: Thu, 20 Sep 2012 03:17:53 GMT
+  recorded_at: Fri, 21 Sep 2012 02:32:44 GMT
 - request: 
     method: get
     uri: http://us.battle.net/sc2/en/profile/3396700/1/Tato/achievements/category/3211280
@@ -1139,22 +1138,22 @@ http_interactions:
       code: 200
       message: OK
     headers: 
-      Transfer-Encoding: 
-      - chunked
+      Date: 
+      - Fri, 21 Sep 2012 02:32:44 GMT
       Server: 
       - Apache
-      Content-Language: 
-      - en-US
-      Vary: 
-      - Accept-Encoding
-      Set-Cookie: 
-      - login.cookies=1; Domain=battle.net; Path=/
-      Content-Type: 
-      - application/xhtml+xml;charset=UTF-8
+      Transfer-Encoding: 
+      - chunked
       X-Frame-Options: 
       - SAMEORIGIN
-      Date: 
-      - Thu, 20 Sep 2012 03:17:53 GMT
+      Set-Cookie: 
+      - login.cookies=1; Domain=battle.net; Path=/
+      Content-Language: 
+      - en-US
+      Content-Type: 
+      - application/xhtml+xml;charset=UTF-8
+      Vary: 
+      - Accept-Encoding
     body: 
       string: "\r\n\
         \r\n\
@@ -1354,7 +1353,7 @@ http_interactions:
         \t\t\t<a href=\"/sc2/en/profile/3396700/1/Tato/rewards/terran-decals#reward-18730036\" style=\"height: 45px\"> </a>\r\n\
         \t</span>\r\n\
         \t\t\t\t\t</div>\r\n\
-        \t\t\t</div>\r\n            \r\n            <h2><a href=\"/sc2/en/profile/3396700/1/Tato/\">Tato</a></h2>\r\n            <h3>445</h3>\r\n        </div>\r\n\
+        \t\t\t</div>\r\n            \r\n            <h2><a href=\"/sc2/en/profile/3396700/1/Tato/\">Tato</a></h2>\r\n            <h3>630</h3>\r\n        </div>\r\n\
         \r\n        <div id=\"profile-left\">\r\n            <ul id=\"profile-menu\">\r\n\
         \t\t\t\t\t\t<li>\r\n\
         \t\t\t\t\t\t\t<a href=\"/sc2/en/profile/3396700/1/Tato/\">\r\n\
@@ -2321,7 +2320,7 @@ http_interactions:
         </body>\r\n\
         </html>\r\n"
     http_version: 
-  recorded_at: Thu, 20 Sep 2012 03:17:54 GMT
+  recorded_at: Fri, 21 Sep 2012 02:32:45 GMT
 - request: 
     method: get
     uri: http://battle.net/sc2/en/profile/3396700/1/Tato/achievements/category/3211281
@@ -2335,20 +2334,20 @@ http_interactions:
       code: 302
       message: Found
     headers: 
-      Server: 
-      - Apache
+      Date: 
+      - Fri, 21 Sep 2012 02:32:46 GMT
       Content-Length: 
       - "264"
-      Vary: 
-      - Accept-Encoding
-      Content-Type: 
-      - text/html; charset=iso-8859-1
+      Server: 
+      - Apache
       X-Frame-Options: 
       - SAMEORIGIN
-      Date: 
-      - Thu, 20 Sep 2012 03:17:54 GMT
       Location: 
       - http://us.battle.net/sc2/en/profile/3396700/1/Tato/achievements/category/3211281
+      Content-Type: 
+      - text/html; charset=iso-8859-1
+      Vary: 
+      - Accept-Encoding
     body: 
       string: |
         <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
@@ -2360,7 +2359,7 @@ http_interactions:
         </body></html>
 
     http_version: 
-  recorded_at: Thu, 20 Sep 2012 03:17:54 GMT
+  recorded_at: Fri, 21 Sep 2012 02:32:46 GMT
 - request: 
     method: get
     uri: http://us.battle.net/sc2/en/profile/3396700/1/Tato/achievements/category/3211281
@@ -2374,22 +2373,22 @@ http_interactions:
       code: 200
       message: OK
     headers: 
-      Transfer-Encoding: 
-      - chunked
+      Date: 
+      - Fri, 21 Sep 2012 02:32:46 GMT
       Server: 
       - Apache
-      Content-Language: 
-      - en-US
-      Vary: 
-      - Accept-Encoding
-      Set-Cookie: 
-      - login.cookies=1; Domain=battle.net; Path=/
-      Content-Type: 
-      - application/xhtml+xml;charset=UTF-8
+      Transfer-Encoding: 
+      - chunked
       X-Frame-Options: 
       - SAMEORIGIN
-      Date: 
-      - Thu, 20 Sep 2012 03:17:54 GMT
+      Set-Cookie: 
+      - login.cookies=1; Domain=battle.net; Path=/
+      Content-Language: 
+      - en-US
+      Content-Type: 
+      - application/xhtml+xml;charset=UTF-8
+      Vary: 
+      - Accept-Encoding
     body: 
       string: "\r\n\
         \r\n\
@@ -2589,7 +2588,7 @@ http_interactions:
         \t\t\t<a href=\"/sc2/en/profile/3396700/1/Tato/rewards/terran-decals#reward-18730036\" style=\"height: 45px\"> </a>\r\n\
         \t</span>\r\n\
         \t\t\t\t\t</div>\r\n\
-        \t\t\t</div>\r\n            \r\n            <h2><a href=\"/sc2/en/profile/3396700/1/Tato/\">Tato</a></h2>\r\n            <h3>445</h3>\r\n        </div>\r\n\
+        \t\t\t</div>\r\n            \r\n            <h2><a href=\"/sc2/en/profile/3396700/1/Tato/\">Tato</a></h2>\r\n            <h3>630</h3>\r\n        </div>\r\n\
         \r\n        <div id=\"profile-left\">\r\n            <ul id=\"profile-menu\">\r\n\
         \t\t\t\t\t\t<li>\r\n\
         \t\t\t\t\t\t\t<a href=\"/sc2/en/profile/3396700/1/Tato/\">\r\n\
@@ -3661,4 +3660,5 @@ http_interactions:
         </body>\r\n\
         </html>\r\n"
     http_version: 
-  recorded_at: Thu, 20 Sep 2012 03:17:55 GMT
+  recorded_at: Fri, 21 Sep 2012 02:32:48 GMT
+recorded_with: VCR 2.2.5
