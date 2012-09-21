@@ -2,7 +2,7 @@ require 'spec_helper'
 require 'sc2_achievements'
 
 describe SC2Achievements do
-  xit 'add the recently earned achievements to the top' do
+  it 'add the recently earned achievements to the top' do
     SC2Achievements::Page.stub(:get_categories_for) { [] }
     VCR.use_cassette('achievements-homepage') do
       achievements = SC2Achievements.for('/3396700/1/Tato')
@@ -20,7 +20,7 @@ describe SC2Achievements do
     end
   end
 
-  xit 'gets the achievements from the first group of categories' do
+  it 'gets the achievements from the first group of categories' do
     SC2Achievements::Page.stub(:get_categories_for) { [3211280, 3211281] }
     VCR.use_cassette('achievements-homepage-and-first-categories') do
       achievements = SC2Achievements.for('/3396700/1/Tato')
@@ -30,7 +30,7 @@ describe SC2Achievements do
     end
   end
 
-  xit "doesn't duplicate achievements that are on the homepage" do
+  it "doesn't duplicate achievements that are on the homepage" do
     SC2Achievements::Page.stub(:get_categories_for) { [4325400] }
     VCR.use_cassette('achievements-homepage-and-guide-three') do
       achievements = SC2Achievements.for('/3396700/1/Tato')
@@ -59,7 +59,13 @@ describe SC2Achievements do
     end
   end
 
-  xit "orders all the achievements according to the date and its 'recentness'" do
+  it "orders all the achievements according to the date and its 'recentness'" do
+    VCR.use_cassette('all-achievements') do
+      achievements = SC2Achievements.for('/3396700/1/Tato')
+      for i in 1..(achievements.length - 1)
+        (achievements[i - 1][:date] <=> achievements[i][:date]).should_not == -1
+      end
+    end
   end
 
   xit "returns an empty array if there is no achievements" do
