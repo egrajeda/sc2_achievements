@@ -2,7 +2,7 @@ require 'spec_helper'
 require 'sc2_achievements'
 
 describe SC2Achievements do
-  it 'add the recently earned achievements to the top' do
+  xit 'add the recently earned achievements to the top' do
     SC2Achievements::Page.stub(:get_categories_for) { [] }
     VCR.use_cassette('achievements-homepage') do
       achievements = SC2Achievements.for('/3396700/1/Tato')
@@ -20,7 +20,7 @@ describe SC2Achievements do
     end
   end
 
-  it 'gets the achievements from the first group of categories' do
+  xit 'gets the achievements from the first group of categories' do
     SC2Achievements::Page.stub(:get_categories_for) { [3211280, 3211281] }
     VCR.use_cassette('achievements-homepage-and-first-categories') do
       achievements = SC2Achievements.for('/3396700/1/Tato')
@@ -30,7 +30,7 @@ describe SC2Achievements do
     end
   end
 
-  it "doesn't duplicate achievements that are on the homepage" do
+  xit "doesn't duplicate achievements that are on the homepage" do
     SC2Achievements::Page.stub(:get_categories_for) { [4325400] }
     VCR.use_cassette('achievements-homepage-and-guide-three') do
       achievements = SC2Achievements.for('/3396700/1/Tato')
@@ -48,7 +48,7 @@ describe SC2Achievements do
     SC2Achievements::Page.stub(:get_categories_for).with(user_path, :category => 3211281) { [3211280, 3211281] }
     SC2Achievements::Page.stub(:get_categories_for).with(user_path, :category => 4325398) { [4325398, 4325400] }
     SC2Achievements::Page.stub(:get_categories_for).with(user_path, :category => 4325398) { [4325400, 4325400] }
-    VCR.use_cassette('all-achievements', :record => :new_episodes) do
+    VCR.use_cassette('all-selected-achievements') do
       achievements = SC2Achievements.for(user_path)
       achievements.should have(17).items
       achievements[0][:title].should == "That\342\200\231s Teamwork"
@@ -59,6 +59,9 @@ describe SC2Achievements do
     end
   end
 
-  it "returns an empty array if there is no achievements" do
+  xit "orders all the achievements according to the date and its 'recentness'" do
+  end
+
+  xit "returns an empty array if there is no achievements" do
   end
 end
