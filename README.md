@@ -1,11 +1,11 @@
 Starcraft II Achievements
 =========================
 
-Download all the achievements of a SC2 player as JSON.
+Download all the achievements of a SC2 player.
 
 This library downloads all the achievements from a player's public profile,
-extracts the relevant data and then convert it all to a JSON array, with the
-most recent earned achievement first.
+extracts the relevant data and then convert it all to an array, with the
+most recent earned achievement first and then ordered by date.
 
 I'm planning to use this as a part of a bigger system, so that's why I haven't
 built-in some sort of cache.
@@ -21,9 +21,16 @@ $ gem install sc2_achievements
 ## USAGE
 
 ```
->> SC2Achievements.for('/2693272/1/NakedSnake')
-=> 
+>> require 'sc2_achievements'
+=> true
+>> achievements = SC2Achievements.for('/3396700/1/Tato')
+=> [{:date=>"2012-09-20", :points=>10, :title=>"That\342\200\231s Teamwork", ... }]
 ```
+
+## TODO
+
+I've opened a couple of tickets with some stuff that needs to be done, in case
+anyone wanna help out.
 
 ## CONTRIBUTE
 
