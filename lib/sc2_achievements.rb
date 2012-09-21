@@ -1,5 +1,3 @@
-require 'nokogiri'
-require 'open-uri'
 require 'sc2_achievements/homepage'
 require 'sc2_achievements/category_page'
 

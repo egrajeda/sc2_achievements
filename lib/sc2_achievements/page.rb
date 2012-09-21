@@ -1,5 +1,10 @@
-require 'nokogiri'
 require 'open-uri'
+begin
+  require 'nokogiri'
+rescue LoadError
+  require 'rubygems'
+  require 'nokogiri'
+end
 
 module SC2Achievements
   class Page
