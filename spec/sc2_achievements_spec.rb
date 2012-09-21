@@ -65,6 +65,8 @@ describe SC2Achievements do
       for i in 1..(achievements.length - 1)
         (achievements[i - 1][:date] <=> achievements[i][:date]).should_not == -1
       end
+      achievements[0][:title].should == "That\342\200\231s Teamwork"
+      achievements[5][:title].should == "Semi-Glorious"
     end
   end
 
