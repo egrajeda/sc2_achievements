@@ -8,9 +8,9 @@ module SC2Achievements
     achievements = get_achievements_for user_path
     achievements.sort_by do |title, achievement|
       [achievement[:recentness] || 7, achievement[:date]]
-    end.collect do |achievement|
-      achievement[1].delete :recentness
-      achievement[1]
+    end.collect do |title, achievement|
+      achievement.delete :recentness
+      achievement
     end
   end
 
