@@ -62,6 +62,7 @@ describe SC2Achievements do
   it "orders all the achievements according to the date and its 'recentness'" do
     VCR.use_cassette('all-achievements') do
       achievements = SC2Achievements.for('/3396700/1/Tato')
+      achievements.should have(51).items
       for i in 1..(achievements.length - 1)
         (achievements[i - 1][:date] <=> achievements[i][:date]).should_not == -1
       end
@@ -71,5 +72,11 @@ describe SC2Achievements do
   end
 
   xit "returns an empty array if there is no achievements" do
+  end
+
+  xit "it specifies the category" do
+  end
+
+  xit "it specifies the points earned" do
   end
 end
