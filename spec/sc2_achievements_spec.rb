@@ -59,15 +59,18 @@ describe SC2Achievements do
     end
   end
 
-  it "orders all the achievements according to the date and its 'recentness'" do
+  it "gets ALL the achievements and orders them correctly" do
     VCR.use_cassette('all-achievements') do
       achievements = SC2Achievements.for('/3396700/1/Tato')
-      achievements.should have(51).items
+      achievements.should have(53).items
+      achievements[0][:title].should == "That\342\200\231s Teamwork"
+      achievements[5][:title].should == "Semi-Glorious"
+      achievements.inject(0) do |sum, achievement|
+        sum += achievement[:points]
+      end.should == 630
       for i in 1..(achievements.length - 1)
         (achievements[i - 1][:date] <=> achievements[i][:date]).should_not == -1
       end
-      achievements[0][:title].should == "That\342\200\231s Teamwork"
-      achievements[5][:title].should == "Semi-Glorious"
     end
   end
 

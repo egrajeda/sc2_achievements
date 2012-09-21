@@ -4,16 +4,7 @@ module SC2Achievements
   class CategoryPage < Page
     def self.get_achievements_for(user_path, category)
       page = fetch_page_of user_path, :category => category
-      achievements = page.css('.achievement.earned').inject({}) do |achievements, achievement|
-        achievements[key_for(achievement)] = {
-          :title       => title_of(achievement),
-          :description => description_of(achievement),
-          :category    => category_of(achievement),
-          :points      => points_of(achievement),
-          :date        => date_of(achievement) }
-        achievements
-      end
-      achievements = page.css('.series-tile:not(.tile-locked)').inject(achievements) do |achievements, achievement|
+      page.css('.achievement.earned', '.series-tiles .series-tile:not(.tile-locked)').inject({}) do |achievements, achievement|
         achievements[key_for(achievement)] = {
           :title       => title_of(achievement),
           :description => description_of(achievement),
