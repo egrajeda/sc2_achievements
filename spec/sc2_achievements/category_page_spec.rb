@@ -23,5 +23,19 @@ module SC2Achievements
         }
       end
     end
+
+    it 'takes into account the achievements that are partially completed' do
+      VCR.use_cassette('solo-league') do
+        achievements = Page.get_achievements_for '/3396700/1/Tato', :category => 4325378
+        achievements.should have(1).items
+        achievements["Solo Hot Streak 3"].should == {
+          :title       => "Solo Hot Streak 3",
+          :description => "Win 3 1v1 league Quick Match games in a row.",
+          :category    => "Solo League",
+          :points      => 10,
+          :date        => "2012-05-12"
+        }
+      end
+    end
   end
 end

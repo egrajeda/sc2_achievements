@@ -1,0 +1,3069 @@
+--- 
+recorded_with: VCR 2.2.5
+http_interactions: 
+- request: 
+    method: get
+    uri: http://battle.net/sc2/en/profile/3396700/1/Tato/achievements/category/4325378
+    body: 
+      string: ""
+    headers: 
+      Accept: 
+      - "*/*"
+  response: 
+    status: 
+      code: 302
+      message: Found
+    headers: 
+      Location: 
+      - http://us.battle.net/sc2/en/profile/3396700/1/Tato/achievements/category/4325378
+      Vary: 
+      - Accept-Encoding
+      Content-Type: 
+      - text/html; charset=iso-8859-1
+      X-Frame-Options: 
+      - SAMEORIGIN
+      Date: 
+      - Fri, 21 Sep 2012 19:23:53 GMT
+      Content-Length: 
+      - "264"
+      Server: 
+      - Apache
+    body: 
+      string: |
+        <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+        <html><head>
+        <title>302 Found</title>
+        </head><body>
+        <h1>Found</h1>
+        <p>The document has moved <a href="http://us.battle.net/sc2/en/profile/3396700/1/Tato/achievements/category/4325378">here</a>.</p>
+        </body></html>
+
+    http_version: 
+  recorded_at: Fri, 21 Sep 2012 19:23:53 GMT
+- request: 
+    method: get
+    uri: http://us.battle.net/sc2/en/profile/3396700/1/Tato/achievements/category/4325378
+    body: 
+      string: ""
+    headers: 
+      Accept: 
+      - "*/*"
+  response: 
+    status: 
+      code: 200
+      message: OK
+    headers: 
+      Set-Cookie: 
+      - login.cookies=1; Domain=battle.net; Path=/
+      Vary: 
+      - Accept-Encoding
+      Transfer-Encoding: 
+      - chunked
+      Content-Type: 
+      - application/xhtml+xml;charset=UTF-8
+      X-Frame-Options: 
+      - SAMEORIGIN
+      Content-Language: 
+      - en-US
+      Date: 
+      - Fri, 21 Sep 2012 19:23:54 GMT
+      Server: 
+      - Apache
+    body: 
+      string: "\r\n\
+        \r\n\
+        \r\n\
+        <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-us\" class=\"en-us\">\r\n\
+        <head xmlns:og=\"http://ogp.me/ns#\" xmlns:fb=\"http://ogp.me/ns/fb#\">\r\n\
+        <title>Solo League - Tato - StarCraft II</title>\r\n\
+        <meta content=\"false\" http-equiv=\"imagetoolbar\" />\r\n\
+        <meta content=\"IE=edge,chrome=1\" http-equiv=\"X-UA-Compatible\" />\r\n\
+        <link rel=\"shortcut icon\" href=\"/sc2/static/local-common/images/favicons/sc2.ico\" type=\"image/x-icon\"/>\r\n\
+        <link rel=\"search\" type=\"application/opensearchdescription+xml\" href=\"http://us.battle.net/en-us/data/opensearch\" title=\"Battle.net Search\" />\r\n\
+        <link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"/sc2/static/local-common/css/common.css?v42\" />\r\n\
+        <!--[if IE]> <link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"/sc2/static/local-common/css/common-ie.css?v42\" />\r\n\
+        <![endif]-->\r\n\
+        <!--[if IE 6]> <link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"/sc2/static/local-common/css/common-ie6.css?v42\" />\r\n\
+        <![endif]-->\r\n\
+        <!--[if IE 7]> <link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"/sc2/static/local-common/css/common-ie7.css?v42\" />\r\n\
+        <![endif]-->\r\n\
+        <link title=\"StarCraft\xC2\xA0II\xE2\x84\xA2 - News\" href=\"/sc2/en/feed/news\" type=\"application/atom+xml\" rel=\"alternate\"/>\r\n\
+        <link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"/sc2/static/css/sc2.css?v22\" />\r\n\
+        <link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"/sc2/static/css/profile/profile.css?v22\" />\r\n\
+        <!--[if IE 6]> <link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"/sc2/static/css/profile/profile-ie6.css?v22\" />\r\n\
+        <![endif]-->\r\n\
+        <!--[if IE]> <link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"/sc2/static/css/sc2-ie.css?v22\" />\r\n\
+        <![endif]-->\r\n\
+        <!--[if IE 6]> <link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"/sc2/static/css/sc2-ie6.css?v22\" />\r\n\
+        <![endif]-->\r\n\
+        <!--[if IE 7]> <link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"/sc2/static/css/sc2-ie7.css?v22\" />\r\n\
+        <![endif]-->\r\n\
+        <script type=\"text/javascript\" src=\"/sc2/static/local-common/js/third-party/jquery.js?v42\"></script>\r\n\
+        <script type=\"text/javascript\" src=\"/sc2/static/local-common/js/core.js?v42\"></script>\r\n\
+        <script type=\"text/javascript\" src=\"/sc2/static/local-common/js/tooltip.js?v42\"></script>\r\n\
+        <!--[if IE 6]> <script type=\"text/javascript\">\r\n\
+        //<![CDATA[\r\n\
+        try { document.execCommand('BackgroundImageCache', false, true) } catch(e) {}\r\n\
+        //]]>\r\n\
+        </script>\r\n\
+        <![endif]-->\r\n\
+        <script type=\"text/javascript\">\r\n\
+        //<![CDATA[\r\n\
+        Core.staticUrl = '/sc2/static';\r\n\
+        Core.sharedStaticUrl= '/sc2/static/local-common';\r\n\
+        Core.baseUrl = '/sc2/en';\r\n\
+        Core.projectUrl = '/sc2';\r\n\
+        Core.cdnUrl = 'http://us.media.blizzard.com';\r\n\
+        Core.supportUrl = 'http://us.battle.net/support/';\r\n\
+        Core.secureSupportUrl= 'https://us.battle.net/support/';\r\n\
+        Core.project = 'sc2';\r\n\
+        Core.locale = 'en-us';\r\n\
+        Core.language = 'en';\r\n\
+        Core.buildRegion = 'us';\r\n\
+        Core.region = 'us';\r\n\
+        Core.shortDateFormat= 'MM/dd/yyyy';\r\n\
+        Core.dateTimeFormat = 'MM/dd/yyyy hh:mm a';\r\n\
+        Core.loggedIn = false;\r\n\
+        Flash.videoPlayer = 'http://us.media.blizzard.com/global-video-player/themes/sc2/video-player.swf';\r\n\
+        Flash.videoBase = 'http://us.media.blizzard.com/sc2/media/videos';\r\n\
+        Flash.ratingImage = 'http://us.media.blizzard.com/global-video-player/ratings/sc2/en-us.jpg';\r\n\
+        Flash.expressInstall= 'http://us.media.blizzard.com/global-video-player/expressInstall.swf';\r\n\
+        var _gaq = _gaq || [];\r\n\
+        _gaq.push(['_setAccount', 'UA-544112-16']);\r\n\
+        _gaq.push(['_setDomainName', '.battle.net']);\r\n\
+        _gaq.push(['_setAllowLinker', true]);\r\n\
+        _gaq.push(['_trackPageview']);\r\n\
+        _gaq.push(['_trackPageLoadTime']);\r\n\
+        //]]>\r\n\
+        </script>\r\n\
+        <meta property=\"og:site_name\" content=\"StarCraft\xC2\xA0II\xE2\x84\xA2\" />\r\n\
+        <meta property=\"og:title\" content=\"Solo League - Tato - StarCraft II\" />\r\n\
+        <meta property=\"og:image\" content=\"http://us.media.blizzard.com/battle.net/logos/og-sc2.png\" />\r\n\
+        <meta property=\"og:url\" content=\"http://us.battle.net/sc2/en/profile/3396700/1/Tato/achievements/category/4325378\" />\r\n\
+        <meta property=\"og:type\" content=\"website\" />\r\n\
+        <meta property=\"og:locale\" content=\"en_US\" />\r\n\
+        <meta property=\"fb:admins\" content=\"470332842321,433163104416\"/>\r\n\
+        </head>\r\n\
+        <body class=\"\"><div id=\"wrapper\">\r\n\
+        <div id=\"header\">\r\n\
+        <div class=\"search-bar\">\r\n\
+        <form action=\"/sc2/en/search\" method=\"get\" autocomplete=\"off\">\r\n\
+        <div>\r\n\
+        <input type=\"text\" class=\"search-field input\" name=\"q\" id=\"search-field\" maxlength=\"200\" tabindex=\"40\" alt=\"Search StarCraft II\" value=\"Search StarCraft II\" />\r\n\
+        <input type=\"submit\" class=\"search-button\" value=\"\" tabindex=\"41\" />\r\n\
+        </div>\r\n\
+        </form>\r\n\
+        </div>\r\n\
+        <h1 id=\"logo\"><a href=\"/sc2/en/\">Battle.net</a></h1>\r\n\
+        <div id=\"header-plate\">\r\n\
+        <ul class=\"menu\" id=\"menu\">\r\n\
+        <li class=\"menu-home\">\r\n\
+        <a href=\"/sc2/en/\">\r\n\
+        <span>Home</span>\r\n\
+        </a>\r\n\
+        </li>\r\n\
+        <li class=\"menu-game\">\r\n\
+        <a href=\"/sc2/en/game/\">\r\n\
+        <span>Game Guide</span>\r\n\
+        </a>\r\n\
+        </li>\r\n\
+        <li class=\"menu-esports\">\r\n\
+        <a href=\"/sc2/en/esports/\">\r\n\
+        <span>eSports</span>\r\n\
+        </a>\r\n\
+        </li>\r\n\
+        <li class=\"menu-media\">\r\n\
+        <a href=\"/sc2/en/media/\">\r\n\
+        <span>Media</span>\r\n\
+        </a>\r\n\
+        </li>\r\n\
+        <li class=\"menu-forums\">\r\n\
+        <a href=\"/sc2/en/forum/\">\r\n\
+        <span>Forums</span>\r\n\
+        </a>\r\n\
+        </li>\r\n\
+        <li class=\"menu-buy-now\">\r\n\
+        <a href=\"/sc2/en/buy-now/\">\r\n\
+        <span>Buy Now</span>\r\n\
+        </a>\r\n\
+        </li>\r\n\
+        </ul>\r\n\
+        <div id=\"user-plate\" class=\"ajax-update\">\r\n\
+        <div id=\"user-empty\">\r\n\
+        <a href=\"?login\" onclick=\"return Login.open('https://us.battle.net/login/login.frag')\"><strong>Log in</strong></a> with your Battle.net account to post comments and personalize your site content.\r\n\
+        </div>\r\n\
+        </div>\r\n\
+        <ol class=\"ui-breadcrumb\">\r\n\
+        <li>\r\n\
+        <a href=\"/sc2/en/\" rel=\"np\">\r\n\
+        StarCraft II\r\n\
+        </a>\r\n\
+        <span class=\"breadcrumb-arrow\"></span>\r\n\
+        </li>\r\n\
+        <li>\r\n\
+        <a href=\"/sc2/en/profile/3396700/1/Tato/\" rel=\"np\">\r\n\
+        Tato\r\n\
+        </a>\r\n\
+        <span class=\"breadcrumb-arrow\"></span>\r\n\
+        </li>\r\n\
+        <li>\r\n\
+        <a href=\"/sc2/en/profile/3396700/1/Tato/achievements/\" rel=\"np\">\r\n\
+        Achievements\r\n\
+        </a>\r\n\
+        <span class=\"breadcrumb-arrow\"></span>\r\n\
+        </li>\r\n\
+        <li>\r\n\
+        <a href=\"/sc2/en/profile/3396700/1/Tato/achievements/category/4325378\" rel=\"np\">\r\n\
+        Quick Match\r\n\
+        </a>\r\n\
+        <span class=\"breadcrumb-arrow\"></span>\r\n\
+        </li>\r\n\
+        <li class=\"last\">\r\n\
+        <a href=\"/sc2/en/profile/3396700/1/Tato/achievements/category/4325378\" rel=\"np\">\r\n\
+        Solo League\r\n\
+        </a>\r\n\
+        </li>\r\n\
+        </ol>\r\n\
+        </div>\r\n\
+        </div>\r\n\
+        <div id=\"content\">\r\n\
+        <div id=\"content-top\">\r\n\
+        <div id=\"content-bot\">\r\n    <div id=\"profile-wrapper\">\r\n        <div id=\"profile-header\">\r\n            <div id=\"portrait\" onclick=\"Core.goTo('/sc2/en/profile/3396700/1/Tato/');\"> \r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/portraits/0-90.jpg?v42') -360px -90px no-repeat; width: 90px; height: 90px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \r\n\
+        \t\t\t\t<div id=\"portrait-frame\">&#160;</div>\r\n            </div>\r\n\
+        \r\n\
+        \t\t\t<div id=\"current-decals\">\r\n\
+        \t\t\t\t\t<div class=\"current-decal\" data-tooltip=\"Zerg Decal\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/decals/0-45.jpg?v42') -90px -270px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t\t\t<a href=\"/sc2/en/profile/3396700/1/Tato/rewards/zerg-decals#reward-2359737029\" style=\"height: 45px\"> </a>\r\n\
+        \t</span>\r\n\
+        \t\t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t\t<div class=\"current-decal\" data-tooltip=\"Protoss Decal\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/decals/0-45.jpg?v42') -45px -135px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t\t\t<a href=\"/sc2/en/profile/3396700/1/Tato/rewards/protoss-decals#reward-2009110693\" style=\"height: 45px\"> </a>\r\n\
+        \t</span>\r\n\
+        \t\t\t\t\t</div>\r\n\
+        \t\t\t\t\r\n\
+        \t\t\t\t\t<div class=\"current-decal\" data-tooltip=\"Terran Decal\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/decals/0-45.jpg?v42') 0px 0px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t\t\t<a href=\"/sc2/en/profile/3396700/1/Tato/rewards/terran-decals#reward-18730036\" style=\"height: 45px\"> </a>\r\n\
+        \t</span>\r\n\
+        \t\t\t\t\t</div>\r\n\
+        \t\t\t</div>\r\n            \r\n            <h2><a href=\"/sc2/en/profile/3396700/1/Tato/\">Tato</a></h2>\r\n            <h3>630</h3>\r\n        </div>\r\n\
+        \r\n        <div id=\"profile-left\">\r\n            <ul id=\"profile-menu\">\r\n\
+        \t\t\t\t\t\t<li>\r\n\
+        \t\t\t\t\t\t\t<a href=\"/sc2/en/profile/3396700/1/Tato/\">\r\n\
+        \t\t\t\t\t\t\t\t\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t\t\t<span class=\"back\"></span>\r\n\
+        \t\t\t\t\t\t\t\t\tBack <span>Profile</span>\r\n\
+        \t\t\t\t\t\t\t</a>\r\n\
+        \t\t\t\t\t\t</li>\r\n\
+        \t\t\t\t\t\t<li>\r\n\
+        \t\t\t\t\t\t\t<a href=\"/sc2/en/profile/3396700/1/Tato/achievements/\">\r\n\
+        \t\t\t\t\t\t\t\t\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t\t\t<span class=\"back\"></span>\r\n\
+        \t\t\t\t\t\t\t\t\tBack <span>Achievements</span>\r\n\
+        \t\t\t\t\t\t\t</a>\r\n\
+        \t\t\t\t\t\t</li>\r\n\
+        \t\t\t\t\t\t<li class=\"active\">\r\n\
+        \t\t\t\t\t\t\t<a href=\"/sc2/en/profile/3396700/1/Tato/achievements/category/4325378\">\r\n\
+        \t\t\t\t\t\t\t\t\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t\t\tSolo League\r\n\
+        \t\t\t\t\t\t\t</a>\r\n\
+        \t\t\t\t\t\t</li>\r\n\
+        \t\t\t\t\t\t<li>\r\n\
+        \t\t\t\t\t\t\t<a href=\"/sc2/en/profile/3396700/1/Tato/achievements/category/4325385\">\r\n\
+        \t\t\t\t\t\t\t\t\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t\t\tTeam League\r\n\
+        \t\t\t\t\t\t\t</a>\r\n\
+        \t\t\t\t\t\t</li>\r\n\
+        \t\t\t\t\t\t<li>\r\n\
+        \t\t\t\t\t\t\t<a href=\"/sc2/en/profile/3396700/1/Tato/achievements/category/4325391\">\r\n\
+        \t\t\t\t\t\t\t\t\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t\t\tCompetitive\r\n\
+        \t\t\t\t\t\t\t</a>\r\n\
+        \t\t\t\t\t\t</li>\r\n            </ul>\r\n\
+        \r\n\
+        \t\t\t\r\n        </div>\r\n\
+        \r\n        <div id=\"profile-right\">\r\n\
+        \r\n\
+        \t\t<div id=\"achievement-filters\" class=\"data-filters\">\r\n\
+        \r\n\
+        \r\n\
+        \t<div class=\"achievements-progress\">\r\n\
+        \t\t<div class=\"progress-wrapper\">\r\n\
+        \t\t\t<div class=\"progress-bar\" style=\"width: 2.7777777778%\"></div>\r\n\
+        \t\t</div>\r\n\
+        \r\n\
+        \t\t<span>10 / 360</span>\r\n\
+        \t</div>\r\n\
+        \r\n\
+        \t\t\t<div class=\"ui-dropdown\" id=\"type-filter\">\r\n\
+        \t\t\t\t<select>\r\n\
+        \t\t\t\t\t<option value=\"all\">All</option>\r\n\
+        \t\t\t\t\t<option value=\"earned\">Earned</option>\r\n\
+        \t\t\t\t\t<option value=\"unearned\">Unearned</option>\r\n\
+        \t\t\t\t</select>\r\n\
+        \t\t\t</div>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \r\n\
+        \t\t\t<script type=\"text/javascript\">\r\n\
+        \t\t\t\t$(function() {\r\n\
+        \t\t\t\t\tFilter.initialize(function(params) {\r\n\
+        \t\t\t\t\t\tif (params.filter) {\r\n\
+        \t\t\t\t\t\t\tSc2.filterContent('#achievements-wrapper', 'achievement', params.filter);\r\n\
+        \t\t\t\t\t\t\t$(\"#type-filter select\").val(params.filter);\r\n\
+        \t\t\t\t\t\t}\r\n\
+        \t\t\t\t\t});\r\n\
+        \r\n\
+        \t\t\t\t\t$('.ui-dropdown').dropdown({\r\n\
+        \t\t\t\t\t\tcallback: function(dropdown, value) {\r\n\
+        \t\t\t\t\t\t\tFilter.addParam('filter', value);\r\n\
+        \t\t\t\t\t\t\tFilter.applyQuery();\r\n\
+        \r\n\
+        \t\t\t\t\t\t\tSc2.filterContent('#achievements-wrapper', 'achievement', value);\r\n\
+        \t\t\t\t\t\t}\r\n\
+        \t\t\t\t\t});\r\n\
+        \t\t\t\t});\r\n\
+        \t\t\t</script>\r\n\
+        \t\t</div>\r\n\
+        \r\n\
+        \t\t<div id=\"achievements-wrapper\">\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t<div id=\"achievement-91475320766505\" onclick=\"Sc2.openAchievement('series-91475320766505', this);\"\r\n\
+        \t\t\tclass=\"achievement achievement-large locked-large unearned expandable\">\r\n\
+        \r\n\
+        \t\t\t<div class=\"inner\">\r\n\
+        \t\t\t\t<div class=\"meta png-fix\">\r\n\
+        \t\t\t\t\t\t\t<span>10</span>\r\n\
+        \r\n\
+        \t\t\t\t\t\t5/12/2012\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"icon portrait-c \">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/4-45.jpg?v42') -45px -270px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"desc\">\r\n\
+        \t\t\t\t\t<span>Solo Hot Streak 3</span><br />\r\n\
+        \t\t\t\t\tWin 3 1v1 league Quick Match games in a row.\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \r\n\
+        \t\t\t\t\t<div class=\"series\">\r\n\
+        \t\t\t\t\t\t<div class=\"series-content\" id=\"series-91475320766505\" style=\"display: none;\">\r\n\
+        \t\t\t\t\t\t\t\t<div class=\"series-tiles\">\r\n\
+        \r\n\
+        \t<div id=\"achievement-91475320766505\"\r\n\
+        \t\tclass=\"series-tile \"\r\n\
+        \t\tdata-tooltip=\"#series-tooltip-91475320766505\">\r\n\
+        \r\n\
+        \t\t<a href=\"#achievement-91475320766505\">\r\n\
+        \t\t\t<span class=\"portrait-c\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/4-45.jpg?v42') -45px -270px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t</span>\r\n\
+        \t\t</a>\r\n\
+        \r\n\
+        \t\t<span class=\"series-badge\">10</span>\r\n\
+        \r\n\
+        \t\t<div id=\"series-tooltip-91475320766505\" style=\"display: none\">\r\n\
+        \t\t\t<div class=\"tooltip-title\">Solo Hot Streak 3</div>\r\n\
+        \r\n\
+        \r\n\
+        \t\t\tWin 3 1v1 league Quick Match games in a row.\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t</div>\r\n\
+        \t</div>\r\n\
+        \r\n\
+        \t<div id=\"achievement-91475320766506\"\r\n\
+        \t\tclass=\"series-tile tile-locked\"\r\n\
+        \t\tdata-tooltip=\"#series-tooltip-91475320766506\">\r\n\
+        \r\n\
+        \t\t<a href=\"#achievement-91475320766506\">\r\n\
+        \t\t\t<span class=\"portrait-c\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/4-45.jpg?v42') -90px -270px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t</span>\r\n\
+        \t\t</a>\r\n\
+        \r\n\
+        \t\t<span class=\"series-badge\">10</span>\r\n\
+        \r\n\
+        \t\t<div id=\"series-tooltip-91475320766506\" style=\"display: none\">\r\n\
+        \t\t\t<div class=\"tooltip-title\">Solo Hot Streak 5</div>\r\n\
+        \r\n\
+        \r\n\
+        \t\t\tWin 5 1v1 league Quick Match games in a row.\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t</div>\r\n\
+        \t</div>\r\n\
+        \t\t\t\t\t\t\t\t\t\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t\t\t\t\t\t</div>\r\n\
+        \r\n\
+        \r\n\
+        \t\t\t\t\t\t\t\t<div class=\"series-progress\">\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t<div class=\"achievements-progress\" data-tooltip=\"0 / 5\">\r\n\
+        \t\t<div class=\"progress-wrapper\">\r\n\
+        \t\t\t<div class=\"progress-bar\" style=\"width: 0%\"></div>\r\n\
+        \t\t</div>\r\n\
+        \r\n\
+        \t\t<span>0</span>\r\n\
+        \t</div>\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t\t\t\t\t\t</div>\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t\t\t<div class=\"series-bar\">\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"series-expander plus\">&#160;</div>\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t\t<span>Series Progress: 1 of 2 completed</span>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t\t\t\t</div>\r\n\
+        \t\t\t\t\t</div>\r\n\
+        \t\t\t</div>\r\n\
+        \t\t</div>\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t<div id=\"achievement-91475320766465\" onclick=\"Sc2.openAchievement('series-91475320766465', this);\"\r\n\
+        \t\t\tclass=\"achievement achievement-large locked-large unearned expandable\">\r\n\
+        \r\n\
+        \t\t\t<div class=\"inner\">\r\n\
+        \t\t\t\t<div class=\"meta png-fix\">\r\n\
+        \t\t\t\t\t\t\t<span>10</span>\r\n\
+        \r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"icon portrait-c tile-locked\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/3-45.jpg?v42') -225px -270px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"desc\">\r\n\
+        \t\t\t\t\t<span>Solo Terran 10</span><br />\r\n\
+        \t\t\t\t\tWin 10 1v1 league Quick Match games as Terran.\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \r\n\
+        \t\t\t\t\t<div class=\"series\">\r\n\
+        \t\t\t\t\t\t<div class=\"series-content\" id=\"series-91475320766465\" style=\"display: none;\">\r\n\
+        \t\t\t\t\t\t\t\t<div class=\"series-tiles\">\r\n\
+        \r\n\
+        \t<div id=\"achievement-91475320766465\"\r\n\
+        \t\tclass=\"series-tile tile-locked\"\r\n\
+        \t\tdata-tooltip=\"#series-tooltip-91475320766465\">\r\n\
+        \r\n\
+        \t\t<a href=\"#achievement-91475320766465\">\r\n\
+        \t\t\t<span class=\"portrait-c\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/3-45.jpg?v42') -225px -270px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t</span>\r\n\
+        \t\t</a>\r\n\
+        \r\n\
+        \t\t<span class=\"series-badge\">10</span>\r\n\
+        \r\n\
+        \t\t<div id=\"series-tooltip-91475320766465\" style=\"display: none\">\r\n\
+        \t\t\t<div class=\"tooltip-title\">Solo Terran 10</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"float-left\" style=\"padding-right: 10px;\">\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"portrait-c float-left\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/portraits/3-45.jpg?v42') -90px -225px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t\t\t\t\t\t\t</div>\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\tWin 10 1v1 league Quick Match games as Terran.\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t</div>\r\n\
+        \t</div>\r\n\
+        \r\n\
+        \t<div id=\"achievement-91475320766468\"\r\n\
+        \t\tclass=\"series-tile tile-locked\"\r\n\
+        \t\tdata-tooltip=\"#series-tooltip-91475320766468\">\r\n\
+        \r\n\
+        \t\t<a href=\"#achievement-91475320766468\">\r\n\
+        \t\t\t<span class=\"portrait-c\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/3-45.jpg?v42') -270px -270px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t</span>\r\n\
+        \t\t</a>\r\n\
+        \r\n\
+        \t\t<span class=\"series-badge\">10</span>\r\n\
+        \r\n\
+        \t\t<div id=\"series-tooltip-91475320766468\" style=\"display: none\">\r\n\
+        \t\t\t<div class=\"tooltip-title\">Solo Terran 25</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"float-left\" style=\"padding-right: 10px;\">\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"portrait-c float-left\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/portraits/3-45.jpg?v42') -135px -225px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t\t\t\t\t\t\t</div>\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\tWin 25 1v1 league Quick Match games as Terran.\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t</div>\r\n\
+        \t</div>\r\n\
+        \r\n\
+        \t<div id=\"achievement-91475320766469\"\r\n\
+        \t\tclass=\"series-tile tile-locked\"\r\n\
+        \t\tdata-tooltip=\"#series-tooltip-91475320766469\">\r\n\
+        \r\n\
+        \t\t<a href=\"#achievement-91475320766469\">\r\n\
+        \t\t\t<span class=\"portrait-c\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/3-45.jpg?v42') -315px -270px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t</span>\r\n\
+        \t\t</a>\r\n\
+        \r\n\
+        \t\t<span class=\"series-badge\">10</span>\r\n\
+        \r\n\
+        \t\t<div id=\"series-tooltip-91475320766469\" style=\"display: none\">\r\n\
+        \t\t\t<div class=\"tooltip-title\">Solo Terran 50</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"float-left\" style=\"padding-right: 10px;\">\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"portrait-c float-left\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/portraits/3-45.jpg?v42') -180px -225px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t\t\t\t\t\t\t</div>\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\tWin 50 1v1 league Quick Match games as Terran.\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t</div>\r\n\
+        \t</div>\r\n\
+        \r\n\
+        \t<div id=\"achievement-91475320766470\"\r\n\
+        \t\tclass=\"series-tile tile-locked\"\r\n\
+        \t\tdata-tooltip=\"#series-tooltip-91475320766470\">\r\n\
+        \r\n\
+        \t\t<a href=\"#achievement-91475320766470\">\r\n\
+        \t\t\t<span class=\"portrait-c\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/3-45.jpg?v42') -360px -270px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t</span>\r\n\
+        \t\t</a>\r\n\
+        \r\n\
+        \t\t<span class=\"series-badge\">10</span>\r\n\
+        \r\n\
+        \t\t<div id=\"series-tooltip-91475320766470\" style=\"display: none\">\r\n\
+        \t\t\t<div class=\"tooltip-title\">Solo Terran 100</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"float-left\" style=\"padding-right: 10px;\">\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"portrait-c float-left\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/portraits/3-45.jpg?v42') -225px -225px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t\t\t\t\t\t\t</div>\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\tWin 100 1v1 league Quick Match games as Terran.\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t</div>\r\n\
+        \t</div>\r\n\
+        \r\n\
+        \t<div id=\"achievement-91475320766471\"\r\n\
+        \t\tclass=\"series-tile tile-locked\"\r\n\
+        \t\tdata-tooltip=\"#series-tooltip-91475320766471\">\r\n\
+        \r\n\
+        \t\t<a href=\"#achievement-91475320766471\">\r\n\
+        \t\t\t<span class=\"portrait-c\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/3-45.jpg?v42') -0px -315px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t</span>\r\n\
+        \t\t</a>\r\n\
+        \r\n\
+        \t\t<span class=\"series-badge\">10</span>\r\n\
+        \r\n\
+        \t\t<div id=\"series-tooltip-91475320766471\" style=\"display: none\">\r\n\
+        \t\t\t<div class=\"tooltip-title\">Solo Terran 250</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"float-left\" style=\"padding-right: 10px;\">\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"portrait-c float-left\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/portraits/2-45.jpg?v42') 0px 0px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t\t\t\t\t\t\t</div>\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\tWin 250 1v1 league Quick Match games as Terran.\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t</div>\r\n\
+        \t</div>\r\n\
+        \r\n\
+        \t<div id=\"achievement-91475320766472\"\r\n\
+        \t\tclass=\"series-tile tile-locked\"\r\n\
+        \t\tdata-tooltip=\"#series-tooltip-91475320766472\">\r\n\
+        \r\n\
+        \t\t<a href=\"#achievement-91475320766472\">\r\n\
+        \t\t\t<span class=\"portrait-c\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/3-45.jpg?v42') -45px -315px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t</span>\r\n\
+        \t\t</a>\r\n\
+        \r\n\
+        \t\t<span class=\"series-badge\">10</span>\r\n\
+        \r\n\
+        \t\t<div id=\"series-tooltip-91475320766472\" style=\"display: none\">\r\n\
+        \t\t\t<div class=\"tooltip-title\">Solo Terran 500</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"float-left\" style=\"padding-right: 10px;\">\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"portrait-c float-left\">\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/portraits/2-45.jpg?v42') -45px 0px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t\t\t\t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"portrait-c float-left\">\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/decals/0-45.jpg?v42') -270px 0px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t\t\t\t\t\t\t</div>\r\n\
+        \r\n\
+        \r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\tWin 500 1v1 league Quick Match games as Terran.\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t</div>\r\n\
+        \t</div>\r\n\
+        \r\n\
+        \t<div id=\"achievement-91475320766473\"\r\n\
+        \t\tclass=\"series-tile tile-locked\"\r\n\
+        \t\tdata-tooltip=\"#series-tooltip-91475320766473\">\r\n\
+        \r\n\
+        \t\t<a href=\"#achievement-91475320766473\">\r\n\
+        \t\t\t<span class=\"portrait-c\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/3-45.jpg?v42') -90px -315px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t</span>\r\n\
+        \t\t</a>\r\n\
+        \r\n\
+        \t\t<span class=\"series-badge\">10</span>\r\n\
+        \r\n\
+        \t\t<div id=\"series-tooltip-91475320766473\" style=\"display: none\">\r\n\
+        \t\t\t<div class=\"tooltip-title\">Solo Terran 750</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"float-left\" style=\"padding-right: 10px;\">\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"portrait-c float-left\">\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/portraits/2-45.jpg?v42') -90px 0px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t\t\t\t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"portrait-c float-left\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/decals/0-45.jpg?v42') -180px -45px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t\t\t\t\t\t\t</div>\r\n\
+        \r\n\
+        \r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\tWin 750 1v1 league Quick Match games as Terran.\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t</div>\r\n\
+        \t</div>\r\n\
+        \r\n\
+        \t<div id=\"achievement-91475320766474\"\r\n\
+        \t\tclass=\"series-tile tile-locked\"\r\n\
+        \t\tdata-tooltip=\"#series-tooltip-91475320766474\">\r\n\
+        \r\n\
+        \t\t<a href=\"#achievement-91475320766474\">\r\n\
+        \t\t\t<span class=\"portrait-c\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/3-45.jpg?v42') -135px -315px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t</span>\r\n\
+        \t\t</a>\r\n\
+        \r\n\
+        \t\t<span class=\"series-badge\">10</span>\r\n\
+        \r\n\
+        \t\t<div id=\"series-tooltip-91475320766474\" style=\"display: none\">\r\n\
+        \t\t\t<div class=\"tooltip-title\">Solo Terran 1000</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"float-left\" style=\"padding-right: 10px;\">\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"portrait-c float-left\">\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/portraits/2-45.jpg?v42') -135px 0px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t\t\t\t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"portrait-c float-left\">\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/decals/0-45.jpg?v42') -135px 0px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t\t\t\t\t\t\t</div>\r\n\
+        \r\n\
+        \r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\tWin 1000 1v1 league Quick Match games as Terran.\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t</div>\r\n\
+        \t</div>\r\n\
+        \t\t\t\t\t\t\t\t\t\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t\t\t\t\t\t</div>\r\n\
+        \r\n\
+        \r\n\
+        \t\t\t\t\t\t\t\t<div class=\"series-progress\">\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t<div class=\"achievements-progress\" data-tooltip=\"0 / 25\">\r\n\
+        \t\t<div class=\"progress-wrapper\">\r\n\
+        \t\t\t<div class=\"progress-bar\" style=\"width: 0%\"></div>\r\n\
+        \t\t</div>\r\n\
+        \r\n\
+        \t\t<span>0</span>\r\n\
+        \t</div>\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t\t\t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t\t<div class=\"series-rewards\">\r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\t\t\t\t\t\t</div>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t\t\t<div class=\"series-bar\">\r\n\
+        \t\t\t\t\t\t\t\t<div class=\"series-unlocked\">11</div>\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"series-expander plus\">&#160;</div>\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t\t<span>Series Progress: 0 of 8 completed</span>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t\t\t\t</div>\r\n\
+        \t\t\t\t\t</div>\r\n\
+        \t\t\t</div>\r\n\
+        \t\t</div>\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t<div id=\"achievement-91475320766475\" onclick=\"Sc2.openAchievement('series-91475320766475', this);\"\r\n\
+        \t\t\tclass=\"achievement achievement-large locked-large unearned expandable\">\r\n\
+        \r\n\
+        \t\t\t<div class=\"inner\">\r\n\
+        \t\t\t\t<div class=\"meta png-fix\">\r\n\
+        \t\t\t\t\t\t\t<span>10</span>\r\n\
+        \r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"icon portrait-c tile-locked\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/3-45.jpg?v42') -180px -315px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"desc\">\r\n\
+        \t\t\t\t\t<span>Solo Zerg 10</span><br />\r\n\
+        \t\t\t\t\tWin 10 1v1 league Quick Match games as Zerg.\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \r\n\
+        \t\t\t\t\t<div class=\"series\">\r\n\
+        \t\t\t\t\t\t<div class=\"series-content\" id=\"series-91475320766475\" style=\"display: none;\">\r\n\
+        \t\t\t\t\t\t\t\t<div class=\"series-tiles\">\r\n\
+        \r\n\
+        \t<div id=\"achievement-91475320766475\"\r\n\
+        \t\tclass=\"series-tile tile-locked\"\r\n\
+        \t\tdata-tooltip=\"#series-tooltip-91475320766475\">\r\n\
+        \r\n\
+        \t\t<a href=\"#achievement-91475320766475\">\r\n\
+        \t\t\t<span class=\"portrait-c\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/3-45.jpg?v42') -180px -315px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t</span>\r\n\
+        \t\t</a>\r\n\
+        \r\n\
+        \t\t<span class=\"series-badge\">10</span>\r\n\
+        \r\n\
+        \t\t<div id=\"series-tooltip-91475320766475\" style=\"display: none\">\r\n\
+        \t\t\t<div class=\"tooltip-title\">Solo Zerg 10</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"float-left\" style=\"padding-right: 10px;\">\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"portrait-c float-left\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/portraits/3-45.jpg?v42') -0px -180px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t\t\t\t\t\t\t</div>\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\tWin 10 1v1 league Quick Match games as Zerg.\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t</div>\r\n\
+        \t</div>\r\n\
+        \r\n\
+        \t<div id=\"achievement-91475320766482\"\r\n\
+        \t\tclass=\"series-tile tile-locked\"\r\n\
+        \t\tdata-tooltip=\"#series-tooltip-91475320766482\">\r\n\
+        \r\n\
+        \t\t<a href=\"#achievement-91475320766482\">\r\n\
+        \t\t\t<span class=\"portrait-c\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/3-45.jpg?v42') -225px -315px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t</span>\r\n\
+        \t\t</a>\r\n\
+        \r\n\
+        \t\t<span class=\"series-badge\">10</span>\r\n\
+        \r\n\
+        \t\t<div id=\"series-tooltip-91475320766482\" style=\"display: none\">\r\n\
+        \t\t\t<div class=\"tooltip-title\">Solo Zerg 25</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"float-left\" style=\"padding-right: 10px;\">\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"portrait-c float-left\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/portraits/3-45.jpg?v42') -45px -180px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t\t\t\t\t\t\t</div>\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\tWin 25 1v1 league Quick Match games as Zerg.\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t</div>\r\n\
+        \t</div>\r\n\
+        \r\n\
+        \t<div id=\"achievement-91475320766483\"\r\n\
+        \t\tclass=\"series-tile tile-locked\"\r\n\
+        \t\tdata-tooltip=\"#series-tooltip-91475320766483\">\r\n\
+        \r\n\
+        \t\t<a href=\"#achievement-91475320766483\">\r\n\
+        \t\t\t<span class=\"portrait-c\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/3-45.jpg?v42') -270px -315px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t</span>\r\n\
+        \t\t</a>\r\n\
+        \r\n\
+        \t\t<span class=\"series-badge\">10</span>\r\n\
+        \r\n\
+        \t\t<div id=\"series-tooltip-91475320766483\" style=\"display: none\">\r\n\
+        \t\t\t<div class=\"tooltip-title\">Solo Zerg 50</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"float-left\" style=\"padding-right: 10px;\">\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"portrait-c float-left\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/portraits/3-45.jpg?v42') -90px -180px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t\t\t\t\t\t\t</div>\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\tWin 50 1v1 league Quick Match games as Zerg.\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t</div>\r\n\
+        \t</div>\r\n\
+        \r\n\
+        \t<div id=\"achievement-91475320766484\"\r\n\
+        \t\tclass=\"series-tile tile-locked\"\r\n\
+        \t\tdata-tooltip=\"#series-tooltip-91475320766484\">\r\n\
+        \r\n\
+        \t\t<a href=\"#achievement-91475320766484\">\r\n\
+        \t\t\t<span class=\"portrait-c\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/3-45.jpg?v42') -315px -315px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t</span>\r\n\
+        \t\t</a>\r\n\
+        \r\n\
+        \t\t<span class=\"series-badge\">10</span>\r\n\
+        \r\n\
+        \t\t<div id=\"series-tooltip-91475320766484\" style=\"display: none\">\r\n\
+        \t\t\t<div class=\"tooltip-title\">Solo Zerg 100</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"float-left\" style=\"padding-right: 10px;\">\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"portrait-c float-left\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/portraits/3-45.jpg?v42') -135px -180px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t\t\t\t\t\t\t</div>\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\tWin 100 1v1 league Quick Match games as Zerg.\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t</div>\r\n\
+        \t</div>\r\n\
+        \r\n\
+        \t<div id=\"achievement-91475320766485\"\r\n\
+        \t\tclass=\"series-tile tile-locked\"\r\n\
+        \t\tdata-tooltip=\"#series-tooltip-91475320766485\">\r\n\
+        \r\n\
+        \t\t<a href=\"#achievement-91475320766485\">\r\n\
+        \t\t\t<span class=\"portrait-c\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/3-45.jpg?v42') -360px -315px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t</span>\r\n\
+        \t\t</a>\r\n\
+        \r\n\
+        \t\t<span class=\"series-badge\">10</span>\r\n\
+        \r\n\
+        \t\t<div id=\"series-tooltip-91475320766485\" style=\"display: none\">\r\n\
+        \t\t\t<div class=\"tooltip-title\">Solo Zerg 250</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"float-left\" style=\"padding-right: 10px;\">\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"portrait-c float-left\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/portraits/3-45.jpg?v42') -180px -180px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t\t\t\t\t\t\t</div>\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\tWin 250 1v1 league Quick Match games as Zerg.\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t</div>\r\n\
+        \t</div>\r\n\
+        \r\n\
+        \t<div id=\"achievement-91475320766486\"\r\n\
+        \t\tclass=\"series-tile tile-locked\"\r\n\
+        \t\tdata-tooltip=\"#series-tooltip-91475320766486\">\r\n\
+        \r\n\
+        \t\t<a href=\"#achievement-91475320766486\">\r\n\
+        \t\t\t<span class=\"portrait-c\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/3-45.jpg?v42') -0px -360px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t</span>\r\n\
+        \t\t</a>\r\n\
+        \r\n\
+        \t\t<span class=\"series-badge\">10</span>\r\n\
+        \r\n\
+        \t\t<div id=\"series-tooltip-91475320766486\" style=\"display: none\">\r\n\
+        \t\t\t<div class=\"tooltip-title\">Solo Zerg 500</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"float-left\" style=\"padding-right: 10px;\">\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"portrait-c float-left\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/portraits/3-45.jpg?v42') -225px -180px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t\t\t\t\t\t\t</div>\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"portrait-c float-left\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/decals/0-45.jpg?v42') -0px -315px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t\t\t\t\t\t\t</div>\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\tWin 500 1v1 league Quick Match games as Zerg.\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t</div>\r\n\
+        \t</div>\r\n\
+        \r\n\
+        \t<div id=\"achievement-91475320766487\"\r\n\
+        \t\tclass=\"series-tile tile-locked\"\r\n\
+        \t\tdata-tooltip=\"#series-tooltip-91475320766487\">\r\n\
+        \r\n\
+        \t\t<a href=\"#achievement-91475320766487\">\r\n\
+        \t\t\t<span class=\"portrait-c\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/3-45.jpg?v42') -45px -360px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t</span>\r\n\
+        \t\t</a>\r\n\
+        \r\n\
+        \t\t<span class=\"series-badge\">10</span>\r\n\
+        \r\n\
+        \t\t<div id=\"series-tooltip-91475320766487\" style=\"display: none\">\r\n\
+        \t\t\t<div class=\"tooltip-title\">Solo Zerg 750</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"float-left\" style=\"padding-right: 10px;\">\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"portrait-c float-left\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/portraits/3-45.jpg?v42') -0px -225px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t\t\t\t\t\t\t</div>\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"portrait-c float-left\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/decals/0-45.jpg?v42') -270px -315px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t\t\t\t\t\t\t</div>\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\tWin 750 1v1 league Quick Match games as Zerg.\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t</div>\r\n\
+        \t</div>\r\n\
+        \r\n\
+        \t<div id=\"achievement-91475320766488\"\r\n\
+        \t\tclass=\"series-tile tile-locked\"\r\n\
+        \t\tdata-tooltip=\"#series-tooltip-91475320766488\">\r\n\
+        \r\n\
+        \t\t<a href=\"#achievement-91475320766488\">\r\n\
+        \t\t\t<span class=\"portrait-c\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/3-45.jpg?v42') -90px -360px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t</span>\r\n\
+        \t\t</a>\r\n\
+        \r\n\
+        \t\t<span class=\"series-badge\">10</span>\r\n\
+        \r\n\
+        \t\t<div id=\"series-tooltip-91475320766488\" style=\"display: none\">\r\n\
+        \t\t\t<div class=\"tooltip-title\">Solo Zerg 1000</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"float-left\" style=\"padding-right: 10px;\">\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"portrait-c float-left\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/portraits/3-45.jpg?v42') -45px -225px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t\t\t\t\t\t\t</div>\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"portrait-c float-left\">\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/decals/1-45.jpg?v42') -225px 0px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t\t\t\t\t\t\t</div>\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\tWin 1000 1v1 league Quick Match games as Zerg.\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t</div>\r\n\
+        \t</div>\r\n\
+        \t\t\t\t\t\t\t\t\t\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t\t\t\t\t\t</div>\r\n\
+        \r\n\
+        \r\n\
+        \t\t\t\t\t\t\t\t<div class=\"series-progress\">\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t<div class=\"achievements-progress\" data-tooltip=\"0 / 25\">\r\n\
+        \t\t<div class=\"progress-wrapper\">\r\n\
+        \t\t\t<div class=\"progress-bar\" style=\"width: 0%\"></div>\r\n\
+        \t\t</div>\r\n\
+        \r\n\
+        \t\t<span>0</span>\r\n\
+        \t</div>\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t\t\t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t\t<div class=\"series-rewards\">\r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\t\t\t\t\t\t</div>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t\t\t<div class=\"series-bar\">\r\n\
+        \t\t\t\t\t\t\t\t<div class=\"series-unlocked\">11</div>\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"series-expander plus\">&#160;</div>\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t\t<span>Series Progress: 0 of 8 completed</span>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t\t\t\t</div>\r\n\
+        \t\t\t\t\t</div>\r\n\
+        \t\t\t</div>\r\n\
+        \t\t</div>\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t<div id=\"achievement-91475320766489\" onclick=\"Sc2.openAchievement('series-91475320766489', this);\"\r\n\
+        \t\t\tclass=\"achievement achievement-large locked-large unearned expandable\">\r\n\
+        \r\n\
+        \t\t\t<div class=\"inner\">\r\n\
+        \t\t\t\t<div class=\"meta png-fix\">\r\n\
+        \t\t\t\t\t\t\t<span>10</span>\r\n\
+        \r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"icon portrait-c tile-locked\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/3-45.jpg?v42') -270px -225px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"desc\">\r\n\
+        \t\t\t\t\t<span>Solo Protoss 10</span><br />\r\n\
+        \t\t\t\t\tWin 10 1v1 league Quick Match games as Protoss.\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \r\n\
+        \t\t\t\t\t<div class=\"series\">\r\n\
+        \t\t\t\t\t\t<div class=\"series-content\" id=\"series-91475320766489\" style=\"display: none;\">\r\n\
+        \t\t\t\t\t\t\t\t<div class=\"series-tiles\">\r\n\
+        \r\n\
+        \t<div id=\"achievement-91475320766489\"\r\n\
+        \t\tclass=\"series-tile tile-locked\"\r\n\
+        \t\tdata-tooltip=\"#series-tooltip-91475320766489\">\r\n\
+        \r\n\
+        \t\t<a href=\"#achievement-91475320766489\">\r\n\
+        \t\t\t<span class=\"portrait-c\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/3-45.jpg?v42') -270px -225px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t</span>\r\n\
+        \t\t</a>\r\n\
+        \r\n\
+        \t\t<span class=\"series-badge\">10</span>\r\n\
+        \r\n\
+        \t\t<div id=\"series-tooltip-91475320766489\" style=\"display: none\">\r\n\
+        \t\t\t<div class=\"tooltip-title\">Solo Protoss 10</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"float-left\" style=\"padding-right: 10px;\">\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"portrait-c float-left\">\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/portraits/2-45.jpg?v42') -180px 0px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t\t\t\t\t\t\t</div>\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\tWin 10 1v1 league Quick Match games as Protoss.\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t</div>\r\n\
+        \t</div>\r\n\
+        \r\n\
+        \t<div id=\"achievement-91475320766490\"\r\n\
+        \t\tclass=\"series-tile tile-locked\"\r\n\
+        \t\tdata-tooltip=\"#series-tooltip-91475320766490\">\r\n\
+        \r\n\
+        \t\t<a href=\"#achievement-91475320766490\">\r\n\
+        \t\t\t<span class=\"portrait-c\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/3-45.jpg?v42') -315px -225px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t</span>\r\n\
+        \t\t</a>\r\n\
+        \r\n\
+        \t\t<span class=\"series-badge\">10</span>\r\n\
+        \r\n\
+        \t\t<div id=\"series-tooltip-91475320766490\" style=\"display: none\">\r\n\
+        \t\t\t<div class=\"tooltip-title\">Solo Protoss 25</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"float-left\" style=\"padding-right: 10px;\">\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"portrait-c float-left\">\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/portraits/2-45.jpg?v42') -225px 0px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t\t\t\t\t\t\t</div>\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\tWin 25 1v1 league Quick Match games as Protoss.\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t</div>\r\n\
+        \t</div>\r\n\
+        \r\n\
+        \t<div id=\"achievement-91475320766491\"\r\n\
+        \t\tclass=\"series-tile tile-locked\"\r\n\
+        \t\tdata-tooltip=\"#series-tooltip-91475320766491\">\r\n\
+        \r\n\
+        \t\t<a href=\"#achievement-91475320766491\">\r\n\
+        \t\t\t<span class=\"portrait-c\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/3-45.jpg?v42') -360px -225px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t</span>\r\n\
+        \t\t</a>\r\n\
+        \r\n\
+        \t\t<span class=\"series-badge\">10</span>\r\n\
+        \r\n\
+        \t\t<div id=\"series-tooltip-91475320766491\" style=\"display: none\">\r\n\
+        \t\t\t<div class=\"tooltip-title\">Solo Protoss 50</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"float-left\" style=\"padding-right: 10px;\">\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"portrait-c float-left\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/portraits/2-45.jpg?v42') -0px -45px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t\t\t\t\t\t\t</div>\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\tWin 50 1v1 league Quick Match games as Protoss.\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t</div>\r\n\
+        \t</div>\r\n\
+        \r\n\
+        \t<div id=\"achievement-91475320766492\"\r\n\
+        \t\tclass=\"series-tile tile-locked\"\r\n\
+        \t\tdata-tooltip=\"#series-tooltip-91475320766492\">\r\n\
+        \r\n\
+        \t\t<a href=\"#achievement-91475320766492\">\r\n\
+        \t\t\t<span class=\"portrait-c\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/3-45.jpg?v42') -0px -270px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t</span>\r\n\
+        \t\t</a>\r\n\
+        \r\n\
+        \t\t<span class=\"series-badge\">10</span>\r\n\
+        \r\n\
+        \t\t<div id=\"series-tooltip-91475320766492\" style=\"display: none\">\r\n\
+        \t\t\t<div class=\"tooltip-title\">Solo Protoss 100</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"float-left\" style=\"padding-right: 10px;\">\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"portrait-c float-left\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/portraits/2-45.jpg?v42') -45px -45px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t\t\t\t\t\t\t</div>\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\tWin 100 1v1 league Quick Match games as Protoss.\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t</div>\r\n\
+        \t</div>\r\n\
+        \r\n\
+        \t<div id=\"achievement-91475320766493\"\r\n\
+        \t\tclass=\"series-tile tile-locked\"\r\n\
+        \t\tdata-tooltip=\"#series-tooltip-91475320766493\">\r\n\
+        \r\n\
+        \t\t<a href=\"#achievement-91475320766493\">\r\n\
+        \t\t\t<span class=\"portrait-c\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/3-45.jpg?v42') -45px -270px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t</span>\r\n\
+        \t\t</a>\r\n\
+        \r\n\
+        \t\t<span class=\"series-badge\">10</span>\r\n\
+        \r\n\
+        \t\t<div id=\"series-tooltip-91475320766493\" style=\"display: none\">\r\n\
+        \t\t\t<div class=\"tooltip-title\">Solo Protoss 250</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"float-left\" style=\"padding-right: 10px;\">\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"portrait-c float-left\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/portraits/2-45.jpg?v42') -90px -45px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t\t\t\t\t\t\t</div>\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\tWin 250 1v1 league Quick Match games as Protoss.\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t</div>\r\n\
+        \t</div>\r\n\
+        \r\n\
+        \t<div id=\"achievement-91475320766494\"\r\n\
+        \t\tclass=\"series-tile tile-locked\"\r\n\
+        \t\tdata-tooltip=\"#series-tooltip-91475320766494\">\r\n\
+        \r\n\
+        \t\t<a href=\"#achievement-91475320766494\">\r\n\
+        \t\t\t<span class=\"portrait-c\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/3-45.jpg?v42') -90px -270px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t</span>\r\n\
+        \t\t</a>\r\n\
+        \r\n\
+        \t\t<span class=\"series-badge\">10</span>\r\n\
+        \r\n\
+        \t\t<div id=\"series-tooltip-91475320766494\" style=\"display: none\">\r\n\
+        \t\t\t<div class=\"tooltip-title\">Solo Protoss 500</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"float-left\" style=\"padding-right: 10px;\">\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"portrait-c float-left\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/portraits/2-45.jpg?v42') -135px -45px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t\t\t\t\t\t\t</div>\r\n\
+        \r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"portrait-c float-left\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/decals/0-45.jpg?v42') -225px -180px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t\t\t\t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\tWin 500 1v1 league Quick Match games as Protoss.\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t</div>\r\n\
+        \t</div>\r\n\
+        \r\n\
+        \t<div id=\"achievement-91475320766495\"\r\n\
+        \t\tclass=\"series-tile tile-locked\"\r\n\
+        \t\tdata-tooltip=\"#series-tooltip-91475320766495\">\r\n\
+        \r\n\
+        \t\t<a href=\"#achievement-91475320766495\">\r\n\
+        \t\t\t<span class=\"portrait-c\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/3-45.jpg?v42') -135px -270px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t</span>\r\n\
+        \t\t</a>\r\n\
+        \r\n\
+        \t\t<span class=\"series-badge\">10</span>\r\n\
+        \r\n\
+        \t\t<div id=\"series-tooltip-91475320766495\" style=\"display: none\">\r\n\
+        \t\t\t<div class=\"tooltip-title\">Solo Protoss 750</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"float-left\" style=\"padding-right: 10px;\">\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"portrait-c float-left\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/portraits/2-45.jpg?v42') -180px -45px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t\t\t\t\t\t\t</div>\r\n\
+        \r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"portrait-c float-left\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/decals/0-45.jpg?v42') -90px -180px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t\t\t\t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\tWin 750 1v1 league Quick Match games as Protoss.\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t</div>\r\n\
+        \t</div>\r\n\
+        \r\n\
+        \t<div id=\"achievement-91475320766496\"\r\n\
+        \t\tclass=\"series-tile tile-locked\"\r\n\
+        \t\tdata-tooltip=\"#series-tooltip-91475320766496\">\r\n\
+        \r\n\
+        \t\t<a href=\"#achievement-91475320766496\">\r\n\
+        \t\t\t<span class=\"portrait-c\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/3-45.jpg?v42') -180px -270px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t</span>\r\n\
+        \t\t</a>\r\n\
+        \r\n\
+        \t\t<span class=\"series-badge\">10</span>\r\n\
+        \r\n\
+        \t\t<div id=\"series-tooltip-91475320766496\" style=\"display: none\">\r\n\
+        \t\t\t<div class=\"tooltip-title\">Solo Protoss 1000</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"float-left\" style=\"padding-right: 10px;\">\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"portrait-c float-left\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/portraits/2-45.jpg?v42') -225px -45px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t\t\t\t\t\t\t</div>\r\n\
+        \r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"portrait-c float-left\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/decals/0-45.jpg?v42') -315px -135px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t\t\t\t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\tWin 1000 1v1 league Quick Match games as Protoss.\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t</div>\r\n\
+        \t</div>\r\n\
+        \t\t\t\t\t\t\t\t\t\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t\t\t\t\t\t</div>\r\n\
+        \r\n\
+        \r\n\
+        \t\t\t\t\t\t\t\t<div class=\"series-progress\">\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t<div class=\"achievements-progress\" data-tooltip=\"4 / 25\">\r\n\
+        \t\t<div class=\"progress-wrapper\">\r\n\
+        \t\t\t<div class=\"progress-bar\" style=\"width: 16%\"></div>\r\n\
+        \t\t</div>\r\n\
+        \r\n\
+        \t\t<span>4</span>\r\n\
+        \t</div>\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t\t\t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t\t<div class=\"series-rewards\">\r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\t\t\t\t\t\t</div>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t\t\t<div class=\"series-bar\">\r\n\
+        \t\t\t\t\t\t\t\t<div class=\"series-unlocked\">11</div>\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"series-expander plus\">&#160;</div>\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t\t<span>Series Progress: 0 of 8 completed</span>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t\t\t\t</div>\r\n\
+        \t\t\t\t\t</div>\r\n\
+        \t\t\t</div>\r\n\
+        \t\t</div>\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t<div id=\"achievement-91475320766497\" onclick=\"Sc2.openAchievement('series-91475320766497', this);\"\r\n\
+        \t\t\tclass=\"achievement achievement-large locked-large unearned expandable\">\r\n\
+        \r\n\
+        \t\t\t<div class=\"inner\">\r\n\
+        \t\t\t\t<div class=\"meta png-fix\">\r\n\
+        \t\t\t\t\t\t\t<span>10</span>\r\n\
+        \r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"icon portrait-c tile-locked\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/3-45.jpg?v42') -135px -360px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"desc\">\r\n\
+        \t\t\t\t\t<span>Solo Random 10</span><br />\r\n\
+        \t\t\t\t\tWin 10 1v1 league Quick Match games as Random.\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \r\n\
+        \t\t\t\t\t<div class=\"series\">\r\n\
+        \t\t\t\t\t\t<div class=\"series-content\" id=\"series-91475320766497\" style=\"display: none;\">\r\n\
+        \t\t\t\t\t\t\t\t<div class=\"series-tiles\">\r\n\
+        \r\n\
+        \t<div id=\"achievement-91475320766497\"\r\n\
+        \t\tclass=\"series-tile tile-locked\"\r\n\
+        \t\tdata-tooltip=\"#series-tooltip-91475320766497\">\r\n\
+        \r\n\
+        \t\t<a href=\"#achievement-91475320766497\">\r\n\
+        \t\t\t<span class=\"portrait-c\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/3-45.jpg?v42') -135px -360px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t</span>\r\n\
+        \t\t</a>\r\n\
+        \r\n\
+        \t\t<span class=\"series-badge\">10</span>\r\n\
+        \r\n\
+        \t\t<div id=\"series-tooltip-91475320766497\" style=\"display: none\">\r\n\
+        \t\t\t<div class=\"tooltip-title\">Solo Random 10</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"float-left\" style=\"padding-right: 10px;\">\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"portrait-c float-left\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/portraits/2-45.jpg?v42') -0px -90px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t\t\t\t\t\t\t</div>\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\tWin 10 1v1 league Quick Match games as Random.\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t</div>\r\n\
+        \t</div>\r\n\
+        \r\n\
+        \t<div id=\"achievement-91475320766498\"\r\n\
+        \t\tclass=\"series-tile tile-locked\"\r\n\
+        \t\tdata-tooltip=\"#series-tooltip-91475320766498\">\r\n\
+        \r\n\
+        \t\t<a href=\"#achievement-91475320766498\">\r\n\
+        \t\t\t<span class=\"portrait-c\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/3-45.jpg?v42') -180px -360px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t</span>\r\n\
+        \t\t</a>\r\n\
+        \r\n\
+        \t\t<span class=\"series-badge\">10</span>\r\n\
+        \r\n\
+        \t\t<div id=\"series-tooltip-91475320766498\" style=\"display: none\">\r\n\
+        \t\t\t<div class=\"tooltip-title\">Solo Random 25</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"float-left\" style=\"padding-right: 10px;\">\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"portrait-c float-left\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/portraits/2-45.jpg?v42') -45px -90px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t\t\t\t\t\t\t</div>\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\tWin 25 1v1 league Quick Match games as Random.\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t</div>\r\n\
+        \t</div>\r\n\
+        \r\n\
+        \t<div id=\"achievement-91475320766499\"\r\n\
+        \t\tclass=\"series-tile tile-locked\"\r\n\
+        \t\tdata-tooltip=\"#series-tooltip-91475320766499\">\r\n\
+        \r\n\
+        \t\t<a href=\"#achievement-91475320766499\">\r\n\
+        \t\t\t<span class=\"portrait-c\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/3-45.jpg?v42') -225px -360px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t</span>\r\n\
+        \t\t</a>\r\n\
+        \r\n\
+        \t\t<span class=\"series-badge\">10</span>\r\n\
+        \r\n\
+        \t\t<div id=\"series-tooltip-91475320766499\" style=\"display: none\">\r\n\
+        \t\t\t<div class=\"tooltip-title\">Solo Random 50</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"float-left\" style=\"padding-right: 10px;\">\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"portrait-c float-left\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/portraits/2-45.jpg?v42') -90px -90px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t\t\t\t\t\t\t</div>\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\tWin 50 1v1 league Quick Match games as Random.\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t</div>\r\n\
+        \t</div>\r\n\
+        \r\n\
+        \t<div id=\"achievement-91475320766500\"\r\n\
+        \t\tclass=\"series-tile tile-locked\"\r\n\
+        \t\tdata-tooltip=\"#series-tooltip-91475320766500\">\r\n\
+        \r\n\
+        \t\t<a href=\"#achievement-91475320766500\">\r\n\
+        \t\t\t<span class=\"portrait-c\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/3-45.jpg?v42') -270px -360px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t</span>\r\n\
+        \t\t</a>\r\n\
+        \r\n\
+        \t\t<span class=\"series-badge\">10</span>\r\n\
+        \r\n\
+        \t\t<div id=\"series-tooltip-91475320766500\" style=\"display: none\">\r\n\
+        \t\t\t<div class=\"tooltip-title\">Solo Random 100</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"float-left\" style=\"padding-right: 10px;\">\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"portrait-c float-left\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/portraits/2-45.jpg?v42') -135px -90px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t\t\t\t\t\t\t</div>\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\tWin 100 1v1 league Quick Match games as Random.\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t</div>\r\n\
+        \t</div>\r\n\
+        \r\n\
+        \t<div id=\"achievement-91475320766501\"\r\n\
+        \t\tclass=\"series-tile tile-locked\"\r\n\
+        \t\tdata-tooltip=\"#series-tooltip-91475320766501\">\r\n\
+        \r\n\
+        \t\t<a href=\"#achievement-91475320766501\">\r\n\
+        \t\t\t<span class=\"portrait-c\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/3-45.jpg?v42') -315px -360px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t</span>\r\n\
+        \t\t</a>\r\n\
+        \r\n\
+        \t\t<span class=\"series-badge\">10</span>\r\n\
+        \r\n\
+        \t\t<div id=\"series-tooltip-91475320766501\" style=\"display: none\">\r\n\
+        \t\t\t<div class=\"tooltip-title\">Solo Random 250</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"float-left\" style=\"padding-right: 10px;\">\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"portrait-c float-left\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/portraits/2-45.jpg?v42') -180px -90px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t\t\t\t\t\t\t</div>\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\tWin 250 1v1 league Quick Match games as Random.\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t</div>\r\n\
+        \t</div>\r\n\
+        \r\n\
+        \t<div id=\"achievement-91475320766502\"\r\n\
+        \t\tclass=\"series-tile tile-locked\"\r\n\
+        \t\tdata-tooltip=\"#series-tooltip-91475320766502\">\r\n\
+        \r\n\
+        \t\t<a href=\"#achievement-91475320766502\">\r\n\
+        \t\t\t<span class=\"portrait-c\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/3-45.jpg?v42') -360px -360px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t</span>\r\n\
+        \t\t</a>\r\n\
+        \r\n\
+        \t\t<span class=\"series-badge\">10</span>\r\n\
+        \r\n\
+        \t\t<div id=\"series-tooltip-91475320766502\" style=\"display: none\">\r\n\
+        \t\t\t<div class=\"tooltip-title\">Solo Random 500</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"float-left\" style=\"padding-right: 10px;\">\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"portrait-c float-left\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/portraits/2-45.jpg?v42') -225px -90px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t\t\t\t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"portrait-c float-left\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/decals/1-45.jpg?v42') 0px 0px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t\t\t\t\t\t\t</div>\r\n\
+        \r\n\
+        \r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\tWin 500 1v1 league Quick Match games as Random.\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t</div>\r\n\
+        \t</div>\r\n\
+        \r\n\
+        \t<div id=\"achievement-91475320766503\"\r\n\
+        \t\tclass=\"series-tile tile-locked\"\r\n\
+        \t\tdata-tooltip=\"#series-tooltip-91475320766503\">\r\n\
+        \r\n\
+        \t\t<a href=\"#achievement-91475320766503\">\r\n\
+        \t\t\t<span class=\"portrait-c\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/4-45.jpg?v42') 0px 0px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t</span>\r\n\
+        \t\t</a>\r\n\
+        \r\n\
+        \t\t<span class=\"series-badge\">10</span>\r\n\
+        \r\n\
+        \t\t<div id=\"series-tooltip-91475320766503\" style=\"display: none\">\r\n\
+        \t\t\t<div class=\"tooltip-title\">Solo Random 750</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"float-left\" style=\"padding-right: 10px;\">\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"portrait-c float-left\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/portraits/2-45.jpg?v42') -0px -135px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t\t\t\t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"portrait-c float-left\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/decals/0-45.jpg?v42') -135px -135px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t\t\t\t\t\t\t</div>\r\n\
+        \r\n\
+        \r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\tWin 750 1v1 league Quick Match games as Random.\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t</div>\r\n\
+        \t</div>\r\n\
+        \r\n\
+        \t<div id=\"achievement-91475320766504\"\r\n\
+        \t\tclass=\"series-tile tile-locked\"\r\n\
+        \t\tdata-tooltip=\"#series-tooltip-91475320766504\">\r\n\
+        \r\n\
+        \t\t<a href=\"#achievement-91475320766504\">\r\n\
+        \t\t\t<span class=\"portrait-c\">\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/4-45.jpg?v42') -45px 0px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t</span>\r\n\
+        \t\t</a>\r\n\
+        \r\n\
+        \t\t<span class=\"series-badge\">10</span>\r\n\
+        \r\n\
+        \t\t<div id=\"series-tooltip-91475320766504\" style=\"display: none\">\r\n\
+        \t\t\t<div class=\"tooltip-title\">Solo Random 1000</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"float-left\" style=\"padding-right: 10px;\">\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"portrait-c float-left\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/portraits/2-45.jpg?v42') -45px -135px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t\t\t\t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"portrait-c float-left\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/decals/0-45.jpg?v42') -45px -45px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t\t\t\t\t\t\t</div>\r\n\
+        \r\n\
+        \r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\tWin 1000 1v1 league Quick Match games as Random.\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t</div>\r\n\
+        \t</div>\r\n\
+        \t\t\t\t\t\t\t\t\t\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t\t\t\t\t\t</div>\r\n\
+        \r\n\
+        \r\n\
+        \t\t\t\t\t\t\t\t<div class=\"series-progress\">\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t<div class=\"achievements-progress\" data-tooltip=\"0 / 25\">\r\n\
+        \t\t<div class=\"progress-wrapper\">\r\n\
+        \t\t\t<div class=\"progress-bar\" style=\"width: 0%\"></div>\r\n\
+        \t\t</div>\r\n\
+        \r\n\
+        \t\t<span>0</span>\r\n\
+        \t</div>\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t\t\t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t\t<div class=\"series-rewards\">\r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\t\t\t\t\t\t</div>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t\t\t<div class=\"series-bar\">\r\n\
+        \t\t\t\t\t\t\t\t<div class=\"series-unlocked\">11</div>\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"series-expander plus\">&#160;</div>\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t\t<span>Series Progress: 0 of 8 completed</span>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t\t\t\t</div>\r\n\
+        \t\t\t\t\t</div>\r\n\
+        \t\t\t</div>\r\n\
+        \t\t</div>\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t<div id=\"achievement-91475320766508\" onclick=\"Sc2.openAchievement('series-91475320766508', this);\"\r\n\
+        \t\t\tclass=\"achievement achievement-large locked-large unearned expandable\">\r\n\
+        \r\n\
+        \t\t\t<div class=\"inner\">\r\n\
+        \t\t\t\t<div class=\"meta png-fix\">\r\n\
+        \t\t\t\t\t\t\t<span>20</span>\r\n\
+        \r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"icon portrait-c tile-locked\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/achievements/4-45.jpg?v42') -315px -135px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t<div class=\"desc\">\r\n\
+        \t\t\t\t\t<span>Solo Zen Master</span><br />\r\n\
+        \t\t\t\t\tWin 1000 1v1 league Quick Match games as each race option.\r\n\
+        \t\t\t\t</div>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \r\n\
+        \t\t\t\t\t<div class=\"series\">\r\n\
+        \t\t\t\t\t\t<div class=\"series-content\" id=\"series-91475320766508\" style=\"display: none;\">\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t\t<div class=\"series-criteria\">\r\n\
+        \t\t\t\t\t\t\t\t\t<ul>\r\n\
+        \r\n\
+        \r\n\
+        \t<li class=\"list-badge\">Solo Terran 1000</li>\r\n\
+        \r\n\
+        \r\n\
+        \t<li class=\"list-badge\">Solo Zerg 1000</li>\r\n\
+        \r\n\
+        \r\n\
+        \t<li class=\"list-badge\">Solo Protoss 1000</li>\r\n\
+        \r\n\
+        \r\n\
+        \t<li class=\"list-badge\">Solo Random 1000</li>\r\n\
+        \t\t\t\t\t\t\t\t\t</ul>\r\n\
+        \t\t\t\t\t\t\t\t</div>\r\n\
+        \r\n\
+        \r\n\
+        \t\t\t\t\t\t\t\t<div class=\"series-rewards\">\r\n\
+        \r\n\
+        \t\t\r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \r\n\
+        \t\t\t<div id=\"reward-1481277090\"\r\n\
+        \t\t\t\tclass=\"series-tile tile-locked\"\r\n\
+        \t\t\t\tdata-tooltip=\"Portrait: Dark Voice\">\r\n\
+        \r\n\
+        \t\t\t\t<a href=\"/sc2/en/profile/3396700/1/Tato/rewards/#reward-1481277090\">\r\n\
+        \t\t\t\t\t<span class=\"portrait-c\">\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"icon-frame \"\r\n\
+        \t\tstyle=\"background: url('/sc2/static/local-common/images/sc2/portraits/2-45.jpg?v42') -90px -135px no-repeat; width: 45px; height: 45px;\">\r\n\
+        \r\n\
+        \t</span>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t\t\t</span>\r\n\
+        \t\t\t\t</a>\r\n\
+        \r\n\
+        \t\t\t\t<span class=\"reward-star\">&#160;</span>\r\n\
+        \t\t\t</div>\r\n\
+        \t\t\t\t\t\t\t\t</div>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t\t\t\t</div>\r\n\
+        \r\n\
+        \t\t\t\t\t\t<div class=\"series-bar\">\r\n\
+        \t\t\t\t\t\t\t\t<div class=\"series-unlocked\">1</div>\r\n\
+        \r\n\
+        \t\t\t\t\t\t\t<div class=\"series-expander plus\">&#160;</div>\r\n\
+        \r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n\
+        \t\t\t\t\t\t</div>\r\n\
+        \t\t\t\t\t</div>\r\n\
+        \t\t\t</div>\r\n\
+        \t\t</div>\r\n\
+        \r\n\
+        \t\t</div>\r\n\
+        \t\t\r\n        </div>\r\n\
+        \r\n\
+        \t<span class=\"clear\"><!-- --></span>\r\n    </div>\r\n\
+        </div>\r\n\
+        </div>\r\n\
+        </div>\r\n\
+        <div id=\"footer\">\r\n\
+        <div id=\"sitemap\" class=\"promotions\">\r\n\
+        <div class=\"column\">\r\n\
+        <h3 class=\"bnet\">\r\n\
+        <a href=\"http://us.battle.net/\" tabindex=\"100\">Battle.net Home</a>\r\n\
+        </h3>\r\n\
+        <ul>\r\n\
+        <li><a href=\"http://us.battle.net/what-is/\">What is Battle.net?</a></li>\r\n\
+        <li><a href=\"https://us.battle.net/account/management/get-a-game.html\">Buy Games</a></li>\r\n\
+        <li><a href=\"https://us.battle.net/account/management/\">Account</a></li>\r\n\
+        <li><a href=\"http://us.battle.net/support/\">Support</a></li>\r\n\
+        <li><a href=\"http://us.battle.net/realid/\">Real ID</a></li>\r\n\
+        <li><a href=\"http://us.battle.net/battletag/\">BattleTag</a></li>\r\n\
+        </ul>\r\n\
+        </div>\r\n\
+        <div class=\"column\">\r\n\
+        <h3 class=\"games\">\r\n\
+        <a href=\"http://us.battle.net/\" tabindex=\"100\">Games</a>\r\n\
+        </h3>\r\n\
+        <ul>\r\n\
+        <li><a href=\"http://us.battle.net/sc2/\">StarCraft\xC2\xA0II\xE2\x84\xA2</a></li>\r\n\
+        <li><a href=\"http://us.battle.net/wow/\">World of Warcraft\xE2\x84\xA2</a></li>\r\n\
+        <li><a href=\"http://us.battle.net/d3/\">Diablo\xC2\xA0III\xE2\x84\xA2</a></li>\r\n\
+        <li><a href=\"http://us.battle.net/games/classic\">Classic Games</a></li>\r\n\
+        <li><a href=\"https://us.battle.net/account/download/\">Game Client Downloads</a></li>\r\n\
+        </ul>\r\n\
+        </div>\r\n\
+        <div class=\"column\">\r\n\
+        <h3 class=\"account\">\r\n\
+        <a href=\"https://us.battle.net/account/management/\" tabindex=\"100\">Account</a>\r\n\
+        </h3>\r\n\
+        <ul>\r\n\
+        <li><a href=\"https://us.battle.net/account/support/login-support.html\">Can\xE2\x80\x99t log in?</a></li>\r\n\
+        <li><a href=\"https://us.battle.net/account/creation/tos.html\">Create Account</a></li>\r\n\
+        <li><a href=\"https://us.battle.net/account/management/\">Account Summary</a></li>\r\n\
+        <li><a href=\"https://us.battle.net/account/management/authenticator.html\">Account Security</a></li>\r\n\
+        <li><a href=\"https://us.battle.net/account/management/add-game.html\">Add a Game</a></li>\r\n\
+        <li><a href=\"https://us.battle.net/account/management/redemption/redeem.html\">Redeem Promo Codes</a></li>\r\n\
+        </ul>\r\n\
+        </div>\r\n\
+        <div class=\"column\">\r\n\
+        <h3 class=\"support\">\r\n\
+        <a href=\"http://us.battle.net/support/\" tabindex=\"100\">Support</a>\r\n\
+        </h3>\r\n\
+        <ul>\r\n\
+        <li><a href=\"http://us.battle.net/support/\">Support Articles</a></li>\r\n\
+        <li><a href=\"https://us.battle.net/account/parental-controls/index.html\">Parental Controls</a></li>\r\n\
+        <li><a href=\"http://us.battle.net/security/\">Protect Your Account</a></li>\r\n\
+        <li><a href=\"http://us.battle.net/security/help\">Help! I got hacked!</a></li>\r\n\
+        </ul>\r\n\
+        </div>\r\n\
+        <div id=\"footer-promotions\">\r\n\
+        <div class=\"sidebar-content\"></div>\r\n\
+        <div id=\"sidebar-marketing\" class=\"sidebar-module\">\r\n\
+        <div class=\"bnet-offer\">\r\n\
+        <!-- -->\r\n\
+        <div class=\"bnet-offer-bg\">\r\n\
+        <a href=\"https://us.battle.net/account/activation/landing.html?product=S2&amp;key&amp;purchase\" target=\"_blank\" id=\"ad5207109\" class=\"bnet-offer-image\" onclick=\"BnetAds.trackEvent('5207109', 'SCIIdig', 'sc2', true);\">\r\n\
+        <img src=\"http://us.media2.battle.net/cms/ad_300x100/ZNB918LXVJ251309281567042.jpg\" width=\"300\" height=\"100\" alt=\"\"/>\r\n\
+        </a>\r\n\
+        </div>\r\n\
+        <script type=\"text/javascript\">\r\n\
+        //<![CDATA[\r\n\
+        if(typeof (BnetAds.addEvent) != \"undefined\" )\r\n\
+        BnetAds.addEvent(window, 'load', function(){ BnetAds.trackEvent('5207109', 'SCIIdig', 'sc2'); } );\r\n\
+        else\r\n\
+        BnetAds.trackEvent('5207109', 'SCIIdig', 'sc2');\r\n\
+        //]]>\r\n\
+        </script>\r\n\
+        </div>\r\n\
+        </div>\r\n\
+        </div>\r\n\
+        <span class=\"clear\"><!-- --></span>\r\n\
+        </div>\r\n\
+        <div id=\"copyright\">\r\n\
+        <a href=\"javascript:;\" tabindex=\"100\" id=\"change-language\">\r\n\
+        <span>Americas - English (US)</span>\r\n\
+        </a>\r\n\
+        <span>\xC2\xA92012 Blizzard Entertainment, Inc. All rights reserved</span>\r\n\
+        <a target=\"_blank\" href=\"http://us.blizzard.com/company/about/termsofuse.html\" tabindex=\"100\">Terms of Use</a>\r\n\
+        <a target=\"_blank\" href=\"http://us.blizzard.com/company/legal/\" tabindex=\"100\">Legal</a>\r\n\
+        <a target=\"_blank\" href=\"http://us.blizzard.com/company/about/privacy.html\" tabindex=\"100\">Privacy Policy</a>\r\n\
+        <a target=\"_blank\" href=\"http://us.blizzard.com/company/about/infringementnotice.html\" tabindex=\"100\">Copyright Infringement</a>\r\n\
+        </div>\r\n\
+        <div id=\"international\"></div>\r\n\
+        <div id=\"legal\">\r\n\
+        <div id=\"legal-ratings\" class=\"png-fix\">\r\n\
+        <a rel=\"nofollow\" class=\"truste-link\" href=\"//privacy-policy.truste.com/click-with-confidence/ctv/en/us.battle.net/seal_m\" target=\"_blank\">\r\n\
+        <img class=\"legal-image\" src=\"//privacy-policy.truste.com/certified-seal/wps/en/us.battle.net/seal_m.png\" alt=\"Validate TRUSTe privacy certification\"/>\r\n\
+        </a>\r\n\
+        <a rel=\"nofollow\" target=\"_blank\" href=\"http://www.esrb.org/ratings/ratings_guide.jsp\">\r\n\
+        <img class=\"legal-image\" alt=\"\" src=\"/sc2/static/local-common/images/legal/us/esrb-teen-sc2.png\" />\r\n\
+        </a>\r\n\
+        </div>\r\n\
+        <div id=\"blizzard\" class=\"png-fix\">\r\n\
+        <a href=\"http://blizzard.com\" tabindex=\"100\"><img src=\"/sc2/static/local-common/images/logos/blizz-sc2.png\" alt=\"\" /></a>\r\n\
+        </div>\r\n\
+        <span class=\"clear\"><!-- --></span>\r\n\
+        </div>\r\n\
+        </div>\r\n\
+        <div id=\"service\">\r\n\
+        <ul class=\"service-bar\">\r\n\
+        <li class=\"service-cell service-home\"><a href=\"http://us.battle.net/\" tabindex=\"50\" accesskey=\"1\" title=\"Battle.net Home\">\xC2\xA0</a></li>\r\n\
+        <li class=\"service-cell service-welcome\">\r\n\
+        <a href=\"?login\" onclick=\"return Login.open()\">Log in</a> or <a href=\"https://us.battle.net/account/creation/tos.html\">Create an Account</a>\r\n\
+        </li>\r\n\
+        <li class=\"service-cell service-account\"><a href=\"https://us.battle.net/account/management/\" class=\"service-link\" tabindex=\"50\" accesskey=\"3\">Account</a></li>\r\n\
+        <li class=\"service-cell service-support service-support-enhanced\">\r\n\
+        <a href=\"#support\" class=\"service-link service-link-dropdown\" tabindex=\"50\" accesskey=\"4\" id=\"support-link\" onclick=\"return false\" style=\"cursor: progress\" rel=\"javascript\">Support<span class=\"no-support-tickets\" id=\"support-ticket-count\"></span></a>\r\n\
+        <div class=\"support-menu\" id=\"support-menu\" style=\"display:none;\">\r\n\
+        <div class=\"support-primary\">\r\n\
+        <ul class=\"support-nav\">\r\n\
+        <li>\r\n\
+        <a href=\"http://us.battle.net/support/\" tabindex=\"55\" class=\"support-category\">\r\n\
+        <strong class=\"support-caption\">Knowledge Center</strong>\r\n\
+        Browse our support articles\r\n\
+        </a>\r\n\
+        </li>\r\n\
+        <li>\r\n\
+        <a href=\"https://us.battle.net/support/ticket/status\" tabindex=\"55\" class=\"support-category\">\r\n\
+        <strong class=\"support-caption\">Your Support Tickets</strong>\r\n\
+        View your active tickets (login required).\r\n\
+        </a>\r\n\
+        </li>\r\n\
+        </ul>\r\n\
+        <span class=\"clear\"><!-- --></span>\r\n\
+        </div>\r\n\
+        <div class=\"support-secondary\"></div>\r\n\
+        <!--[if IE 6]> <iframe id=\"support-shim\" src=\"javascript:false;\" frameborder=\"0\" scrolling=\"no\" style=\"display: block; position: absolute; top: 0; left: 9px; width: 297px; height: 400px; z-index: -1;\"></iframe>\r\n\
+        <script type=\"text/javascript\">\r\n\
+        //<![CDATA[\r\n\
+        (function(){\r\n\
+        var doc = document;\r\n\
+        var shim = doc.getElementById('support-shim');\r\n\
+        shim.style.filter = 'progid:DXImageTransform.Microsoft.Alpha(style=0,opacity=0)';\r\n\
+        shim.style.display = 'block';\r\n\
+        })();\r\n\
+        //]]>\r\n\
+        </script>\r\n\
+        <![endif]-->\r\n\
+        </div>\r\n\
+        </li>\r\n\
+        <li class=\"service-cell service-explore\">\r\n\
+        <a href=\"#explore\" tabindex=\"50\" accesskey=\"5\" class=\"dropdown\" id=\"explore-link\" onclick=\"return false\" style=\"cursor: progress\" rel=\"javascript\">Explore</a>\r\n\
+        <div class=\"explore-menu\" id=\"explore-menu\" style=\"display:none;\">\r\n\
+        <div class=\"explore-primary\">\r\n\
+        <ul class=\"explore-nav\">\r\n\
+        <li>\r\n\
+        <a href=\"http://us.battle.net/\" tabindex=\"55\" data-label=\"Home\">\r\n\
+        <strong class=\"explore-caption\">Battle.net Home</strong>\r\n\
+        Connect. Play. Unite.\r\n\
+        </a>\r\n\
+        </li>\r\n\
+        <li>\r\n\
+        <a href=\"https://us.battle.net/account/management/\" tabindex=\"55\" data-label=\"Account\">\r\n\
+        <strong class=\"explore-caption\">Account</strong>\r\n\
+        Manage your Account\r\n\
+        </a>\r\n\
+        </li>\r\n\
+        <li>\r\n\
+        <a href=\"http://us.battle.net/support/\" tabindex=\"55\" data-label=\"Support\">\r\n\
+        <strong class=\"explore-caption\">Support</strong>\r\n\
+        Get Support and explore the knowledgebase.\r\n\
+        </a>\r\n\
+        </li>\r\n\
+        <li>\r\n\
+        <a href=\"https://us.battle.net/account/management/get-a-game.html\" tabindex=\"55\" data-label=\"Buy Games\">\r\n\
+        <strong class=\"explore-caption\">Buy Games</strong>\r\n\
+        Digital Games for Download\r\n\
+        </a>\r\n\
+        </li>\r\n\
+        </ul>\r\n\
+        <div class=\"explore-links\">\r\n\
+        <h2 class=\"explore-caption\">More</h2>\r\n\
+        <ul>\r\n\
+        <li><a href=\"http://us.battle.net/what-is/\" tabindex=\"55\" data-label=\"More\">What is Battle.net?</a></li>\r\n\
+        <li><a href=\"https://us.battle.net/account/parental-controls/index.html\" tabindex=\"55\" data-label=\"More\">Parental Controls</a></li>\r\n\
+        <li><a href=\"http://us.battle.net/security/\" tabindex=\"55\" data-label=\"More\">Account Security</a></li>\r\n\
+        <li><a href=\"https://us.battle.net/account/management/add-game.html\" tabindex=\"55\" data-label=\"More\">Add a Game</a></li>\r\n\
+        <li><a href=\"https://us.battle.net/account/support/password-reset.html\" tabindex=\"55\" data-label=\"More\">Can\xE2\x80\x99t log in?</a></li>\r\n\
+        <li><a href=\"https://us.battle.net/account/download/\" tabindex=\"55\" data-label=\"More\">Game Client Downloads</a></li>\r\n\
+        <li><a href=\"https://us.battle.net/account/management/redemption/redeem.html\" tabindex=\"55\" data-label=\"More\">Redeem Promo Codes</a></li>\r\n\
+        <li><a href=\"http://us.battle.net/games/classic\" tabindex=\"55\" data-label=\"More\">Classic Games</a></li>\r\n\
+        </ul>\r\n\
+        </div>\r\n\
+        <span class=\"clear\"><!-- --></span>\r\n\
+        <!--[if IE 6]> <iframe id=\"explore-shim\" src=\"javascript:false;\" frameborder=\"0\" scrolling=\"no\" style=\"display: block; position: absolute; top: 0; left: 9px; width: 409px; height: 400px; z-index: -1;\"></iframe>\r\n\
+        <script type=\"text/javascript\">\r\n\
+        //<![CDATA[\r\n\
+        (function(){\r\n\
+        var doc = document;\r\n\
+        var shim = doc.getElementById('explore-shim');\r\n\
+        shim.style.filter = 'progid:DXImageTransform.Microsoft.Alpha(style=0,opacity=0)';\r\n\
+        shim.style.display = 'block';\r\n\
+        })();\r\n\
+        //]]>\r\n\
+        </script>\r\n\
+        <![endif]-->\r\n\
+        </div>\r\n\
+        <ul class=\"explore-secondary\">\r\n\
+        <li class=\"explore-game explore-game-sc2\">\r\n\
+        <a href=\"http://us.battle.net/sc2/\" tabindex=\"55\" data-label=\"Game - sc2\">\r\n\
+        <span class=\"explore-game-inner\">\r\n\
+        <strong class=\"explore-caption\">StarCraft\xC2\xA0II\xE2\x84\xA2</strong>\r\n\
+        <span>News &amp; Forums</span> <span>Beginner\xE2\x80\x99s Guide</span> <span>Player Profiles</span>\r\n\
+        </span>\r\n\
+        </a>\r\n\
+        </li>\r\n\
+        <li class=\"explore-game explore-game-wow\">\r\n\
+        <a href=\"http://us.battle.net/wow/\" tabindex=\"55\" data-label=\"Game - wow\">\r\n\
+        <span class=\"explore-game-inner\">\r\n\
+        <strong class=\"explore-caption\">World of Warcraft\xE2\x84\xA2</strong>\r\n\
+        <span>Character Profiles</span> <span>News &amp; Forums</span> <span>Game Guide</span>\r\n\
+        </span>\r\n\
+        </a>\r\n\
+        </li>\r\n\
+        <li class=\"explore-game explore-game-d3\">\r\n\
+        <a href=\"http://us.battle.net/d3/\" tabindex=\"55\" data-label=\"Game - d3\">\r\n\
+        <span class=\"explore-game-inner\">\r\n\
+        <strong class=\"explore-caption\">Diablo\xC2\xA0III\xE2\x84\xA2</strong>\r\n\
+        <span>Game Guide</span> <span>News</span> <span>Forums</span>\r\n\
+        </span>\r\n\
+        </a>\r\n\
+        </li>\r\n\
+        </ul>\r\n\
+        </div>\r\n\
+        </li>\r\n\
+        </ul>\r\n\
+        <div id=\"warnings-wrapper\">\r\n\
+        <script type=\"text/javascript\">\r\n\
+        //<![CDATA[\r\n\
+        $(function() {\r\n\
+        App.saveCookie('html5Warning');\r\n\
+        App.resetCookie('browserWarning');\r\n\
+        });\r\n\
+        //]]>\r\n\
+        </script>\r\n\
+        <!--[if lt IE 8]> <div id=\"browser-warning\" class=\"warning warning-red\">\r\n\
+        <div class=\"warning-inner2\">\r\n\
+        You are using an outdated web browser.<br />\r\n\
+        <a href=\"http://us.blizzard.com/support/article/browserupdate\">Upgrade</a> or <a href=\"http://www.google.com/chromeframe/?hl=en-US\" id=\"chrome-frame-link\">install Google Chrome Frame</a>.\r\n\
+        <a href=\"#close\" class=\"warning-close\" onclick=\"App.closeWarning('#browser-warning', 'browserWarning'); return false;\"></a>\r\n\
+        </div>\r\n\
+        </div>\r\n\
+        <![endif]-->\r\n\
+        <!--[if lt IE 8]> <script type=\"text/javascript\" src=\"/sc2/static/local-common/js/third-party/CFInstall.min.js?v42\"></script>\r\n\
+        <script type=\"text/javascript\">\r\n\
+        //<![CDATA[\r\n\
+        $(function() {\r\n\
+        var age = 365 * 24 * 60 * 60 * 1000;\r\n\
+        var src = 'https://www.google.com/chromeframe/?hl=en-US';\r\n\
+        if ('http:' == document.location.protocol) {\r\n\
+        src = 'http://www.google.com/chromeframe/?hl=en-US';\r\n\
+        }\r\n\
+        document.cookie = \"disableGCFCheck=0;path=/;max-age=\"+age;\r\n\
+        $('#chrome-frame-link').bind({\r\n\
+        'click': function() {\r\n\
+        App.closeWarning('#browser-warning');\r\n\
+        CFInstall.check({\r\n\
+        mode: 'overlay',\r\n\
+        url: src\r\n\
+        });\r\n\
+        return false;\r\n\
+        }\r\n\
+        });\r\n\
+        });\r\n\
+        //]]>\r\n\
+        </script>\r\n\
+        <![endif]-->\r\n\
+        <noscript>\r\n\
+        <div id=\"javascript-warning\" class=\"warning warning-red\">\r\n\
+        <div class=\"warning-inner2\">\r\n\
+        JavaScript must be enabled to use this site.\r\n\
+        </div>\r\n\
+        </div>\r\n\
+        </noscript>\r\n\
+        </div>\r\n\
+        </div>\r\n\
+        </div><script type=\"text/javascript\" src=\"/sc2/static/local-common/js/search.js?v42\"></script>\r\n\
+        <script type=\"text/javascript\">\r\n\
+        //<![CDATA[\r\n\
+        var xsToken = '';\r\n\
+        var supportToken = '';\r\n\
+        var Msg = {\r\n\
+        support: {\r\n\
+        ticketNew: 'Ticket {0} was created.',\r\n\
+        ticketStatus: 'Ticket {0}\xE2\x80\x99s status changed to\xC2\xA0{1}.',\r\n\
+        ticketOpen: 'Open',\r\n\
+        ticketAnswered: 'Answered',\r\n\
+        ticketResolved: 'Resolved',\r\n\
+        ticketCanceled: 'Canceled',\r\n\
+        ticketArchived: 'Archived',\r\n\
+        ticketInfo: 'Need\xC2\xA0Info',\r\n\
+        ticketAll: 'View All Tickets'\r\n\
+        },\r\n\
+        cms: {\r\n\
+        requestError: 'Your request cannot be completed.',\r\n\
+        ignoreNot: 'Not ignoring this user',\r\n\
+        ignoreAlready: 'Already ignoring this user',\r\n\
+        stickyRequested: 'Sticky requested',\r\n\
+        stickyHasBeenRequested: 'You have already sent a sticky request for this topic.',\r\n\
+        postAdded: 'Post added to tracker',\r\n\
+        postRemoved: 'Post removed from tracker',\r\n\
+        userAdded: 'User added to tracker',\r\n\
+        userRemoved: 'User removed from tracker',\r\n\
+        validationError: 'A required field is incomplete',\r\n\
+        characterExceed: 'The post body exceeds XXXXXX characters.',\r\n\
+        searchFor: \"Search for\",\r\n\
+        searchTags: \"Articles tagged:\",\r\n\
+        characterAjaxError: \"You may have become logged out. Please refresh the page and try again.\",\r\n\
+        ilvl: \"Level {0}\",\r\n\
+        shortQuery: \"Search requests must be at least three characters long.\"\r\n\
+        },\r\n\
+        bml: {\r\n\
+        bold: 'Bold',\r\n\
+        italics: 'Italics',\r\n\
+        underline: 'Underline',\r\n\
+        list: 'Unordered List',\r\n\
+        listItem: 'List Item',\r\n\
+        quote: 'Quote',\r\n\
+        quoteBy: 'Posted by {0}',\r\n\
+        unformat: 'Remove Formating',\r\n\
+        cleanup: 'Fix Linebreaks',\r\n\
+        code: 'Code Blocks',\r\n\
+        item: 'WoW Item',\r\n\
+        itemPrompt: 'Item ID:',\r\n\
+        url: 'URL',\r\n\
+        urlPrompt: 'URL Address:'\r\n\
+        },\r\n\
+        ui: {\r\n\
+        submit: 'Submit',\r\n\
+        cancel: 'Cancel',\r\n\
+        reset: 'Reset',\r\n\
+        viewInGallery: 'View in gallery',\r\n\
+        loading: 'Loading\xE2\x80\xA6',\r\n\
+        unexpectedError: 'An error has occurred',\r\n\
+        fansiteFind: 'Find this on\xE2\x80\xA6',\r\n\
+        fansiteFindType: 'Find {0} on\xE2\x80\xA6',\r\n\
+        fansiteNone: 'No fansites available.',\r\n\
+        flashErrorHeader: 'Adobe Flash Player must be installed to see this content.',\r\n\
+        flashErrorText: 'Download Adobe Flash Player',\r\n\
+        flashErrorUrl: 'http://get.adobe.com/flashplayer/'\r\n\
+        },\r\n\
+        grammar: {\r\n\
+        colon: '{0}:',\r\n\
+        first: 'First',\r\n\
+        last: 'Last'\r\n\
+        },\r\n\
+        fansite: {\r\n\
+        achievement: 'achievement',\r\n\
+        character: 'character',\r\n\
+        faction: 'faction',\r\n\
+        'class': 'class',\r\n\
+        object: 'object',\r\n\
+        talentcalc: 'talents',\r\n\
+        skill: 'profession',\r\n\
+        quest: 'quest',\r\n\
+        spell: 'spell',\r\n\
+        event: 'event',\r\n\
+        title: 'title',\r\n\
+        arena: 'arena team',\r\n\
+        guild: 'guild',\r\n\
+        zone: 'zone',\r\n\
+        item: 'item',\r\n\
+        race: 'race',\r\n\
+        npc: 'NPC',\r\n\
+        pet: 'pet'\r\n\
+        },\r\n\
+        search: {\r\n\
+        kb: 'Support',\r\n\
+        post: 'Forums',\r\n\
+        article: 'Blog Articles',\r\n\
+        static: 'General Content',\r\n\
+        wowcharacter: 'Characters',\r\n\
+        wowitem: 'Items',\r\n\
+        wowguild: 'Guilds',\r\n\
+        wowarenateam: 'Arena Teams',\r\n\
+        url: 'Suggested Links',\r\n\
+        friend: 'Friends',\r\n\
+        other: 'Other'\r\n\
+        }\r\n\
+        };\r\n\
+        //]]>\r\n\
+        </script>\r\n\
+        <script type=\"text/javascript\">\r\n\
+        //<![CDATA[\r\n\
+        Core.load(\"/sc2/static/local-common/js/third-party/jquery-ui-1.8.6.custom.min.js?v42\");\r\n\
+        Core.load(\"/sc2/static/local-common/js/login.js?v42\", false, function() {\r\n\
+        Login.embeddedUrl = 'https://us.battle.net/login/login.frag';\r\n\
+        });\r\n\
+        //]]>\r\n\
+        </script>\r\n\
+        <script type=\"text/javascript\" src=\"/sc2/static/local-common/js/menu.js?v42\"></script>\r\n\
+        <script type=\"text/javascript\" src=\"/sc2/static/js/sc2.js?v22\"></script>\r\n\
+        <!--[if IE 6]> <script type=\"text/javascript\" src=\"/sc2/static/local-common/js/third-party/DD_belatedPNG.js?v42\"></script>\r\n\
+        <script type=\"text/javascript\">\r\n\
+        //<![CDATA[\r\n\
+        DD_belatedPNG.fix('.icon');\r\n\
+        //]]>\r\n\
+        </script>\r\n\
+        <![endif]-->\r\n\
+        <script type=\"text/javascript\">\r\n\
+        //<![CDATA[\r\n\
+        $(function(){\r\n\
+        Menu.initialize('/data/menu.json?v42');\r\n\
+        Search.initialize('/sc2/en/search/ta');\r\n\
+        Tooltip.options.useTable = true;\r\n\
+        });\r\n\
+        //]]>\r\n\
+        </script>\r\n\
+        <script type=\"text/javascript\" src=\"/sc2/static/local-common/js/dropdown.js?v42\"></script>\r\n\
+        <script type=\"text/javascript\" src=\"/sc2/static/local-common/js/filter.js?v42\"></script>\r\n\
+        <!--[if lt IE 8]> <script type=\"text/javascript\" src=\"/sc2/static/local-common/js/third-party/jquery.pngFix.pack.js?v42\"></script>\r\n\
+        <script type=\"text/javascript\">\r\n\
+        //<![CDATA[\r\n\
+        $('.png-fix').pngFix(); //]]>\r\n\
+        </script>\r\n\
+        <![endif]-->\r\n\
+        <script type=\"text/javascript\">\r\n\
+        //<![CDATA[\r\n\
+        (function() {\r\n\
+        var ga = document.createElement('script');\r\n\
+        var src = \"https://ssl.google-analytics.com/ga.js\";\r\n\
+        if ('http:' == document.location.protocol) {\r\n\
+        src = \"http://www.google-analytics.com/ga.js\";\r\n\
+        }\r\n\
+        ga.type = 'text/javascript';\r\n\
+        ga.setAttribute('async', 'true');\r\n\
+        ga.src = src;\r\n\
+        var s = document.getElementsByTagName('script');\r\n\
+        s = s[s.length-1];\r\n\
+        s.parentNode.insertBefore(ga, s.nextSibling);\r\n\
+        })();\r\n\
+        //]]>\r\n\
+        </script>\r\n\
+        </body>\r\n\
+        </html>\r\n"
+    http_version: 
+  recorded_at: Fri, 21 Sep 2012 19:23:55 GMT
