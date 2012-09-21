@@ -10,11 +10,13 @@ module SC2Achievements
         achievements["Liberation Day"].should == {
           :title       => "Liberation Day",
           :description => "Complete all mission objectives in the\302\240\342\200\234Liberation Day\342\200\235 mission.",
+          :category    => "Mar Sara Missions",
           :date        => "2012-09-17"
         }
         achievements["Hold the Line"].should == {
           :title       => "Hold the Line",
           :description => "Complete the\302\240\342\200\234Zero Hour\342\200\235 mission on Normal difficulty without losing or salvaging a structure.",
+          :category    => "Mar Sara Missions",
           :date        => "2012-09-17"
         }
       end

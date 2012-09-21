@@ -8,6 +8,7 @@ module SC2Achievements
         achievements[key_for(achievement)] = {
           :title       => title_of(achievement),
           :description => description_of(achievement),
+          :category    => category_of(achievement),
           :date        => date_of(achievement) }
         achievements
       end
@@ -29,6 +30,11 @@ module SC2Achievements
 
     def self.date_of(achievement)
       date_from(achievement, '.meta')
+    end
+
+    def self.category_of(achievement)
+      wrapper = achievement.ancestors('#profile-wrapper')
+      text_of(wrapper, '#profile-menu .active a')
     end
   end
 end

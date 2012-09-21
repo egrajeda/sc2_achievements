@@ -74,9 +74,9 @@ describe SC2Achievements do
   xit "returns an empty array if there is no achievements" do
   end
 
-  xit "it specifies the category" do
+  xit "it specifies the points earned" do
   end
 
-  xit "it specifies the points earned" do
+  xit "optimizes the number of HTTP requests it makes" do
   end
 end
